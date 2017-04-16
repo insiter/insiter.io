@@ -1,0 +1,55 @@
+<!doctype html>
+<html itemscope itemtype="http://schema.org/Event">
+<head>
+  <title itemprop="name"><%= @conf.name %></title>
+
+  <meta charset="utf-8">
+  <meta name="author" content="<%= @conf.name %>">
+  <meta name="description" content="<%= @conf.description %>">
+  <meta name="viewport" content="width=device-width">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <!-- FACEBOOK -->
+  <meta property="fb:app_id" content="372862979453673">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="<%= @site.url %>">
+  <meta property="og:title" content="<%= @conf.name %>">
+  <meta property="og:description" content="<%= @conf.description %>">
+  <meta property="og:image" content="<%= @getUrl() %>/<%= @getAssets() %>/img/badge.jpg">
+  <!-- / FACEBOOK -->
+
+  <!-- ICONS -->
+  <link rel="apple-touch-icon" sizes="57x57" href="<%= @getAssets() %>/img/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="<%= @getAssets() %>/img/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="<%= @getAssets() %>/img/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="<%= @getAssets() %>/img/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="<%= @getAssets() %>/img/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="<%= @getAssets() %>/img/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="<%= @getAssets() %>/img/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="<%= @getAssets() %>/img/apple-touch-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="<%= @getAssets() %>/img/apple-touch-icon-180x180.png">
+  <link rel="icon" type="image/png" href="<%= @getAssets() %>/img/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="<%= @getAssets() %>/img/favicon-194x194.png" sizes="194x194">
+  <link rel="icon" type="image/png" href="<%= @getAssets() %>/img/android-chrome-192x192.png" sizes="192x192">
+  <link rel="icon" type="image/png" href="<%= @getAssets() %>/img/favicon-16x16.png" sizes="16x16">
+  <link rel="manifest" href="<%= @getAssets() %>/img/manifest.json">
+  <link rel="mask-icon" href="<%= @getAssets() %>/img/safari-pinned-tab.svg" color="#2d89ef">
+  <meta name="msapplication-TileColor" content="#2d89ef">
+  <meta name="msapplication-TileImage" content="<%= @getAssets() %>/img/mstile-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+  <!-- / ICONS -->
+
+  <!-- STYLES -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Satisfy" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="<%= @getAssets() %>/css/main.css">
+  <!-- / STYLES -->
+</head>
+<body>
+  <div class="global">
+    <%-@partial('html/nav.html.eco', @)%>
+    <%-@partial('html/header.html.eco', @)%>
+  </div>
+
+  <script src="<%= @getAssets() %>/js/main.js"></script>
+</body>
+</html>

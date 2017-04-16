@@ -1,0 +1,4 @@
+<% if @conf.address != '': %>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?callback=initGoogleMaps&sensor=false"></script>
+  <script src="<%= @getAssets() %>/js/maps.js"></script>
+<% end %>

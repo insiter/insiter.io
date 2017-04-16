@@ -1,0 +1,55 @@
+---
+browserify: true
+---
+
+/**
+ * Google Maps settings callback
+ *
+ * @const
+ * @type {Function}
+ * @name initGoogleMaps
+ */
+const initGoogleMaps = () => {
+  const element = document.querySelector('[data-map-canvas]');
+  const address = element.getAttribute('data-address');
+  const marker = 'themes/yellow-swan/img/marker-default.png';
+
+  const {
+    Geocoder,
+    GeocoderStatus,
+    LatLng,
+    Map,
+    MapTypeId,
+    Marker,
+  } = google.maps;
+
+  const geocoder = new Geocoder();
+  const latlng = new LatLng(0, 0);
+  const mapTypeId = MapTypeId.ROADMAP;
+
+  const options = {
+    zoom: 16,
+    center: latlng,
+    scrollwheel: false,
+    streetViewControl: true,
+    labels: true,
+    mapTypeId,
+  };
+
+  const canvas = new Map(element, options);
+  canvas.setCenter(latlng);
+
+  geocoder.geocode({ address }, (results, status) => {
+    if (status === GeocoderStatus.OK) {
+      const location = results[0].geometry.location;
+      canvas.setCenter(location);
+      new Marker({
+        map: canvas,
+        position: location,
+        icon: marker,
+      });
+    } else if (window.console) {
+      console.error('Google Maps was not loaded: ', status);
+    }
+  });
+};
