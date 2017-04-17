@@ -48,8 +48,10 @@
   <div class="global">
     <%-@partial('html/nav.html.eco', @)%>
     <%-@partial('html/header.html.eco', @)%>
+    <%-@partial('html/content.html.eco', @)%>
   </div>
 
   <script src="<%= @getAssets() %>/js/main.js"></script>
+  <%-@partial('html/google-maps.html.eco', @)%>
 </body>
 </html>

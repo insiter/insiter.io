@@ -9,10 +9,10 @@ browserify: true
  * @type {Function}
  * @name initGoogleMaps
  */
-const initGoogleMaps = () => {
+window.initGoogleMaps = () => {
   const element = document.querySelector('[data-map-canvas]');
   const address = element.getAttribute('data-address');
-  const marker = 'themes/yellow-swan/img/marker-default.png';
+  const marker = 'assets/img/insiter-marker.png';
 
   const {
     Geocoder,
@@ -21,6 +21,7 @@ const initGoogleMaps = () => {
     Map,
     MapTypeId,
     Marker,
+    Size,
   } = google.maps;
 
   const geocoder = new Geocoder();
@@ -46,7 +47,9 @@ const initGoogleMaps = () => {
       new Marker({
         map: canvas,
         position: location,
-        icon: marker,
+        icon: {
+          url: marker,
+        },
       });
     } else if (window.console) {
       console.error('Google Maps was not loaded: ', status);
