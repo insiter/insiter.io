@@ -49,20 +49,20 @@ module.exports = {
     // to deactivate comment out with '//'
     // you can also change order here and it will reflect on page
     sections: [
-      'about',
-      'location',
-      'speakers',
+      // 'about',
+      // 'location',
+      // 'speakers',
       // 'schedule',
       // 'sponsors',
       // 'partners',
-      'contact'
+      // 'contact'
     ],
 
     // Labels which you can translate to other languages
     labels: {
       about: "Sobre",
       location: "Local",
-      speakers: "Speakers",
+      speakers: "Palestrantes",
       schedule: "Programação",
       sponsors: "Patrocinadores",
       partners: "Parceiros",
