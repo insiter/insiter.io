@@ -24,16 +24,17 @@ strong { font-family: 'Satisfy', cursive; }
   }
 }
 
+.text-center {
+  text-align: center;
+}
+
+.no-x-overflow {
+  overflow-x: hidden;
+}
+
 /* =============================================================================
    NAVIGATION
    ========================================================================== */
-// nav {background: #2b2b2b;}
-// .nav-link {color:#e7e7e7;}
-// .nav-link:active,
-// .nav-link:hover,
-// .nav-link:focus,
-// .nav-link.current {color:#fff;}
-
 .navbar {
   &__wrapper {
     display: flex;
@@ -192,6 +193,51 @@ strong { font-family: 'Satisfy', cursive; }
     margin-top: 50px;
     font-size: 2em;
     color: #fff;
+  }
+}
+
+/* =============================================================================
+   SECTION
+   ========================================================================== */
+.section-group {
+  .section:nth-child(even) {
+    background-color: @gray-lighter;
+
+    .section__title span {
+      background-color: @gray-lighter;
+    }
+  }
+}
+
+.section {
+  &__title {
+    font-weight: 700;
+    margin-bottom: .8em;
+    text-align: center;
+    text-transform: uppercase;
+
+    span {
+      background-color: white;
+      padding: 0 .8em;
+      position: relative;
+      z-index: 2;
+    }
+
+    h4 {
+      position: relative;
+    }
+
+    h4:before {
+      background-color: @yellow;
+      content: '';
+      height: 1px;
+      left: 0;
+      position: absolute;
+      top: 50%;
+      width: 100%;
+      z-index: 1;
+
+    }
   }
 }
 

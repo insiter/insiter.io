@@ -1,5 +1,8 @@
-<h2 class="section-title"><%= @labels['schedule'] %></h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+<div class="section__title">
+  <h4><span><%= @labels['schedule'] %></span></h4>
+</div>
+
+<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
 <div class="schedule-tbl">
   <table>

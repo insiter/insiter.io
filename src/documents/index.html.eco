@@ -2,9 +2,7 @@
 layout: default
 ---
 
-<% for section in @sections : %>
-  <!-- <%= section.toUpperCase() %> -->
-
+<% for section, index in @sections : %>
   <section class="section <%= section %>" id="<%= section %>" data-section>
     <% if (index % 2) : %>
       <div class="wrapper">
@@ -14,6 +12,4 @@ layout: default
       <%- @partial("html/section/#{section}.html.eco", @) %>
     <% end %>
   </section>
-
-  <!-- / <%= section.toUpperCase() %> -->
 <% end %>

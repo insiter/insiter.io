@@ -1,4 +1,6 @@
-<h2 class="section-title"><%= @labels['partners'] %></h2>
+<div class="section__title">
+  <h4><span><%= @labels['partners'] %></span></h4>
+</div>
 <ul class="partners-list">
 
 <% for partner in @partners: %>
