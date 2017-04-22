@@ -6,6 +6,14 @@
   transition: @val;
 }
 
+.transform (@rotate: 90deg, @translateX: 10px, @translateY: 10px) {
+  -webkit-transform: rotate(@rotate) translate(@translateX, @translateY);
+  -moz-transform: rotate(@rotate) translate(@translateX, @translateY);
+  -o-transform: rotate(@rotate) translate(@translateX, @translateY);
+  -ms-transform: rotate(@rotate) translate(@translateX, @translateY);
+  transform: rotate(@rotate) translate(@translateX, @translateY);
+}
+
 .box-sizing (@val) {
 	-moz-box-sizing: @val;
 	-ms-box-sizing: @val;

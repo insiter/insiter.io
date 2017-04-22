@@ -1,4 +1,4 @@
-<header class="header">
+<section id="header" class="header" data-section>
   <div class="wrapper" data-bridge-tower>
     <div class="overlay">
       <div class="presented-by">
@@ -24,6 +24,6 @@
       <% end %>
     </div>
   </div>
-</header>
+</section>
 
 <hr>

@@ -1,5 +1,15 @@
-<nav id="nav">
-  <ul class="wrapper">
+<nav id="nav" class="navbar">
+  <ul class="wrapper navbar__wrapper">
+    <li class="nav-logo hidden-desktop">
+      <a href="#" title="INSITER">
+        <img src="<%= @getAssets() %>/img/favicon.ico" alt="Insiter" class="photo">
+      </a>
+    </li>
+    <li class="menu-icon hidden-desktop" data-menu-icon>
+      <div class="bar1"></div>
+      <div class="bar2"></div>
+      <div class="bar3"></div>
+    </li>
     <% for section in @sections : %>
       <li class="nav-item">
         <a href="#<%= section %>" target="_blank" title="<%= @labels[section] %>" class="nav-link"><%= @labels[section] %></a>

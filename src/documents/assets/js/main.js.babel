@@ -23,10 +23,21 @@ const appConfig = {
     documentSelector: 'html, body',
     animationSpeed: 400,
   },
+  nav: {
+    itemSelector: '.navbar',
+    scrolledClass: 'navbar--scrolled',
+    itemsSelector: '.nav-link',
+    activeClass: 'current-section',
+    sectionSelector: '[data-section]',
+  },
   bkg: {
     itemSelector: '[data-bridge-tower]',
     animationDelay: 10000,
     colors: ['yellow', 'orange', 'blue', 'pink', 'green'],
+  },
+  mobileMenu: {
+    itemSelector: '[data-menu-icon]',
+    changeClass: 'change',
   },
 };
 
@@ -93,7 +104,7 @@ const properties = {
  */
 
 app(properties, ({ w, $, config, getRandomInt }) => {
-  const { menu, bkg } = config;
+  const { menu, nav, bkg, mobileMenu } = config;
 
   // ------------------
   // SET MENU ANIMATION
@@ -111,6 +122,38 @@ app(properties, ({ w, $, config, getRandomInt }) => {
       () => w.location.hash = href
     );
   });
+
+  // ----------------------------
+  // SET NAVIGATION BAR ANIMATION
+  // ----------------------------
+  w.onscroll = () => {
+    const scrolled = w.pageYOffset;
+    const $nav = $(nav.itemSelector);
+    const cutoff = $(w).scrollTop();
+
+    if (scrolled) {
+      $nav.addClass(nav.scrolledClass);
+    } else {
+      $nav.removeClass(nav.scrolledClass);
+    }
+
+    $(nav.sectionSelector).each(function () {
+      if($(this).offset().top + $(this).height() > cutoff) {
+        let sectionId = $(this).attr('id');
+
+        $(nav.itemsSelector).removeClass(nav.activeClass);
+        $(`${nav.itemsSelector}[href="#${sectionId}"]`).addClass(nav.activeClass);
+
+        return false;
+      }
+    })
+  }
+
+  $(mobileMenu.itemSelector).on('click', (e) => {
+    $(e.currentTarget).toggleClass(mobileMenu.changeClass);
+
+    $('.nav-item').slideToggle();
+  })
 
   // ------------------------
   // SET BACKGROUND ANIMATION
