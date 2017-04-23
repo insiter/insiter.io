@@ -272,17 +272,49 @@ strong { font-family: 'Satisfy', cursive; }
 /* =============================================================================
    SPEAKER
    ========================================================================== */
-// .speaker-photo .photo {
-//   border-radius: 50%;
-//   box-shadow: 0 0 0 8px rgba(0,0,0,.07);
-//   .transition(all 0.3s ease-out);
-// }
-// .speakers-item:hover .speaker-photo .photo {box-shadow: 0 0 0 8px rgba(0,0,0,.3);}
-// .speech-time {
-//   color:#fff;
-//   background:#2b2b2b;
-//   border-radius: 8px;
-// }
+.speakers-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.speaker {
+  display: flex;
+  padding: 2em 0;
+  width: 100%;
+
+  &__photo {
+    width: 100%;
+  }
+
+  &__details {
+    text-align: center;
+    padding: 1.5em 0;
+  }
+
+  &__link {
+    color: @gray;
+    font-size: 1.2em;
+    margin-bottom: 0;
+  }
+
+  &__card {
+    background-color: @gray-lighter;
+    border-radius: 0.3em;
+    box-shadow: 4px 3px 16px -5px rgba(0,0,0,0.68);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.8em;
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+  }
+
+  .photo {
+    border-radius: 50%;
+    cursor: pointer;
+  }
+}
 
 /* =============================================================================
    SCHEDULE
