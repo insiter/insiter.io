@@ -1,11 +1,25 @@
-<nav id="nav">
-  <ul class="wrapper">
-    <% for section in @sections : %>
-      <li class="nav-item">
-        <a href="#<%= section %>" target="_blank" title="<%= @labels[section] %>" class="nav-link"><%= @labels[section] %></a>
+<nav id="nav" class="nav">
+  <div class="outer-wrapper outer-wrapper-lighten">
+    <ul class="wrapper">
+      <% for section in @sections : %>
+        <li class="nav-item">
+          <a href="#<%= section %>" target="_blank" title="<%= @labels[section] %>" class="nav-link"><%= @labels[section] %></a>
+        </li>
+      <% end %>
+    </ul>
+  </div>
+  <div class="outer-wrapper outer-wrapper-darken">
+    <ul class="wrapper">
+      <li class="nav-item nav-logo">
+        <a href="#" target="_blank" title="Insiter" class="nav-link">
+          <%-@partial('html/logo.html', @)%>
+        </a>
       </li>
-    <% end %>
-  </ul>
+      <% for section in @sections : %>
+        <li class="nav-item">
+          <a href="#<%= section %>" target="_blank" title="<%= @labels[section] %>" class="nav-link"><%= @labels[section] %></a>
+        </li>
+      <% end %>
+    </ul>
+  </div>
 </nav>
-
-<hr>
