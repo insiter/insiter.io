@@ -57,7 +57,7 @@ module.exports = {
       'speakers',
       // 'schedule',
       // 'sponsors',
-      // 'partners',
+      'partners',
       // 'contact'
     ],
 
@@ -205,9 +205,14 @@ module.exports = {
     // List of Partners
     partners: [
       {
-        name: "BrazilJS",
-        logo: "themes/yellow-swan/img/partner.png",
-        url: "http://braziljs.org"
+        name: "Hite",
+        logo: "assets/img/hite.png",
+        url: "http://www.hite.com.br/"
+      },
+      {
+        name: "Sticker Mule",
+        logo: "assets/img/sticker-mule.png",
+        url: "https://www.stickermule.com"
       }
     ],
 

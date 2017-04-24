@@ -8,9 +8,4 @@
     </a>
   </li>
 <% end %>
-  <li class="partner-item">
-    <a class="partner-logo partner-link partner-call" href="#">
-    	<img src="<%= @getTheme() %>/img/your-logo.jpg" alt="your logo" class="photo">
-    </a>
-  </li>
 </ul>
