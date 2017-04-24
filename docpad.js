@@ -12,6 +12,9 @@ module.exports = {
       }
     }
   },
+  reloadPaths: ['src'],
+  regeneratePaths: ['src'],
+  regenerateDelay: 300,
 
 
   // These are variables will be accessible via our templates
@@ -42,16 +45,16 @@ module.exports = {
     site: {
       theme: "default",
       url: "http://insiter.github.io/insiter.io/",
-      googleanalytics: "UA-33656081-1"
+      googleanalytics: "UA-31931741-2"
     },
 
     // Active sections on the website
     // to deactivate comment out with '//'
     // you can also change order here and it will reflect on page
     sections: [
-      // 'about',
-      // 'location',
-      // 'speakers',
+      'about',
+      'location',
+      'speakers',
       // 'schedule',
       // 'sponsors',
       // 'partners',
@@ -93,7 +96,7 @@ module.exports = {
       {
         name: "Fabio Akita",
         photo: "https://avatars2.githubusercontent.com/u/2840?v=3&s=460",
-        bio: "É co-fundador da boutique de software Codeminer 42. Desde 2008 também é co-organizador da Rubyconf Brasil junto com a Locaweb. Ativista de Ruby on Rails desde 2006, publicou o primeiro livro do assunto. Já realizou quase 200 palestras pelo Brasil e pelo mundo. Trabalha como programador desde o começo dos anos 90 e passou por todas as principais tecnologias do mercado nesse período. Publica artigos no blog akitaonrails.com desde 2006",
+        bio: "Programador desde o começo dos anos 90, ativista de Ruby on Rails desde 2006, realizou quase 200 palestras pelo mundo e é co-fundador da Codeminer 42.",
         company: "Codeminer 42",
         link: {
           href: "http://www.akitaonrails.com/",
@@ -110,9 +113,24 @@ module.exports = {
         time: "12h00"
       },
       {
+        name: "Jean Carlo",
+        photo: "https://avatars3.githubusercontent.com/u/353504?v=3&s=460",
+        bio: "Web craftsman and magician of computer machines. Developer at WORK.CO.",
+        company: "WORK.CO",
+        link: {
+          href: "http://jcemer.com/",
+          text: "@jcemer"
+        },
+        presentation: {
+          title: "How to kill a elephant with one finger",
+          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+          time: "13h00"
+        }
+      },
+      {
         name: "Gabriel Sobrinho",
         photo: "https://avatars2.githubusercontent.com/u/26460?v=3&s=460",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+        bio: "Desenvolvedor com mais de 10 anos de experiência em aplicações web, ativista de Ruby on Rails desde 2008 e fundador da Hite.",
         company: "Hite",
         link: {
           href: "http://gabrielsobrinho.com/",
@@ -125,24 +143,9 @@ module.exports = {
         }
       },
       {
-        name: "Jean Carlo",
-        photo: "https://avatars3.githubusercontent.com/u/353504?v=3&s=460",
-        bio: "Sou graduado em Ciências da Computação pela federal do Rio Grande do Sul e trabalho com desenvolvimento de projetos de internet já há algum tempo. Passei um bom tempo mergulhado em desenvolvimento Ruby on Rails na Codeminer42, em seguida pelo Grupo RBS e por uma Start-up desenvolvendo Go e Android. Atualmente, faço parte da equipe de webmedia da Globo.com.",
-        company: "Globo.com",
-        link: {
-          href: "http://jcemer.com/",
-          text: "@jcemer"
-        },
-        presentation: {
-          title: "How to kill a elephant with one finger",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-          time: "13h00"
-        }
-      },
-      {
         name: "Dmitry Rocha",
         photo: "https://avatars1.githubusercontent.com/u/53300?v=3&s=460",
-        bio: "Desenvolvedor, escritor técnico, palestrante e atualmente trabalha com práticas DevOps.",
+        bio: "I'm passionate to solve problems on the right and less complicated way, I will work to turn life more easy with technology using my favorite tools, and at last I'm looking for my next favorite one.",
         company: "Codeminer 42",
         link: {
           href: "https://github.com/dmitryrck",
@@ -157,7 +160,7 @@ module.exports = {
       {
         name: "Matias Leidemer",
         photo: "https://avatars1.githubusercontent.com/u/10559?v=3&s=460",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+        bio: "Desenvolvedor com mais de 10 anos de experiência, apaixonado por Ruby, testes automatizados e código organizado. Trabalhou com diversas tecnologias, em empresas dentro e fora do Brasil. Atualmente é Web Development Engineer na Stickermule.",
         company: "Stickermule",
         link: {
           href: "http://www.leidemer.com/",
@@ -172,7 +175,7 @@ module.exports = {
       {
         name: "Thiago Alves",
         photo: "https://avatars0.githubusercontent.com/u/5190217?v=3&s=460",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+        bio: "Atua a 10 anos no mercado web. Apaixonado por JavaScript, atualmente é Desenvolvedor Front-End na Codeminer 42. Entende que apresentar palestras é uma das formas mais divertidas de aprender.",
         company: "Codeminer 42",
         link: {
           href: "https://twitter.com/taltk9",

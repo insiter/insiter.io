@@ -19,6 +19,9 @@ import jquery from 'jquery';
  */
 const appConfig = {
   menu: {
+    containerSelector: '#nav',
+    wrapperLightenSelector: '#nav > .outer-wrapper-lighten',
+    wrapperDarkenSelector: '#nav > .outer-wrapper-darken',
     itemsSelector: '.nav-link[href^="#"]',
     documentSelector: 'html, body',
     animationSpeed: 400,
@@ -46,7 +49,7 @@ const appConfig = {
   * @param {number} max - max number
   * @return {int} a random integer
   */
- const getRandomIntAction = (min, max) => Math.floor(Math.random() * (max - min + 1) + min);
+const getRandomIntAction = (min, max) => Math.floor(Math.random() * (max - min + 1) + min);
 
 /**
  * -----------------
@@ -95,14 +98,26 @@ const properties = {
 app(properties, ({ w, $, config, getRandomInt }) => {
   const { menu, bkg } = config;
 
+  const $window = $(w);
+  const $menu = $(menu.itemsSelector);
+  const $menuItem = $(menu.itemsSelector);
+  const $menuContainer = $(menu.containerSelector);
+  const $menuWrapperContainer = $(menu.wrapperLightenSelector);
+  const $menuDarkenContainer = $(menu.wrapperDarkenSelector);
+  const $content = $('#content');
+  const $tower = $(bkg.itemSelector);
+
+  const menuHeight = $menuContainer.outerHeight();
+  const contentOffsetTop = $content.offset().top;
+
   // ------------------
   // SET MENU ANIMATION
   // ------------------
-  $(menu.itemsSelector).on('click.animateScroll', (event) => {
+  $menuItem.on('click.animateScroll', (event) => {
     event.preventDefault();
 
-    const href = $(event.target).attr('href');
-    const offSetTop = $(href).offset().top;
+    const href = $(event.currentTarget).attr('href');
+    const offSetTop = $((href === '#' ? 'body' : href)).offset().top;
     const $document = $(menu.documentSelector);
 
     $document.finish().animate(
@@ -112,10 +127,31 @@ app(properties, ({ w, $, config, getRandomInt }) => {
     );
   });
 
+  // -------------------------
+  // SET MENU TRANSITION COLOR
+  // -------------------------
+  $window.on('scroll', (event) => {
+    event.preventDefault();
+
+    const scrollTop = $window.scrollTop() + menuHeight;
+    const isBigger = scrollTop > contentOffsetTop;
+    const diff = scrollTop - contentOffsetTop;
+
+    if (isBigger && diff <= menuHeight) {
+      $menuWrapperContainer.css('clip', `rect(auto, auto, -${diff}px, auto)`);
+      $menuDarkenContainer.css('clip', `rect(auto, auto, -${(menuHeight - diff)}px, auto)`);
+    } else if (diff > menuHeight) {
+      $menuWrapperContainer.css('clip', `rect(auto, auto, -${menuHeight}px, auto)`);
+      $menuDarkenContainer.css('clip', `rect(auto, auto, ${menuHeight}px, auto)`);
+    } else {
+      $menuWrapperContainer.css('clip', '');
+      $menuDarkenContainer.css('clip', '');
+    }
+  });
+
   // ------------------------
   // SET BACKGROUND ANIMATION
   // ------------------------
-  const $tower = $(bkg.itemSelector);
   const getColor = () => {
     const current = $tower.attr('data-tower-color');
     let color = bkg.colors[getRandomInt(0, bkg.colors.length - 1)];
