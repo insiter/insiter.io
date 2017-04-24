@@ -2,12 +2,14 @@
 layout: default
 ---
 
-<% for section in @sections : %>
-  <!-- <%= section.toUpperCase() %> -->
-
-  <section class="<%= section %>" id="<%= section %>">
-    <%- @partial("html/section/#{section}.html.eco", @) %>
+<% for section, index in @sections : %>
+  <section class="section <%= section %>" id="<%= section %>" data-section>
+    <% if (index % 2) : %>
+      <div class="wrapper">
+        <%- @partial("html/section/#{section}.html.eco", @) %>
+      </div>
+    <% else : %>
+      <%- @partial("html/section/#{section}.html.eco", @) %>
+    <% end %>
   </section>
-
-  <!-- / <%= section.toUpperCase() %> -->
 <% end %>

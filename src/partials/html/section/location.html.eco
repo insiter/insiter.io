@@ -1,6 +1,8 @@
-<h2 class="section-title"><%= @labels['location'] %></h2>
+<div class="section__title">
+  <h4><span><%= @labels['location'] %></span></h4>
+</div>
 
-<p itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+<p class="text-center" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
   <span itemprop="streetAddress"><%= @conf.address %>. </span>
   <span itemprop="addressLocality"><%= @conf.city %></span>,
   <span itemprop="addressRegion"> <%= @conf.state %></span>

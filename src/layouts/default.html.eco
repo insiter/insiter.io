@@ -49,6 +49,7 @@
     <%-@partial('html/nav.html.eco', @)%>
     <%-@partial('html/header.html.eco', @)%>
     <%-@partial('html/content.html.eco', @)%>
+    <%-@partial('html/footer.html.eco', @)%>
   </div>
 
   <script src="<%= @getAssets() %>/js/main.js"></script>

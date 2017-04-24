@@ -9,7 +9,7 @@
   position:relative;
 }
 .content {padding: 50px 0;}
-.content section {padding-top: 50px;}
+.content section {padding: 150px 0 100px;}
 
 /* =============================================================================
    BASIC STYLES
@@ -28,6 +28,7 @@ p {
   margin-bottom: 1.4em;
 }
 .photo {
+  border-radius: 50%;
   max-width:100%;
   position:relative;
   top:-1px;
@@ -120,7 +121,10 @@ nav {
   padding: 10px 15px;
   letter-spacing:-.03em;
 }
-.speakers-name{font-size:1.6em;}
+.speakers-name{
+  font-size:1.6em;
+  font-weight: 700;
+}
 .speakers-item p {font-size:1.4em;}
 
 /* =============================================================================
@@ -221,6 +225,27 @@ nav {
     .box-sizing(border-box);
   }
   .about {margin: 0;}
+
+  .speaker__headline {
+    width: 25%;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  .section-group {
+    .section:nth-child(even) {
+      width: 500%;
+      margin-left: -200%;
+    }
+  }
+
+  .speaker__bio {
+    width: 80%;
+  }
+  
+  .speaker__headline {
+    width: 25%;
+  }
 }
 
 @media only screen and (min-width:320px) and (max-width : 800px) {
@@ -269,9 +294,21 @@ nav {
   .form .btn {margin-bottom:50px;}
 }
 
+@media only screen and (min-width : 481px) {
+  .navbar{background-color: transparent;}
+  .speaker__headline {width: 25%;}
+  .hidden-desktop{display: none;}
+}
+
 @media only screen and (max-width : 480px) {
   /* nav */
-  nav {display: none;}
+  .navbar {background-color: @gray;}
+  .nav-logo {display: block;}
+  .navbar__wrapper {flex-direction: column;}
+  .nav-item {
+    display: none;
+    padding-top: 15px;
+  }
   .header {padding:20px 0;}
   .logo-name {font-size: 4em;}
   .tagline {
@@ -292,9 +329,12 @@ nav {
 
   /* content */
   .content {padding: 0;}
-  .content section {padding-top: 50px;}
+  .content section {padding-top: 100px;}
 
   /* speakers */
+  .speaker__headline {
+    width: 50%;
+  }
   .speakers-item {
     min-height:70px;
     padding-left: 70px;
@@ -312,7 +352,6 @@ nav {
     font-size:16px;
     padding: 0;
   }
-  .speakers-bio {display: none;}
 }
 
 @media only screen and (max-width : 321px) {

@@ -1,5 +1,10 @@
-<h2 class="section-title"><%= @labels['about'] %></h2>
-<p itemprop="description">INSITER (Inside The Web) é um evento voltado para desenvolvedores, estudantes, professores e entusiastas de tecnologias, que desejam aprender, atualizar e aprimorar seus conhecimentos sobre técnicas, metodologias, devops e linguagens de programação web.</p>
+<div class="section__title">
+  <h4><span><%= @labels['about'] %></span></h4>
+</div>
 
-<p>Acontecerá no dia 10 de Junho de 2017, no auditório do Sebrae-PI e contará com a presença de palestrantes renomados de várias regiões do Brasil, com experiência no mercado nacional e internacional, totalizando 7 palestras, que ocorrerão durante todo o dia.
-</p>
+<div class="text-center">
+  <p itemprop="description">INSITER (Inside The Web) é um evento voltado para desenvolvedores, estudantes, professores e entusiastas de tecnologias, que desejam aprender, atualizar e aprimorar seus conhecimentos sobre técnicas, metodologias, devops e linguagens de programação web.</p>
+
+  <p>Acontecerá no dia 10 de Junho de 2017, no auditório do Sebrae-PI e contará com a presença de palestrantes renomados de várias regiões do Brasil, com experiência no mercado nacional e internacional, totalizando 7 palestras, que ocorrerão durante todo o dia.
+  </p>
+</div>

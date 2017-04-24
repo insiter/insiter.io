@@ -1,25 +1,36 @@
-<h2 class="section-title"><%= @labels['speakers'] %></h2>
+<div class="section__title">
+  <h4><span><%= @labels['speakers'] %></span></h4>
+</div>
 
-<ul class="speakers-list">
-<% for speaker in @schedule: %>
-  <% if speaker.presentation: %>
-    <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
-      <% if speaker.photo: %>
-        <span class="speaker-photo">
-          <img class="photo" src="<%= speaker.photo %>" alt="<%= speaker.name %>" itemprop="image">
-        </span>
-      <% end %>
+<div class="speakers-list">
+  <% for speaker in @schedule: %>
+    <% if speaker.presentation: %>
+    <div class="speaker">
+      <div class="speaker__card">
+        <div class="speaker__headline">
+          <% if speaker.photo: %>
+          <div class="speaker__photo">
+            <a href="<%= speaker.link.href %>" target="_blank" title="<%= speaker.link.text %>">
+              <img class="photo" src="<%= speaker.photo %>" alt="<%= speaker.name %>" itemprop="image">
+            </a>
+          </div>
+          <% end %>
 
-      <h3 class="speech-title">
-        <% if speaker.presentation.time: %>
-          <span class="speech-time"><%= speaker.presentation.time %></span>
-        <% end %>
-          <span> <%= speaker.presentation.title %></span>
-      </h3>
+          <div class="speaker__details">
+            <h2 class="speakers-name"><%= speaker.name %></h2>
+            <% if speaker.link: %>
+            <a href="<%= speaker.link.href %>" target="_blank" title="<%= speaker.link.text %>">
+              <p class="speaker__link"><%= speaker.link.text %></p>
+            </a>
+            <% end %>
+          </div>
+        </div>
 
-      <h3 class="speakers-name"><%= speaker.name %> <% if speaker.link: %><a href="<%= speaker.link.href %>" target="_blank" title="<%= speaker.link.text %>"><%= speaker.link.text %></a><% end %></h3>
-      <p class="speakers-bio"><%= speaker.bio %></p>
-    </li>
+        <div class="speaker__bio">
+          <p><%= speaker.bio %></p>
+        </div>
+      </div>
+    </div>
+    <% end %>
   <% end %>
-<% end %>
-</ul>
+</div>
