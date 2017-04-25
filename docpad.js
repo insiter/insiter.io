@@ -44,7 +44,7 @@ module.exports = {
     // Site info
     site: {
       theme: "default",
-      url: "http://insiter.github.io/insiter.io/",
+      url: "http://insiter.io",
       googleanalytics: "UA-31931741-2"
     },
 
