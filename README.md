@@ -11,6 +11,51 @@ Seções a serem feitas:
 - [ ] Local
 - [ ] Patrocinadores & Parceiros
 
+## Quick Start - Docker
+
+Pré-requisitos:
+
+  * [Docker](http://www.docker.com)
+  * [docker-compose](https://docs.docker.com/compose/)
+
+1. Clone o repositório:
+
+    ```sh
+    $ git clone git://github.com/insiter/insiter.io.git
+    ```
+
+2. Vá para pasta do projeto:
+
+    ```sh
+    $ cd insiter.io
+    ```
+
+3. Crie a imagem usando docker-compose:
+
+    ```sh
+    $ docker-compose build
+    ```
+
+3. Instale todas as dependências:
+
+    ```sh
+    $ docker-compose run --rm web yarn install
+    ```
+
+5. E finalmente rode:
+
+    ```sh
+    $ docker-compose up web
+    ```
+
+Agora você irá ver o site rodando em [http://localhost:9778/](http://localhost:9778/).
+
+6. Quando terminar de editar e quiser publicar o site no GitHub Pages:
+
+    ```sh
+    $ docker-compose run --rm web npm run deploy
+    ```
+
 ## Quick Start
 
 Pré-requisitos:
