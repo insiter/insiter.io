@@ -122,8 +122,8 @@ module.exports = {
           text: "@jcemer"
         },
         presentation: {
-          title: "How to kill a elephant with one finger",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+          title: "Como encarar o desenvolvimento front-end",
+          description: "A todo tempo surgem novas formas de pensar e estruturar interfaces para a Internet. Esta palestra toma um olhar crítico a respeito de ferramentas, técnicas e código front-end em geral. Nosso objetivo será aprender a direcionar esforços para alcançar melhores resultados.",
           time: "13h00"
         }
       },
@@ -137,8 +137,8 @@ module.exports = {
           text: "@sobrinho"
         },
         presentation: {
-          title: "Why do I prefer Android over iPhone",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+          title: "Introdução a testes de software",
+          description: "Uma introdução ao mundo dos testes, independe de linguagem de programação ou biblioteca. O que você deve testar, como testar e quando testar.",
           time: "17h00"
         }
       },
@@ -152,8 +152,8 @@ module.exports = {
           text: "@dmitryrck"
         },
         presentation: {
-          title: "Unikernels e o futuro da infraestrutura imutável",
-          description: "Eles serão substituídos por hypervisors do tipo bare metal, otimizados de forma específica para o hardware e o deploy de nossas aplicações será feito através de um único arquivo binário. Nesta talk, veremos o que são Unikernels, os motivos de serem rápidos, seguros e que oportunidades ele reserva para o futuro.",
+          title: "Crystal: O que aconteceu quando tentaram compilar Ruby?",
+          description: "Quando se fala em performance a primeira comparação é com C, mas C é a linguagem e o binário final é em código de máquina, então… o que aconteceu quando alguém tentou compilar Ruby? Disto surgiu Crystal: Fast as C, slick as Ruby. Nova linguagem ou um Ruby compilado?",
           time: "10h00"
         }
       },
