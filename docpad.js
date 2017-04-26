@@ -26,7 +26,7 @@ module.exports = {
       description: "Inside the Web - Teresina - PI",
       date: "10 de Junho de 2017",
       // If your event is free, just comment this line
-      price: "$50",
+      price: "R$ 50",
       venue: "Auditório do Sebrae",
       address: "Av. Campos Sáles, 1046 - Centro (Norte), Teresina - PI, 64000-300",
       city: "Teresina",
@@ -55,7 +55,7 @@ module.exports = {
       'about',
       'location',
       'speakers',
-      // 'schedule',
+      'schedule',
       // 'sponsors',
       'partners',
       // 'contact'
@@ -75,14 +75,13 @@ module.exports = {
     // The entire schedule
     schedule: [
       {
-        name: "Check-in / Breakfast",
-        time: "9h00"
+        name: "Credenciamento",
+        time: "08:00"
       },
       {
         name: "Daniel Romero",
         photo: "https://avatars0.githubusercontent.com/u/444911?v=3&s=460",
         bio: "Desenvolvedor, escritor técnico, palestrante e atualmente trabalha com práticas DevOps.",
-        company: "Linux Foundation",
         link: {
           href: "https://infoslack.pro/",
           text: "@infoslack"
@@ -90,7 +89,7 @@ module.exports = {
         presentation: {
           title: "Unikernels e o futuro da infraestrutura imutável",
           description: "Eles serão substituídos por hypervisors do tipo bare metal, otimizados de forma específica para o hardware e o deploy de nossas aplicações será feito através de um único arquivo binário. Nesta talk, veremos o que são Unikernels, os motivos de serem rápidos, seguros e que oportunidades ele reserva para o futuro.",
-          time: "10h00"
+          time: "09:00"
         }
       },
       {
@@ -103,14 +102,14 @@ module.exports = {
           text: "@akitaOnRails"
         },
         presentation: {
-          title: "Introducing Windows 12",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-          time: "11h00"
+          title: "A definir",
+          description: "",
+          time: "09:50"
         }
       },
       {
-        name: "Lunch",
-        time: "12h00"
+        name: "Coffe Break",
+        time: "10:40"
       },
       {
         name: "Jean Carlo",
@@ -158,6 +157,10 @@ module.exports = {
         }
       },
       {
+        name: "Coffee Break",
+        time: "15:40"
+      },
+      {
         name: "Matias Leidemer",
         photo: "https://avatars1.githubusercontent.com/u/10559?v=3&s=460",
         bio: "Desenvolvedor com mais de 10 anos de experiência, apaixonado por Ruby, testes automatizados e código organizado. Trabalhou com diversas tecnologias, em empresas dentro e fora do Brasil. Atualmente é Web Development Engineer na Stickermule.",
@@ -167,9 +170,9 @@ module.exports = {
           text: "@matiasleidemer"
         },
         presentation: {
-          title: "Revealing Facebook Secrets",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-          time: "16h00"
+          title: "A definir",
+          description: "",
+          time: "16:10"
         }
       },
       {
@@ -182,14 +185,14 @@ module.exports = {
           text: "@taltk9"
         },
         presentation: {
-          title: "Presenting iPad",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-          time: "14h00"
+          title: "A definir",
+          description: "",
+          time: "17:00"
         }
       },
       {
-        name: "Coffee-break",
-        time: "15h00"
+        name: "Encerramento",
+        time: "17:50"
       }
     ],
 
