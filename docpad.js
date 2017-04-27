@@ -103,7 +103,7 @@ module.exports = {
         },
         presentation: {
           title: "30 dias de Elixir e Crystal e de volta a Ruby",
-          description: "Qual a forma correta de entender a diferença de performance das diferentes novas linguagens frente a casos reais de desenvolvimento. Baseado em benchmarks sintéticos, todos vão concordar que Ruby é "lento". Portanto deveríamos automaticamente abandonar Ruby e ir para outras linguagens mais "rápidas" como Go ou Crystal ou Elixir? Olhando um caso real, vamos entender porque essa resposta não é tão simples quanto parece",
+          description: "Qual a forma correta de entender a diferença de performance das diferentes novas linguagens frente a casos reais de desenvolvimento. Baseado em benchmarks sintéticos, todos vão concordar que Ruby é \"lento\". Portanto deveríamos automaticamente abandonar Ruby e ir para outras linguagens mais \"rápidas\" como Go ou Crystal ou Elixir? Olhando um caso real, vamos entender porque essa resposta não é tão simples quanto parece",
           time: "09:50"
         }
       },
