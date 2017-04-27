@@ -88,7 +88,7 @@ module.exports = {
         },
         presentation: {
           title: "Unikernels e o futuro da infraestrutura imutável",
-          description: "Eles serão substituídos por hypervisors do tipo bare metal, otimizados de forma específica para o hardware e o deploy de nossas aplicações será feito através de um único arquivo binário. Nesta talk, veremos o que são Unikernels, os motivos de serem rápidos, seguros e que oportunidades ele reserva para o futuro.",
+          description: "Sistemas operacionais tradicionais (Linux, FreeBSD, Windows) serão extintos em servidores. Eles serão substituídos por hypervisors do tipo bare metal, otimizados de forma específica para o hardware e o deploy de nossas aplicações será feito através de um único arquivo binário. Nesta talk, veremos o que são Unikernels, os motivos de serem rápidos, seguros e que oportunidades ele reserva para o futuro.",
           time: "09:00"
         }
       },
