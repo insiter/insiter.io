@@ -170,8 +170,8 @@ module.exports = {
           text: "@matiasleidemer"
         },
         presentation: {
-          title: "A definir",
-          description: "",
+          title: "Tem um tipo no meu Javascript",
+          description: "Com o advento das SPA (single page apps), o uso do Javascript não se limita apenas a validação de forms e chamadas ajax. Codificar regras de negócio complexas já faz parte do dia a dia de grande parte dos desenvolvedores JS. Mas, a medida que as linhas de código aumentam, como garantir que tudo está funcionando perfeitamete? Nesta talk falarei sobre o Flow e como ele pode ajudar na diminuição de erros de runtime e na definição de tipos específicos de negócio.                        ",
           time: "16:10"
         }
       },
@@ -185,8 +185,8 @@ module.exports = {
           text: "@taltk9"
         },
         presentation: {
-          title: "A definir",
-          description: "",
+          title: "Inside the Web",
+          description: "Há tempos deixamos o Flash para trás e passamos a depender somente das APIs e recursos HTML, CSS e Javascript. Vieram animações CSS, WebGL e agora, WebVR. Realidade virtual no alcance do seu browser. Vamos falar um pouco sobre o assunto, como iniciar estudos na área, mostrar alguns exemplos e as possibilidades de mercado para a tecnologia junto a Web.",
           time: "17:00"
         }
       },
