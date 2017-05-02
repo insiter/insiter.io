@@ -112,21 +112,6 @@ module.exports = {
         time: "10:40"
       },
       {
-        name: "Jean Carlo",
-        photo: "https://avatars3.githubusercontent.com/u/353504?v=3&s=460",
-        bio: "Web craftsman and magician of computer machines. Developer at WORK.CO.",
-        company: "WORK.CO",
-        link: {
-          href: "http://jcemer.com/",
-          text: "@jcemer"
-        },
-        presentation: {
-          title: "Como encarar o desenvolvimento front-end",
-          description: "A todo tempo surgem novas formas de pensar e estruturar interfaces para a Internet. Esta palestra toma um olhar crítico a respeito de ferramentas, técnicas e código front-end em geral. Nosso objetivo será aprender a direcionar esforços para alcançar melhores resultados.",
-          time: "13h00"
-        }
-      },
-      {
         name: "Gabriel Sobrinho",
         photo: "https://avatars2.githubusercontent.com/u/26460?v=3&s=460",
         bio: "Desenvolvedor com mais de 10 anos de experiência em aplicações web, ativista de Ruby on Rails desde 2008 e fundador da Hite.",
@@ -138,8 +123,12 @@ module.exports = {
         presentation: {
           title: "Introdução a testes de software",
           description: "Uma introdução ao mundo dos testes, independe de linguagem de programação ou biblioteca. O que você deve testar, como testar e quando testar.",
-          time: "17h00"
+          time: "11:10"
         }
+      },
+      {
+        name: "Almoço",
+        time: "12:00"
       },
       {
         name: "Dmitry Rocha",
@@ -153,7 +142,22 @@ module.exports = {
         presentation: {
           title: "Crystal: O que aconteceu quando tentaram compilar Ruby?",
           description: "Quando se fala em performance a primeira comparação é com C, mas C é a linguagem e o binário final é em código de máquina, então… o que aconteceu quando alguém tentou compilar Ruby? Disto surgiu Crystal: Fast as C, slick as Ruby. Nova linguagem ou um Ruby compilado?",
-          time: "10h00"
+          time: "14:00"
+        }
+      },
+      {
+        name: "Jean Carlo",
+        photo: "https://avatars3.githubusercontent.com/u/353504?v=3&s=460",
+        bio: "Web craftsman and magician of computer machines. Developer at WORK.CO.",
+        company: "WORK.CO",
+        link: {
+          href: "http://jcemer.com/",
+          text: "@jcemer"
+        },
+        presentation: {
+          title: "Como encarar o desenvolvimento front-end",
+          description: "A todo tempo surgem novas formas de pensar e estruturar interfaces para a Internet. Esta palestra toma um olhar crítico a respeito de ferramentas, técnicas e código front-end em geral. Nosso objetivo será aprender a direcionar esforços para alcançar melhores resultados.",
+          time: "14:50"
         }
       },
       {
