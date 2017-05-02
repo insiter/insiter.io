@@ -56,7 +56,7 @@ module.exports = {
       'location',
       'speakers',
       'schedule',
-      // 'sponsors',
+      'sponsors',
       'partners',
       // 'contact'
     ],
@@ -203,9 +203,9 @@ module.exports = {
     // List of Sponsors
     sponsors: [
       {
-        name: "Eventick",
-        logo: "themes/yellow-swan/img/sponsor.png",
-        url: "http://eventick.com.br"
+        name: "Infoway",
+        logo: "https://casimiifpi.files.wordpress.com/2012/05/logo-infoway.png?w=390&h=90",
+        url: "http://infoway-br.com/"
       }
     ],
 
