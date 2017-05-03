@@ -204,7 +204,7 @@ module.exports = {
     sponsors: [
       {
         name: "Infoway",
-        logo: "https://casimiifpi.files.wordpress.com/2012/05/logo-infoway.png?w=390&h=90",
+        logo: "assets/img/infoway-logotipo.svg",
         url: "http://infoway-br.com/"
       }
     ],
