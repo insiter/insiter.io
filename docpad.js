@@ -206,6 +206,11 @@ module.exports = {
         name: "Infoway",
         logo: "assets/img/infoway-logotipo.svg",
         url: "http://infoway-br.com/"
+      },
+      {
+        name: "Teresina Coworking",
+        logo: "assets/img/the-coworking.png",
+        url: "http://www.teresinacoworking.com.br"
       }
     ],
 
