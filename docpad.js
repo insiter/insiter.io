@@ -82,6 +82,7 @@ module.exports = {
         name: "Daniel Romero",
         photo: "https://avatars0.githubusercontent.com/u/444911?v=3&s=460",
         bio: "Desenvolvedor, escritor técnico, palestrante e atualmente trabalha com práticas DevOps.",
+        company: "AppProva",
         link: {
           href: "https://infoslack.pro/",
           text: "@infoslack"
@@ -208,9 +209,9 @@ module.exports = {
         url: "http://infoway-br.com/"
       },
       {
-        name: "Teresina Coworking",
-        logo: "assets/img/the-coworking.png",
-        url: "http://www.teresinacoworking.com.br"
+        name: "AppProva",
+        logo: "assets/img/appprova.png",
+        url: "http://appprova.com.br/"
       }
     ],
 
