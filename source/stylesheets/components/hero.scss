@@ -1,0 +1,17 @@
+.hero {
+  height: calc(100vh - 50px);
+  text-align: center;
+}
+
+.hero-container {
+  height: 100%;
+}
+
+.hero-logo {
+  height: 300px;
+  margin: -25px auto 0;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}

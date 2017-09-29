@@ -1,13 +1,14 @@
+.header {
+  height: 50px;
+}
+
 .navbar {
-  .column {
-    text-align: center;
-  }
+  height: 100%;
+  text-align: center;
 }
 
 .navbar-item {
-  border: none;
   text-decoration: none;
-  text-align: center;
   font-size: 1rem;
   font-weight: 700;
   font-family: $font-family-alt;
