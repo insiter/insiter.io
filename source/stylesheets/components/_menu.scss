@@ -1,0 +1,47 @@
+// ====================================================================
+// Menu
+// ====================================================================
+
+.menu {
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: .8em;
+  background-color: $white;
+  opacity: 0;
+  transform: translate3d(0,-100%,0);
+  will-change: transform;
+  pointer-events: auto;
+
+  @include min-screen($screen-md) {
+    display: none;
+  }
+}
+
+.menu.menu-visible {
+  opacity: 1;
+  transform: translate3d(0,0,0);
+}
+
+.menu.menu-animatable {
+  transition: all 130ms ease-in;
+}
+
+.menu.menu-visible.menu-animatable {
+  transition: all 300ms ease;
+}
+
+//
+// Nav
+// ====================================================================
+
+.menu > .navbar {
+  display: block;
+
+  & > .navbar-item > a {
+
+  }
+}

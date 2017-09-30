@@ -2,30 +2,24 @@
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  min-width: 68px;
-  height: 32px;
-  padding: 0 .8em;
+  padding: 10px 16px;
   background-color: $primary;
   border: 3px solid $primary;
   border-radius: 50vh;
   color: $white;
   font-family: inherit;
-  font-size: 12px;
-  font-weight: 700;
+  font-size: 16px;
+  font-weight: 600;
   text-transform: uppercase;
   text-decoration: none;
   user-select: none;
   outline: none;
   cursor: pointer;
-  transition: all .3s ease;
+  opacity: 1;
+  transition: opacity .3s ease;
 
+  &:active,
   &:hover {
-    background-color: transparent;
-    color: $primary;
-  }
-  &:active {
-    background-color: transparent;
-    border: 3px solid $primary;
-    color: $primary;
+    opacity: $hover-opacity;
   }
 }
