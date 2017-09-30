@@ -53,7 +53,8 @@
 .navbar-item > a {
   width: 100%;
   padding: 10px;
-  color: #cb4d04;
+  color: $primary;
+  font-family: $font-family-alt;
   font-size: 12px;
   font-weight: 700;
   text-transform: uppercase;
