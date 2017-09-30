@@ -1,0 +1,74 @@
+.navbar {
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  padding: .8em;
+  background-color: $white;
+  opacity: 0;
+  transform: translate3d(0,-100%,0);
+  will-change: transform;
+  pointer-events: auto;
+
+  position: initial;
+  width: initial;
+  height: initial;
+  padding: initial;
+  background-color: initial;
+  opacity: initial;
+  transform: initial;
+  will-change: initial;
+}
+
+.menu.menu--visible .navbar {
+  opacity: 1;
+  transform: translate3d(0,0,0);
+}
+
+.menu.menu--animatable .navbar {
+  transition: all 130ms ease-in;
+}
+
+.menu.menu--visible.menu--animatable .navbar {
+  transition: all 300ms ease;
+}
+
+.navbar-list {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+
+  display: block;
+}
+
+.navbar-item {
+  display: inline-flex;
+}
+
+.navbar-item > a {
+  width: 100%;
+  padding: 10px;
+  color: #cb4d04;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  outline: none;
+  opacity: 1;
+  transition: opacity .2s ease-in-out;
+
+  &:focus,
+  &:hover {
+    opacity: .6;
+  }
+}
+
+.menu > .navbar {
+  display: none;
+}
