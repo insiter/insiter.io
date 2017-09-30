@@ -5,12 +5,10 @@
 .navbar {
   display: none;
   width: 100%;
-  margin-top: 72px;
 
   @include min-screen($screen-md) {
     display: flex;
     justify-content: center;
-    margin-top: 0;
   }
 }
 

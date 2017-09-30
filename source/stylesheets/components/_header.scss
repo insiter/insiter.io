@@ -3,6 +3,11 @@
 // ====================================================================
 
 .header {
+  position: fixed;
+  z-index: 1100;
+  top: 0;
+  left: 0;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: flex-end;
@@ -26,8 +31,6 @@
 // ====================================================================
 
 .header-toggle {
-  position: relative;
-  z-index: 1100;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -76,15 +79,15 @@
 }
 
 .header-toggle-visible > span {
-  // &:nth-child(1) {
-  //   transform: rotate(-45deg);
-  // }
+  &:nth-child(1) {
+    transform: translateY(-1px) rotate(-45deg);
+  }
 
-  // &:nth-child(2) {
-  //   opacity: 0;
-  // }
+  &:nth-child(2) {
+    opacity: 0;
+  }
 
-  // &:nth-child(3) {
-  //   transform: rotate(45deg);
-  // }
+  &:nth-child(3) {
+    transform: translateY(1px) rotate(45deg);
+  }
 }
