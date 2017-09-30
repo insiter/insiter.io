@@ -1,3 +1,6 @@
 {
-  "private": true
+  "private": true,
+  "dependencies": {
+    "sass-mediaqueries": "^1.6.1"
+  }
 }
