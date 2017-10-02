@@ -8,7 +8,8 @@ const menu = document.querySelector('.js-menu')
 const toggle = document.querySelector('.js-toggle')
 
 const init = () => {
-  bindEvents()
+  // TODO abner, azzi, iagodahlem: uncomment when we add sections
+  // bindEvents()
 }
 
 const bindEvents = () => {

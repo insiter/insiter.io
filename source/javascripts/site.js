@@ -1,5 +1,7 @@
 // This is where it all goes :)
 
-import menu from './components/menu'
+import components from './components'
 
-menu()
+document.addEventListener('DOMContentLoaded', () => {
+  components.forEach(component => component())
+})
