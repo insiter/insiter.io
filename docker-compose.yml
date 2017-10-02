@@ -3,12 +3,13 @@ version: "2"
 services:
   web:
     build: .
-    command: "yarn run watch"
+    command: "bundle exec middleman serve"
+    working_dir: /app
     volumes:
       - ".:/app"
       - "node_modules:/app/node_modules"
     ports:
-      - "9778:9778"
+      - "4567:4567"
 
 volumes:
   node_modules:

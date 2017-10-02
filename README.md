@@ -48,13 +48,7 @@ Pré-requisitos:
     $ docker-compose up web
     ```
 
-Agora você irá ver o site rodando em [http://localhost:9778/](http://localhost:9778/).
-
-6. Quando terminar de editar e quiser publicar o site no GitHub Pages:
-
-    ```sh
-    $ docker-compose run --rm web npm run deploy
-    ```
+Agora você irá ver o site rodando em [http://localhost:4567/](http://localhost:4567/).
 
 ## Quick Start
 
