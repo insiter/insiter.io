@@ -10,5 +10,8 @@
     "babel-register": "^6.26.0",
     "sass-mediaqueries": "^1.6.1",
     "webpack": "^3.6.0"
+  },
+  "dependencies": {
+    "scrollreveal": "^3.3.6"
   }
 }
