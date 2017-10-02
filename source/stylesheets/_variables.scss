@@ -5,6 +5,7 @@ $purple: rgba(36, 30, 78, 1);
 $black: rgba(5, 5, 5, 1);
 $white: rgba(254, 254, 255, 1);
 $gray: #d0c4b8;
+$primary: $red-medium;
 
 // Body Variables
 $body-color: $black;
@@ -21,7 +22,8 @@ $line-height-base: 1.5;
 // Grid Variables
 $gap: 0;
 
-$primary: $red-medium;
-
+// Screen (Breakpoints)
 $screen-md: 1024px;
+
+// Components
 $hover-opacity: .8;
