@@ -1,0 +1,31 @@
+// ====================================================================
+// Hero
+// ====================================================================
+
+.hero {
+  height: 100vh;
+  text-align: center;
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.hero-logo {
+  height: 40vh;
+  margin-bottom: 1.2em;
+}
+
+.hero-description {
+  margin-top: 0;
+  margin-bottom: 1.2em;
+  color: $gray;
+  font-family: $font-family-alt;
+  font-size: 1.2em;
+  font-weight: 600;
+  line-height: 1;
+}
