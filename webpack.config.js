@@ -1,17 +1,19 @@
+const path = require('path')
 const webpack = require('webpack')
 
 module.exports = {
+  context: path.resolve(__dirname, 'source', 'javascripts'),
   entry: {
-    site: './source/javascripts/site.js'
+    site: './site.js',
   },
   output: {
-    path: __dirname + '/.tmp/dist',
+    path: path.resolve(__dirname, '.tmp', 'dist'),
     filename: 'javascripts/[name].js',
   },
   module: {
     rules: [
       {
-        test: /source\/assets\/javascripts\/.*\.js$/,
+        test: /\.js$/,
         exclude: /node_modules|\.tmp|vendor/,
         loader: 'babel-loader',
         options: {
@@ -19,5 +21,9 @@ module.exports = {
         },
       },
     ],
+  },
+  resolve: {
+    extensions: ['.js'],
+    modules: ['node_modules'],
   },
 }
