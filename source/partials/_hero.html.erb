@@ -1,18 +1,23 @@
 <section class="hero">
   <div class="hero-container container">
-    <%= image_tag 'logo.svg', class: 'hero-logo hero-reveal', alt: 'Insiter' %>
+    <div class="hero-icons">
+      <%= partial 'partials/hero_background' %>
+    </div>
+    <div class="hero-logo-container">
+      <%= image_tag 'logo.svg', class: 'hero-logo hero-reveal', alt: 'Insiter' %>
+    </div>
     <h1 class="sr-only">Insiter</h1>
 
-    <p class="hero-description hero-reveal">
-      Data X e Tal
-    </p>
+    <div class="hero-description-container">
+      <div class="hero-reveal">
+        <h1 class="hero-description">02 de Dezembro</h1>
+      </div>
 
-    <p class="hero-description hero-reveal">
-      No lugar X e Tal
-    </p>
+      <div class="hero-reveal"><h2 class="hero-description">Auditório do Senac POA</h2></div>
 
-    <a class="button hero-reveal" href="#">
-      Pré Inscrições
-    </a>
+      <a class="button hero-reveal" href="#">
+        Pré Inscrições
+      </a>
+    </div>
   </div>
 </section>

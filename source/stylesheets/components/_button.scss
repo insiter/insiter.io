@@ -2,20 +2,26 @@
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  padding: 10px 16px;
   background-color: $primary;
   border: 3px solid $primary;
   border-radius: 50vh;
   color: $white;
   font-family: $font-family-alt;
-  font-size: 16px;
-  font-weight: 600;
+  font-size: 1.2em;
+  font-weight: 700;
   text-transform: uppercase;
   text-decoration: none;
   user-select: none;
   outline: none;
   cursor: pointer;
   opacity: 1;
+  font-size: 1em;
+  padding: 8px 14px;
+
+  @media screen and (min-width: 768px) {
+    font-size: 1.2em;
+    padding: 10px 16px;
+  }
 
   &:active,
   &:hover {

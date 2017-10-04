@@ -12,6 +12,7 @@
     "webpack": "^3.6.0"
   },
   "dependencies": {
-    "scrollreveal": "^3.3.6"
+    "scrollreveal": "^3.3.6",
+    "vivus": "^0.4.2"
   }
 }

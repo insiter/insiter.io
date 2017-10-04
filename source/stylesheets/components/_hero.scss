@@ -5,6 +5,8 @@
 .hero {
   height: 100vh;
   text-align: center;
+  position: relative;
+  overflow: hidden;
 }
 
 .hero-container {
@@ -13,21 +15,88 @@
   align-items: center;
   justify-content: center;
   height: 100%;
-  background-image: url('/images/background.png');
+  padding: 15px;
+  background-image: url('/images/background.jpg');
 }
 
 .hero-logo {
   height: 50vh;
+  max-width: 90%;
   margin-bottom: 1.2em;
 }
 
 .hero-description {
   margin-top: 0;
-  margin-bottom: 1.2em;
-  color: $gray;
+  margin-bottom: 0.5em;
+  color: $red-medium;
   font-family: $font-family-alt;
-  font-size: 1em;
-  font-weight: 600;
+  font-weight: 900;
   line-height: 1;
   text-transform: uppercase;
+  font-size: 1.5em;
+  background: #a21521;
+  background-image: -webkit-linear-gradient(#a21521 0%, #251d4e 100%);
+  background-image: -o-linear-gradient(#a21521 0%, #251d4e 100%);
+  background-image: linear-gradient(#a21521 0%, #251d4e 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a21521', endColorstr='#251d4e',GradientType=0 );
+  background-size: cover;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+
+  @media screen and (min-width: 768px) {
+    font-size: 2.2em;
+  }
+}
+
+.hero-reveal,
+.hero-description,
+.hero-logo {
+  position: relative;
+  z-index: 2;
+}
+
+.hero-logo-container {
+  position: relative;
+}
+
+.hero-icons {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  transform: translateZ(0);
+  z-index: 1;
+}
+
+.hero-icon {
+  width: 5vh;
+  height: 5vh;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.hero-icon,
+.hero-icon-path {
+  fill: none
+}
+.hero-icon-path {
+  stroke-width: 4px;
+}
+
+.hero-icon-light .hero-icon-path {
+  stroke-width: 55px;
+}
+
+.hero-icon-star .hero-icon-path {
+  stroke: #6B3BAF
+}
+.hero-icon-cogwheel .hero-icon-path  {
+  stroke: #473AAD
+}
+.hero-icon-light .hero-icon-path  {
+  stroke: #E95F50
 }
