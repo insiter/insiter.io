@@ -152,12 +152,31 @@ const animateIcons = () => {
     return .5 - Math.random();
   })
   elIds.forEach((el) => {
-    new Vivus(el)
+    const INTERVAL_MIN = 1000
+    const INTERVAL_MAX = 3000
+    let interval = Math.floor(Math.random() * (INTERVAL_MAX - INTERVAL_MIN) +  INTERVAL_MIN)
+
+    let vivus = new Vivus(el, {
+      duration: 150,
+      type: 'oneByOne',
+      start: 'manual'
+    })
+
+    setInterval(() => {
+      vivus.play(() => {
+        setTimeout(() => {
+          vivus.reset()
+        },
+          interval/2)
+      })
+    }, interval)
+
   })
 }
 
 const init = () => {
   placeIcons()
+  animateIcons()
 }
 
 export default init

@@ -35,10 +35,9 @@
   text-transform: uppercase;
   font-size: 1.5em;
   background: #a21521;
-  background-image: -webkit-linear-gradient(#a21521 0%, #251d4e 100%);
-  background-image: -o-linear-gradient(#a21521 0%, #251d4e 100%);
-  background-image: linear-gradient(#a21521 0%, #251d4e 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a21521', endColorstr='#251d4e',GradientType=0 );
+  background: -webkit-linear-gradient(#a21521 0%, #251d4e 100%);
+  background: -o-linear-gradient(#a21521 0%, #251d4e 100%);
+  background: linear-gradient(#a21521 0%, #251d4e 100%);
   background-size: cover;
   -webkit-background-clip: text;
   background-clip: text;
@@ -99,4 +98,8 @@
 }
 .hero-icon-light .hero-icon-path  {
   stroke: #E95F50
+}
+
+.isIE .hero-icons {
+  display: none;
 }
