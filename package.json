@@ -1,19 +1,18 @@
 {
   "private": true,
-  "scripts": {
-    "deploy": "docpad deploy-ghpages --env static",
-    "generate": "docpad generate --env static",
-    "watch": "docpad run"
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-core": "6",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "sass-mediaqueries": "^1.6.1",
+    "webpack": "^3.6.0"
   },
   "dependencies": {
-    "docpad": "^6.79.4",
-    "docpad-plugin-babel": "^2.2.1",
-    "docpad-plugin-browserifydocs": "^2.2.0",
-    "docpad-plugin-eco": "^2.1.0",
-    "docpad-plugin-ghpages": "^2.4.4",
-    "docpad-plugin-less": "^2.5.1",
-    "docpad-plugin-marked": "^2.3.0",
-    "docpad-plugin-partials": "^2.9.2",
-    "jquery": "^3.2.1"
+    "scrollreveal": "^3.3.6",
+    "vivus": "^0.4.2"
   }
 }

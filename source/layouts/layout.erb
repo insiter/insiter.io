@@ -1,0 +1,36 @@
+<!doctype html>
+<html itemscope itemtype="http://schema.org/Event">
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="<%= data.site.title %>">
+    <meta name="description" content="<%= data.site.description %>">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title itemprop="name"><%= data.site.title %></title>
+
+    <!-- FACEBOOK -->
+    <meta property="fb:app_id" content="<%= data.site.facebook_id %>">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="<%= data.site.url %>">
+    <meta property="og:title" content="<%= data.site.title %>">
+    <meta property="og:description" content="<%= data.site.description %>">
+    <meta property="og:image" content="<%= image_path('social/badge.png') %>">
+    <!-- / FACEBOOK -->
+
+    <%= stylesheet_link_tag '//fonts.googleapis.com/css?family=Open+Sans:400,700|Maven+Pro:400,700,900' %>
+    <%= stylesheet_link_tag 'site' %>
+  </head>
+
+  <body>
+    <!-- TODO abner, azzi, iagodahlem: uncomment when we put sections -->
+    <!-- <%= partial 'partials/menu' %> -->
+    <!-- <%= partial 'partials/header' %> -->
+
+    <%= yield %>
+
+    <%= partial 'partials/footer' %>
+    <%= javascript_include_tag 'site' %>
+    <%= partial 'partials/analytics' %>
+  </body>
+</html>
