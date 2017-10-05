@@ -1,21 +1,29 @@
 // Color Variables
-$red-medium: rgba(163, 22, 33, 1);
-$red-dark: rgba(130, 5, 36, 1);
-$purple: rgba(36, 30, 78, 1);
-$black: rgba(5, 5, 5, 1);
-$white: rgba(254, 254, 255, 1);
+$red-medium: #a21521;
+$red-dark: #7f0524;
+$purple: #251d4e;
+$black: #050505;
+$white: #ffffff;
+$gray: #d0cb8;
+$primary: $red-medium;
 
 // Body Variables
 $body-color: $black;
 $body-bg: $white;
 
 // Font Variables
-$family-sans-serif: "Open Sans", "sans-serif";
+$family-sans-serif: 'Open Sans', sans-serif;
 $family-primary: $family-sans-serif;
-$font-family-alt: "Maven Pro", "sans-serif";
+$font-family-alt: 'Maven Pro', sans-serif;
 $font-size-base: 16px;
 $font-weight-base: 400;
 $line-height-base: 1.5;
 
 // Grid Variables
 $gap: 0;
+
+// Screen (Breakpoints)
+$screen-md: 1024px;
+
+// Components
+$hover-opacity: .8;

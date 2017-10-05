@@ -1,24 +1,9 @@
-<header class="container" role="header">
-  <nav class="navbar" role="navigation" aria-label="main navigation">
-    <section class="navbar-menu columns">
-      <div class="column">
-        <a class="navbar-item" href="javascript:;" title="Sobre">Sobre</a>
-      </div>
-      <div class="column">
-        <a class="navbar-item" href="javascript:;" title="Local">Local</a>
-      </div>
-      <div class="column">
-        <a class="navbar-item" href="javascript:;" title="Palestrantes">Palestrantes</a>
-      </div>
-      <div class="column">
-        <a class="navbar-item" href="javascript:;" title="Programação">Programação</a>
-      </div>
-      <div class="column">
-        <a class="navbar-item" href="javascript:;" title="Patrocinadores">Patrocinadores</a>
-      </div>
-      <div class="column">
-        <a class="navbar-item" href="javascript:;" title="Parceiros">Parceiros</a>
-      </div>
-    </section>
-  </nav>
+<header class="header" role="header">
+  <%= partial 'partials/nav' %>
+
+  <div class="header-toggle js-toggle">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
 </header>

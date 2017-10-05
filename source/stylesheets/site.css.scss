@@ -1,13 +1,11 @@
-@import "../../node_modules/bulma/sass/utilities/all";
-@import "../../node_modules/bulma/sass/grid/all";
-@import "../../node_modules/bulma/sass/layout/all";
-
-@import "../../node_modules/bulma/sass/elements/container";
-@import "../../node_modules/bulma/sass/elements/button";
-@import "../../node_modules/bulma/sass/components/navbar";
+@import "../../node_modules/sass-mediaqueries/media-queries";
 
 @import "variables";
 @import "general";
 
-@import "elements/button";
+@import "components/button";
+@import "components/container";
+@import "components/header";
+@import "components/hero";
+@import "components/menu";
 @import "components/nav";

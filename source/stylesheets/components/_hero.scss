@@ -1,0 +1,115 @@
+// ====================================================================
+// Hero
+// ====================================================================
+
+.hero {
+  height: 100vh;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding: 15px;
+  background-image: url('/images/background.jpg');
+}
+
+.hero-logo {
+  height: 50vh;
+  max-width: 90%;
+  margin-bottom: 2.5em;
+}
+
+.hero-description {
+  margin-top: 0;
+  margin-bottom: 0.4em;
+  color: $red-medium;
+  font-family: $font-family-alt;
+  font-weight: 900;
+  line-height: 1;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  background: #a21521;
+  background: -webkit-linear-gradient(#a21521 0%, #251d4e 100%);
+  background: -o-linear-gradient(#a21521 0%, #251d4e 100%);
+  background: linear-gradient(#a21521 0%, #251d4e 100%);
+  background-size: cover;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+
+  @media screen and (min-width: 768px) {
+    font-size: 2.2em;
+  }
+}
+
+.hero-button {
+  display: block;
+  margin-top: 4.1em;
+}
+
+.isIE .hero-description {
+  background: none;
+  color: #a21521;
+}
+
+.hero-reveal,
+.hero-description,
+.hero-logo {
+  position: relative;
+  z-index: 2;
+}
+
+.hero-logo-container {
+  position: relative;
+}
+
+.hero-icons {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  transform: translateZ(0);
+  z-index: 1;
+}
+
+.hero-icon {
+  width: 5vh;
+  height: 5vh;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.hero-icon,
+.hero-icon-path {
+  fill: none
+}
+.hero-icon-path {
+  stroke-width: 4px;
+}
+
+.hero-icon-light .hero-icon-path {
+  stroke-width: 55px;
+}
+
+.hero-icon-star .hero-icon-path {
+  stroke: #6B3BAF
+}
+.hero-icon-cogwheel .hero-icon-path  {
+  stroke: #473AAD
+}
+.hero-icon-light .hero-icon-path  {
+  stroke: #E95F50
+}
+
+.isIE .hero-icons {
+  display: none;
+}
