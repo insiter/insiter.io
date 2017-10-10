@@ -15,6 +15,12 @@ page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false
 
+helpers do
+  def image_url(path)
+    data.site.url + image_path(path)
+  end
+end
+
 configure :build do
   # "Ignore" JS so webpack has full control.
   ignore { |path| path =~ /\/(.*)\.js$/ && $1 != 'site' }
