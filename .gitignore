@@ -5,3 +5,5 @@
 .tmp
 node_modules/
 build/
+yarn.lock
+docker-compose.override.yml
