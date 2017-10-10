@@ -39,7 +39,7 @@ Pré-requisitos:
 3. Instale todas as dependências:
 
     ```sh
-    $ docker-compose run --rm web yarn install
+    $ docker-compose run --rm web npm install
     ```
 
 5. E finalmente rode:
