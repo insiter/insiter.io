@@ -22,3 +22,7 @@ configure :build do
   activate :minify_html
   activate :minify_css
 end
+
+activate :deploy do |deploy|
+  deploy.deploy_method = :git
+end
