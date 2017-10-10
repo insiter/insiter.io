@@ -157,18 +157,13 @@ const animateIcons = () => {
     let interval = Math.floor(Math.random() * (INTERVAL_MAX - INTERVAL_MIN) +  INTERVAL_MIN)
 
     let vivus = new Vivus(el, {
-      duration: 150,
+      duration: 180,
       type: 'oneByOne',
       start: 'manual'
     })
 
     setInterval(() => {
-      vivus.play(() => {
-        setTimeout(() => {
-          vivus.reset()
-        },
-          interval/2)
-      })
+      vivus.play()
     }, interval)
 
   })
