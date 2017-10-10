@@ -80,3 +80,12 @@ Pré-requisitos:
     $ middleman serve
     ```
    Agora você irá ver o site rodando em `localhost:4567` :D
+
+## Deploy
+
+Deploy to Github Pages, default branch is `gh-pages`.
+
+```bash
+$ middleman build [--clean]
+$ middleman deploy [--build-before]
+```
