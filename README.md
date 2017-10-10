@@ -4,7 +4,7 @@
 Seções a serem feitas:
 
 - [ ] Header
-- [ ] Hero
+- [x] Hero
 - [ ] Sobre
 - [ ] Palestrantes
 - [ ] Programação
