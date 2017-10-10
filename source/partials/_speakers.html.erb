@@ -1,0 +1,12 @@
+<section class="speakers">
+  <ul class="speaker-list">
+    <% data.speakers.people.each do |s| %>
+      <li class="speaker-item">
+        <figure>
+          <img src="<%= s.picture %>" />
+        </figure>
+        <%= s.name %>
+      </li>
+    <% end %>
+  </ol>
+</section>
