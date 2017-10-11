@@ -1,0 +1,8 @@
+.bundle
+.cache
+.DS_Store
+.git
+.sass-cache
+docker-compose.override.yml
+docker-compose.yml
+node_modules/

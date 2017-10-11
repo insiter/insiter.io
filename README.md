@@ -32,23 +32,15 @@ Pré-requisitos:
     $ cd insiter.io
     ```
 
-3. Crie a imagem usando docker-compose:
+3. Rode:
 
     ```sh
-    $ docker-compose build
+    $ docker-compose up
     ```
 
-3. Instale todas as dependências:
-
-    ```sh
-    $ docker-compose run --rm web npm install
-    ```
-
-5. E finalmente rode:
-
-    ```sh
-    $ docker-compose up web
-    ```
+    Obs: O Docker compose vai fazer build automaticamente na primeira vez.
+    Se for realizada alguma mudança nas dependências posteriormente basta
+    rodar `docker-compose build` para atualiza a imagem.
 
 Agora você irá ver o site rodando em [http://localhost:4567/](http://localhost:4567/).
 

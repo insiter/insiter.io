@@ -1,13 +1,18 @@
-FROM ruby
+FROM ruby:2.4.2-alpine3.6
 
 ENV LANG C.UTF-8
 ENV LC_ALL C.UTF-8
 
-ENV NODE_VERSION=8.6.0
+WORKDIR /app
+COPY Gemfile Gemfile.lock package.json yarn.lock /app/
 
-RUN curl -sSL "https://nodejs.org/dist/v$NODE_VERSION/node-v$NODE_VERSION-linux-x64.tar.xz" | tar xfJ - -C /usr/local --strip-components=1
-RUN gem update --system
+RUN apk add --no-cache g++ make nodejs yarn \
+    && gem update --system \
+    && bundle install \
+    && yarn install \
+    && apk del g++ make
 
-WORKDIR /tmp
-COPY Gemfile* /tmp/
-RUN bundle install
+COPY . /app/
+EXPOSE 4567
+
+CMD ["bundle", "exec", "middleman", "serve"]
