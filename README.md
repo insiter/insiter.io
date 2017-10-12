@@ -58,12 +58,14 @@ Pré-requisitos:
   * [Git](http://git-scm.com/downloads/)
   * [Ruby](https://www.ruby-lang.org/en/downloads/)
   * [NodeJS](http://nodejs.org/download/)
+  * [Yarn](https://yarnpkg.com/en/docs/install)
 
 1. Clone o repositório:
 
     ```sh
     $ git clone git://github.com/insiter/insiter.io.git
     ```
+
 2. Vá para pasta do projeto:
 
     ```sh
@@ -73,7 +75,7 @@ Pré-requisitos:
 3. Instale todas as dependências:
 
     ```sh
-    $ bundle install && npm install
+    $ bundle install && yarn install
     ```
 
 4. E finalmente rode:
