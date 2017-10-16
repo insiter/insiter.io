@@ -4,6 +4,7 @@ rvm:
 
 cache:
   bundler: true
+  yarn: true
   directories:
     - node_modules
 
@@ -12,7 +13,7 @@ before_install:
 
 install:
   - bundle install --path vendor/bundle
-  - npm install
+  - yarn install
 
 script:
   - bundle exec middleman build
