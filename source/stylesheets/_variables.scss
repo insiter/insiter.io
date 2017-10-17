@@ -1,10 +1,12 @@
 // Color Variables
 $red-medium: #a21521;
 $red-dark: #7f0524;
-$purple: #251d4e;
+$blue: #7ec6ff;
 $black: #050505;
 $white: #ffffff;
-$gray: #d0cb8;
+$green: #54ff85;
+$gray: #808080;
+
 $primary: $red-medium;
 
 // Body Variables
@@ -12,9 +14,8 @@ $body-color: $black;
 $body-bg: $white;
 
 // Font Variables
-$family-sans-serif: 'Open Sans', sans-serif;
-$family-primary: $family-sans-serif;
-$font-family-alt: 'Maven Pro', sans-serif;
+$family-primary: 'Open Sans', sans-serif;
+$family-secondary: 'Maven Pro', sans-serif;
 $font-size-base: 16px;
 $font-weight-base: 400;
 $line-height-base: 1.5;
