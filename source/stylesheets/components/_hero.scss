@@ -1,7 +1,6 @@
 // ====================================================================
 // Hero
 // ====================================================================
-
 .hero {
   height: 100vh;
   text-align: center;
@@ -44,7 +43,7 @@
   -webkit-text-fill-color: transparent;
   text-fill-color: transparent;
 
-  @media screen and ($screen-sm) {
+  @media screen and (min-width: $screen-sm) {
     font-size: 2.2em;
   }
 }
@@ -92,6 +91,7 @@
 .hero-icon-path {
   fill: none
 }
+
 .hero-icon-path {
   stroke-width: 4px;
 }
@@ -103,10 +103,12 @@
 .hero-icon-star .hero-icon-path {
   stroke: #6B3BAF
 }
-.hero-icon-cogwheel .hero-icon-path  {
+
+.hero-icon-cogwheel .hero-icon-path {
   stroke: #473AAD
 }
-.hero-icon-light .hero-icon-path  {
+
+.hero-icon-light .hero-icon-path {
   stroke: #E95F50
 }
 

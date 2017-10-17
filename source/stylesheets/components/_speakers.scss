@@ -1,3 +1,7 @@
+.speakers {
+  border-top: 2px solid #e2e2e2;
+}
+
 .speaker-list {
   margin: 2em auto 0;
   padding: 0;
@@ -7,7 +11,7 @@
 }
 
 .speaker-item {
-  flex: 1 0 18em;
+  flex: 1 0 20em;
   margin-bottom: 4em;
   text-align: center;
 
@@ -25,7 +29,7 @@
 
 .speaker-avatar {
   margin: 0 auto;
-  width: 10em;
+  width: 16em;
   position: relative;
 
   &:before {
@@ -49,15 +53,40 @@
 }
 
 .speaker-name {
-  margin: 2em 1em 0;
-  font-weight: 400;
+  font-family: $family-secondary;
+  margin: 1em 1em 0;
+  font-size: 1.4em;
+  font-weight: 700;
+
+  @media screen and (min-width: $screen-md) {
+    font-size: 2em;
+  }
 }
 
 .speaker-github {
   text-decoration: none;
-  color: $gray;
+  color: $red-medium;
+  position: relative;
+  display: inline-block;
 
+  &:after {
+    transition: width 250ms ease-in-out;
+    content: "";
+    width: 0;
+    height: 2px;
+    margin: 4px auto;
+    position: absolute;
+    bottom: -6px;
+    left: 0;
+    right: 0;
+    display: inline-block;
+    will-change: width;
+    background-color: $red-dark;
+  }
   &:hover {
-    text-decoration: underline;
+    color: $red-dark;
+    &:after {
+      width: 101%;
+    }
   }
 }
