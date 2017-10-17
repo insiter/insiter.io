@@ -17,6 +17,7 @@ install:
 
 script:
   - bundle exec middleman build
+  - yarn check
 
 deploy:
   provider: pages
