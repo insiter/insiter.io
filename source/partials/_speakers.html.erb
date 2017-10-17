@@ -1,19 +1,21 @@
-<section class="speakers container">
-  <h2 class="heading">Palestrantes</h2>
+<section class="speakers">
+  <div class="container">
+    <h2 class="heading">Palestrantes</h2>
 
-  <ul class="speaker-list">
-    <% data.speakers.people.each do |speaker| %>
-      <li class="speaker-item">
-        <figure class="speaker-avatar">
-          <img src="<%= speaker.picture %>" />
-        </figure>
-        <h3 class="speaker-name">
-          <%= speaker.name %>
-        </h3>
-        <a class="speaker-github" href="//github.com/<%= speaker.github %>">
-          @<%= speaker.github %>
-        </a>
-      </li>
-    <% end %>
-  </ul>
+    <ul class="speaker-list">
+      <% data.speakers.people.each do |speaker| %>
+        <li class="speaker-item">
+          <figure class="speaker-avatar">
+            <img src="<%= speaker.picture %>" />
+          </figure>
+          <h3 class="speaker-name">
+            <%= speaker.name %>
+          </h3>
+          <a class="speaker-github" href="//github.com/<%= speaker.github %>">
+            @<%= speaker.github %>
+          </a>
+        </li>
+      <% end %>
+    </ul>
+  </div>
 </section>
