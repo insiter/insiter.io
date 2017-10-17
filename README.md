@@ -1,5 +1,7 @@
 # INSITER.IO
 
+[![Build Status](https://travis-ci.org/insiter/insiter.io.svg?branch=master)](https://travis-ci.org/insiter/insiter.io)
+
 ## Seções
 Seções a serem feitas:
 

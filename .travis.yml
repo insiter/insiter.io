@@ -1,0 +1,28 @@
+language: ruby
+rvm:
+  - 2.4
+
+cache:
+  bundler: true
+  yarn: true
+  directories:
+    - node_modules
+
+before_install:
+  - nvm install node
+
+install:
+  - bundle install --path vendor/bundle
+  - yarn install
+
+script:
+  - bundle exec middleman build
+  - yarn check
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  local_dir: build
+  on:
+    branch: master
