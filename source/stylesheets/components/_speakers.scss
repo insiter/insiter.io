@@ -1,0 +1,63 @@
+.speaker-list {
+  margin: 2em auto 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.speaker-item {
+  flex: 1 0 18em;
+  margin-bottom: 4em;
+  text-align: center;
+
+  &:nth-child(odd) {
+    .speaker-avatar:before {
+      border-color: $blue;
+      border-radius: 50%;
+    }
+
+    img {
+      border-radius: 50%;
+    }
+  }
+}
+
+.speaker-avatar {
+  margin: 0 auto;
+  width: 10em;
+  position: relative;
+
+  &:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border: 0.25em solid $green;
+    border-radius: 0.25em;
+    z-index: -1;
+  }
+
+  img {
+    display: block;
+    width: 100%;
+    border-radius: 0.25em;
+    transform: translate(1em, 1em);
+  }
+}
+
+.speaker-name {
+  margin: 2em 1em 0;
+  font-weight: 400;
+}
+
+.speaker-github {
+  text-decoration: none;
+  color: $gray;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}

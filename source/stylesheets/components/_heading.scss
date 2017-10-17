@@ -1,0 +1,18 @@
+.heading {
+  margin: 2em auto 4em;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.187em;
+  font-family: $family-secondary;
+  line-height: 2;
+  font-size: 1.87em;
+
+  &:after {
+    content: '';
+    display: block;
+    margin: auto;
+    width: 6.25em;
+    height: 0.125em;
+    background-color: $primary;
+  }
+}
