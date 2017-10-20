@@ -8,7 +8,7 @@ Seções a serem feitas:
 - [ ] Header
 - [x] Hero
 - [ ] Sobre
-- [ ] Palestrantes
+- [x] Palestrantes
 - [ ] Programação
 - [ ] Local
 - [ ] Patrocinadores & Parceiros
