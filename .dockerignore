@@ -1,10 +1,8 @@
 .bundle
 .cache
 .DS_Store
+.git
 .sass-cache
-.tmp
-node_modules/
-build/
-package-lock.json
 docker-compose.override.yml
-yarn-error.log
+docker-compose.yml
+node_modules/
