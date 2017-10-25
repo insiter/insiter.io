@@ -15,7 +15,8 @@
   padding: 0;
 
   @media screen and(min-width: $screen-sm) {
-    width: 80%;
+    max-width: 800px;
+    width: 100%;
   }
 
   .schedule-list-item {
