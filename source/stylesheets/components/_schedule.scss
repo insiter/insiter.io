@@ -1,24 +1,29 @@
 .schedule {
   background-color: $schedule-bg-color;
   padding-bottom: $section-bottom-padding;
+
   .heading {
     color: $schedule-heading-color;
   }
 }
+
 .schedule-list {
   width: 100%;
   margin: 0 auto;
   list-style: none;
   position: relative;
   padding: 0;
+
   @media screen and(min-width: $screen-sm) {
-    width: 80%;
+    max-width: 800px;
+    width: 100%;
   }
 
   .schedule-list-item {
     margin: 0 auto;
     position: relative;
     padding: 30px 0 30px 60px;
+
     @media screen and (min-width: $screen-sm) {
       padding-left: 100px;
       margin: 0 auto;
@@ -31,26 +36,29 @@
       background-color: transparentize($schedule-main-color, 0.4);
       position: absolute;
       left: 30px;
-      transform: translate3d(-50%,0,0);
+      transform: translate3d(-50%, 0, 0);
       top: 0;
       display: block;
       z-index: 1;
+
       @media screen and (min-width: $screen-sm) {
         left: 50px;
       }
     }
+
     &:before {
       content: "";
       display: inline-block;
       position: absolute;
       left: 30px;
       top: 40px;
-      transform: translate3d(-50%,0,0);
+      transform: translate3d(-50%, 0, 0);
       width: 15px;
       height: 15px;
       border-radius: 50%;
       background-color: #FFF;
       z-index: 2;
+
       @media screen and (min-width: $screen-sm) {
         top: 45px;
         left: 50px;
@@ -62,12 +70,10 @@
     &.is-live {
       &:before {
         background-color: $red-medium;
-        box-shadow: 0px 0px 4px 1px rgba(255,255,255,1);
+        box-shadow: 0px 0px 4px 1px rgba(255, 255, 255, 1);
       }
     }
   }
-
-  .schedule-list-article {}
 
   .schedule-list-header {
     font-family: $family-secondary;
@@ -81,6 +87,7 @@
     display: block;
     margin-top: 0.3em;
     margin-bottom: 0.4em;
+
     @media screen and (min-width: $screen-sm) {
       font-size: 24px;
     }
@@ -92,6 +99,7 @@
     display: inline-block;
     transform: translatey(0.1em)
   }
+
   .schedule-list-title {
     margin-top: 0;
     margin-bottom: 0;
@@ -111,6 +119,7 @@
   .schedule-list-description {
     color: $schedule-main-color;
     font-size: 1.1em;
+
     @media screen and (min-width: $screen-sm) {
       font-size: 1.3em;
     }

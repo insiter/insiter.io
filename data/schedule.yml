@@ -1,16 +1,16 @@
-talk:
+talks:
   - time: 08:00 - 09:00
     title: Credenciamento
-    description: Documento de identificação com foto, QR Code ou outra forma de comprovante da compra do site.
+    description: Documento de identificação com foto, QR Code ou outra forma de comprovante da compra do ingresso no site.
 
   - time: 09:00 - 09:15
     title: Abertura
     description: Abertura oficial do evento.
 
   - time: 09:15 - 10:00
-    title: Importação e distribuição de tweets para produtos Globo.comCredenciamento
+    title: Importação e distribuição de tweets para produtos Globo.com
     people: Ícaro Heimig
-    description: Dentro da Globo.com o Twitter é utilizado como forma de publicar conteúdo dinâmico de coberturas em tempo real. Existiam diversas soluções internas para importar e distribuir os tweets para os produtos, cada uma com suas peculiaridades. Na palestra, mostro como desenvolvemos um serviço que distribui os tweets de forma agnóstica ao cliente, unificando as soluções
+    description: Dentro da Globo.com o Twitter é utilizado como forma de publicar conteúdo dinâmico de coberturas em tempo real. Existiam diversas soluções internas para importar e distribuir os tweets para os produtos, cada uma com suas peculiaridades. Na palestra, mostro como desenvolvemos um serviço que distribui os tweets de forma agnóstica ao cliente, unificando as soluções.
 
   - time: 10:00 - 10:30
     title: Coffee Break
