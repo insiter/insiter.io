@@ -2,31 +2,55 @@ people:
   - name: Carolina Campos
     github: carolpc
     picture: https://avatars3.githubusercontent.com/u/7128885?v=4&s=460
+    company:
+      name: Codeminer42
+      link: //codeminer42.com/
 
   - name: Jean Carlo Emer
     github: jcemer
-    picture: https://avatars1.githubusercontent.com/u/353504
+    picture: //avatars1.githubusercontent.com/u/353504
+    company:
+      name: Work & Co
+      link: //work.co/
 
   - name: Marina Limeira
     github: marinalimeira
-    picture: https://scontent.fgyn3-2.fna.fbcdn.net/v/t1.0-9/12376420_10205561752739537_4502124061929510295_n.jpg?oh=299f127d58c1d876adb5e41dca829ab1&oe=5A84B9A9
+    picture: //scontent.fgyn3-2.fna.fbcdn.net/v/t1.0-9/12376420_10205561752739537_4502124061929510295_n.jpg?oh=299f127d58c1d876adb5e41dca829ab1&oe=5A84B9A9
+    company:
+      name: Bionexo
+      link: //beta.bionexo.com/br/
 
   - name: Tiárli Oliveira
     github: tiarly
-    picture: https://avatars3.githubusercontent.com/u/2394744
+    picture: //avatars3.githubusercontent.com/u/2394744
+    company:
+      name: Codeminer42
+      link: //codeminer42.com/
 
   - name: Morvana Bonin
     github: morvanabonin
-    picture: https://media.licdn.com/media/p/5/005/013/045/173efb2.jpg
+    picture: //media.licdn.com/media/p/5/005/013/045/173efb2.jpg
+    company:
+      name: King Host
+      link: //kinghost.com.br/
 
   - name: Ícaro Heimig
     github: icaromh
-    picture: https://avatars1.githubusercontent.com/u/3057676
+    picture: //avatars1.githubusercontent.com/u/3057676
+    company:
+      name: Globo.com
+      link: //globo.com/
 
   - name: Matias Leidemer
     github: matiasleidemer
-    picture: https://avatars3.githubusercontent.com/u/10559?v=4&s=460
+    picture: //avatars3.githubusercontent.com/u/10559?v=4&s=460
+    company:
+      name: Sticker Mule
+      link: //stickermule.com/
 
   - name: Cynthia Zanoni
     github: cyz
-    picture: http://msummit.com.br/img/speaker/cynthia.jpg
+    picture: //msummit.com.br/img/speaker/cynthia.jpg
+    company:
+      name: Microsoft
+      link: //microsoft.com
