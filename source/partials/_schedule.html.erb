@@ -1,0 +1,28 @@
+<section class="schedule">
+  <div class="container">
+    <h2 class="heading">Agenda</h2>
+
+    <ul class="schedule-list">
+      <% data.schedule.talk.each do |talk| %>
+        <li class="schedule-list-item">
+          <article class="schedule-list-article">
+            <header class="schedule-list-header">
+              <time class="schedule-list-time">
+                <svg xmlns="http://www.w3.org/2000/svg" class="schedule-list-time-icon" viewBox="0 0 612 612"><g fill="#FFF"><path d="M587.6 187c-32.3-75.3-87-130-163-162.4C386.6 8.4 347 .2 305.6.2c-41.6 0-81 8-119 24.4-75 32.3-130.2 87-162.5 162.3C8 224.5 0 264 0 305.6s8 81.3 24 119c32.4 75.4 87.5 130.4 162.7 162.7 38 16.3 77.3 24.4 118.8 24.4s81.2-8.2 119-24.4c76-32.3 130.8-87.4 163-162.6 16.3-38 24.5-77.6 24.5-119 0-41.6-8.2-81-24.4-119zm-49 254c-24 41-56.8 73.7-98.3 98-41 24-86.3 36-134.8 36-36.5 0-71.3-7-104.4-21.4-33-14.4-61.6-33.3-85.6-57.2-24-24-43-52.8-57.2-86-14.2-33-21-68.3-21-104.7C37 257 49 212.2 73 171.2c24-41.3 56.8-74 98-98C212 49 257 37 305.5 37S399 49 440.3 73c41.5 24.3 74.3 57 98.4 98.2 24 41 36.2 86 36.2 134.5s-12 93.7-36.3 135.2z"/><path d="M325 303V129.7c0-10.4-9-18.8-19.5-18.8-9.7 0-18.4 8.3-18.4 18.7v176c0 .3.8 1.6.8 2.6-.7 6 1 11 5 15l100 100c6.7 6.8 19 6.8 25.8 0 7.7-7.5 7.2-18.7 0-26L325 303z"/></g></svg>
+                <%= talk.time %>
+
+              </time>
+              <h1 class="schedule-list-title"><%= talk.title %></h1>
+              <% if talk.people? %>
+              <h2 class="schedule-list-subtitle"><i>Por: <%= talk.people %></i></h2>
+              <% end %>
+            </header>
+            <section class="schedule-list-description">
+              <p><%= talk.description %></p>
+            </section>
+          </article>
+        </li>
+      <% end %>
+    </ul>
+  </div>
+</section>
