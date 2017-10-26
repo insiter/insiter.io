@@ -14,8 +14,10 @@ $body-color: $black;
 $body-bg: $white;
 
 // Font Variables
-$family-primary: 'Open Sans', sans-serif;
-$family-secondary: 'Maven Pro', sans-serif;
+$family-primary: 'Open Sans',
+sans-serif;
+$family-secondary: 'Maven Pro',
+sans-serif;
 $font-size-base: 16px;
 $font-weight-base: 400;
 $line-height-base: 1.5;
@@ -32,6 +34,7 @@ $screen-sm: 768px;
 // Components
 $hover-opacity: .8;
 $section-bottom-padding: 60px; // Default bottom padding
+$transition-settings: 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955);
 
 // Schedule Colors
 $schedule-main-color: #FFF;

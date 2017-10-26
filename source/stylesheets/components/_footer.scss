@@ -1,0 +1,51 @@
+.footer {
+  border-top: 2px solid $gray;
+  background: $black;
+  padding: 10px;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-social,
+.footer-conduct {
+  margin: 0 10px;
+}
+
+.footer-social {
+  padding: 4px;
+  border: 1px solid transparent;
+  will-change: border-color;
+  transition: border-color $transition-settings;
+
+  &:hover,
+  &:focus {
+    border-color: #FFF;
+  }
+  .footer-social-fb {
+    width: 26px;
+    height: 26px;
+    fill: $white;
+    display: block;
+  }
+}
+
+.footer-conduct {
+  color: #FFF;
+  display: inline-block;
+  font-size: 1em;
+  line-height: 1.3em;
+  padding: 4px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: $family-secondary;
+  border: 1px solid transparent;
+  will-change: border-color;
+  transition: border-color $transition-settings;
+
+  &:hover,
+  &:focus {
+    border-color: #FFF;
+  }
+}

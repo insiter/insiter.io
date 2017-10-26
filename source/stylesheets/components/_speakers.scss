@@ -82,8 +82,9 @@
   display: inline-block;
 
   &:after {
-    transition: width 250ms ease-in-out;
     content: "";
+    will-change: width;
+    transition: width $transition-settings;
     width: 0;
     height: 2px;
     margin: 4px auto;
@@ -92,9 +93,9 @@
     left: 0;
     right: 0;
     display: inline-block;
-    will-change: width;
     background-color: $red-dark;
   }
+
   &:hover {
     color: $red-dark;
     &:after {
