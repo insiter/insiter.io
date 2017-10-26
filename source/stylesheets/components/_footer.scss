@@ -16,18 +16,19 @@
 .footer-social {
   padding: 4px;
   border: 1px solid transparent;
-  will-change: border-color;
-  transition: border-color $transition-settings;
 
-  &:hover,
-  &:focus {
-    border-color: #FFF;
-  }
-  .footer-social-fb {
+  .footer-social-icon {
     width: 26px;
     height: 26px;
     fill: $white;
     display: block;
+    will-change: fill;
+    transition: fill $transition-settings;
+
+    &:hover,
+    &:focus {
+      fill: $red-codeminer;
+    }
   }
 }
 
@@ -41,11 +42,11 @@
   text-transform: uppercase;
   font-family: $family-secondary;
   border: 1px solid transparent;
-  will-change: border-color;
-  transition: border-color $transition-settings;
+  will-change: color;
+  transition: color $transition-settings;
 
   &:hover,
   &:focus {
-    border-color: #FFF;
+    color: $red-codeminer;
   }
 }

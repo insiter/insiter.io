@@ -1,30 +1,25 @@
 <nav class="navbar" role="navigation" aria-label="main navigation">
   <ul class="navbar-list">
-    <li class="navbar-item">
+    <%# <li class="navbar-item">
       <a href="#" title="Sobre">Sobre</a>
+    </li> %>
+    <li class="navbar-item">
+      <a href="#speakers" title="Palestrantes">Palestrantes</a>
     </li>
     <li class="navbar-item">
-      <a href="#" title="Palestrantes">Palestrantes</a>
+      <a href="#schedule" title="Agenda">Agenda</a>
     </li>
-    <li class="navbar-item">
-      <a href="#" title="Programação">Programação</a>
-    </li>
-    <li class="navbar-item">
+    <%# <li class="navbar-item">
       <a href="#" title="Local">Local</a>
-    </li>
-    <li class="navbar-item">
+    </li> %>
+    <%# <li class="navbar-item">
       <a href="#" title="Patrocinadores">Patrocinadores</a>
+    </li> %>
+    <li class="navbar-item">
+      <a href="#presented" title="Realização">Realização</a>
     </li>
     <li class="navbar-item">
-      <a href="#" title="Parceiros">Parceiros</a>
-    </li>
-    <li class="navbar-item">
-      <a href="#" title="Tickets">Tickets</a>
-    </li>
-    <li class="navbar-item">
-      <button class="button">
-        Pré-Inscrições
-      </button>
+      <%= link_to 'Garanta Seu Ingresso', data.site.tickets, class: 'button' , title: 'Garanta seu ingresso'  %>
     </li>
   </ul>
 </nav>

@@ -1,21 +1,22 @@
 // ====================================================================
 // Nav
 // ====================================================================
-
 .navbar {
+  background: #FFF;
   display: none;
   width: 100%;
 
   @include min-screen($screen-md) {
+    padding: 10px;
     display: flex;
     justify-content: center;
+    box-shadow: 0px 4px 8px -1px rgba(0, 0, 0, 0.2);
   }
 }
 
 //
 // NavList
 // ====================================================================
-
 .navbar-list {
   display: flex;
   flex-direction: column;
@@ -31,12 +32,11 @@
 //
 // Item
 // ====================================================================
-
 .navbar-item {
   display: inline-flex;
   justify-content: center;
 
-  & > a {
+  &>a {
     position: relative;
     width: 100%;
     padding: 12px 16px;
@@ -57,7 +57,8 @@
     }
   }
 
-  & > button {
+  &>a.button {
     margin-left: 12px;
+    color: #FFF;
   }
 }
