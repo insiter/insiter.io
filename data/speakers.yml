@@ -51,6 +51,7 @@ people:
   - name: Cynthia Zanoni
     github: cyz
     picture: //msummit.com.br/img/speaker/cynthia.jpg
+    color: purple
     company:
       name: Microsoft
       link: //microsoft.com

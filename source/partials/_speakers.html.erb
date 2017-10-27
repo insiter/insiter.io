@@ -5,7 +5,7 @@
     <ul class="speaker-list">
       <% data.speakers.people.each do |speaker| %>
         <li class="speaker-item">
-          <figure class="speaker-avatar">
+          <figure class="speaker-avatar speaker-avatar-<%= speaker.color if speaker.color? %>">
             <img src="<%= speaker.picture %>" />
           </figure>
           <h3 class="speaker-name">

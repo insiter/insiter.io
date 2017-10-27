@@ -44,6 +44,12 @@
     z-index: -1;
   }
 
+  &.speaker-avatar-purple {
+    &:before {
+      border-color: #9c16a8;
+    }
+  }
+
   img {
     display: block;
     width: 100%;
