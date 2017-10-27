@@ -29,7 +29,7 @@ talks:
   - time: 14:00 - 14:45
     title: Tem um tipo no meu Javascript
     people: Matias Leidemer
-    description: Com o advento das SPA (single page apps), o uso do Javascript não se limita apenas a validação de forms e chamadas ajax. Codificar regras de negócio complexas já faz parte do dia a dia de grande parte dos desenvolvedores JS. Mas, a medida que as linhas de código aumentam, como garantir que tudo está funcionando perfeitamete? Nesta talk falarei sobre o Flow e como ele pode ajudar na diminuição de erros de runtime e na definição de tipos específicos de negócio.
+    description: Com o advento das SPA (single page apps), o uso do Javascript não se limita apenas a validação de forms e chamadas ajax. Codificar regras de negócio complexas já faz parte do dia a dia de grande parte dos desenvolvedores JS. Mas, a medida que as linhas de código aumentam, como garantir que tudo está funcionando perfeitamente? Nesta talk falarei sobre o Flow e como ele pode ajudar na diminuição de erros de runtime e na definição de tipos específicos de negócio.
 
   - time: 14:45 - 15:30
     title: Blockchains & Smart contracts 101
