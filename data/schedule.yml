@@ -21,7 +21,9 @@ talks:
     description: A proposta desta palestra é discutir as vantagens e desvantagens que o meu time se deparou ao adotar a arquitetura de Serverless para desenvolvimento da nossa API. Sobre o serverless, discutiremos o que é, onde é usado, restrições, performance e outros fatores que envolvem a adoção deste. O objetivo é demonstrar um panorama dos benefícios e obstáculos que encontramos ao escolher uma arquitetura ainda imatura para 2017.
 
   - time: 11:15 - 12:00
-    title: A definir
+    title: React do básico ao servidor
+    people: Jean Carlo Emer
+    description: Uma coleção de conceitos e práticas para escrita de código de Front-end utilizando React. Tudo o que você precisa saber para colocar React num projeto hoje mesmo sem riscos!
 
   - time: 12:00 - 14:00
     title: Almoço
@@ -36,7 +38,9 @@ talks:
     people: Tiárli Oliveira
 
   - time: 15:30 - 16:15
-    title: A definir
+    title: "Qualidade de Software: como assim?"
+    people: Marina Limeira
+    description: A definição de qualidade muda de acordo com o programador. Isso também depende das pessoas que estão trabalhando no projeto, UX, QA, PM/PO, desenvolvedores e até o Agile Coach. Como uma pessoa que desenvolve, você deve ter certeza de que seu software funciona. mas como você deve fazer isso? Testes manuais? Testes unitários? Testes de Integração? Irei falar como você pode interpretar cada tipo de teste e como você pode melhorar seus casos de teste.
 
   - time: 16:15 - 16:45
     title: Coffee Break
