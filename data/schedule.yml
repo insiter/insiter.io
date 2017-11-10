@@ -36,6 +36,7 @@ talks:
   - time: 14:45 - 15:30
     title: Blockchains & Smart contracts 101
     people: Tiárli Oliveira
+    description: O termo Blockchain está ganhando cada vez mais momento no cenário global e está cada vez mais presente nas notícias, de modo que começa a chamar a atenção de empresas líderes de mercado. Nesta palestra, irei explicar os principais conceitos que você precisará saber sobre essa tecnologia, para que possamos então, começar a entender melhor como aplicar este conhecimento usando Smart Contracts, para resolver problemas reais,não somente algo que terá uma relação com criptomoedas.
 
   - time: 15:30 - 16:15
     title: "Qualidade de Software: como assim?"
