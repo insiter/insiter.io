@@ -34,6 +34,13 @@ people:
       name: Globo.com
       link: //globo.com/
 
+  - name: Débora Duarte
+    github: deboraduarte
+    picture: /images/debora.jpg
+    company:
+      name: Agência Força
+      link: //www.facebook.com/agenciaforca/
+
   - name: Matias Leidemer
     github: matiasleidemer
     picture: //avatars3.githubusercontent.com/u/10559?v=4&s=460
