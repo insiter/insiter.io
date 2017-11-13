@@ -10,7 +10,9 @@ talks:
   - time: 09:15 - 10:00
     title: Importação e distribuição de tweets para produtos Globo.com
     people: Ícaro Heimig
-    description: Dentro da Globo.com o Twitter é utilizado como forma de publicar conteúdo dinâmico de coberturas em tempo real. Existiam diversas soluções internas para importar e distribuir os tweets para os produtos, cada uma com suas peculiaridades. Na palestra, mostro como desenvolvemos um serviço que distribui os tweets de forma agnóstica ao cliente, unificando as soluções.
+    description: Dentro da Globo.com o Twitter é utilizado como forma de publicar conteúdo dinâmico de coberturas em tempo real. Existiam diversas soluções internas para importar e distribuir os tweets para os produtos, cada uma com suas peculiaridades. Na palestra, mostro como desenvolvemos um serviço que distribui os tweets de forma agnóstica ao cliente, unificando as soluções.em um tipo no meu Javascript
+    people: Matias Leidemer
+    description:
 
   - time: 10:00 - 10:30
     title: Coffee Break
@@ -49,6 +51,11 @@ talks:
   - time: 16:45 - 17:30
     title: Desenvolvimento Multiplataforma
     people: Débora Duarte
+
+  - time: 17:30 - 18:15
+    title: Web Performance – this is fine!
+    people: Cynthia Zanoni
+    description: O ano é 2017 e a web é uma das maiores revoluções do mundo. Em meio a tantas ferramentas, gurus e linhas de código, ainda nos deparamos com fantasmas dos tempos primórdios do desenvolvimento de aplicações web, que estão apenas esperando para acabar com seu sono. Numa conversa divertida, vou compartilhar algumas experiências que tive em minha jornada e também mostrar como você pode aproveitar as principais ferramentas e técnicas para obter um bom desempenho.
 
   - time: "18:15"
     title: Encerramento
