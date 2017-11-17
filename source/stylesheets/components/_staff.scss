@@ -1,6 +1,10 @@
 .staff {
   background-image: url('/images/background.jpg');
   padding-bottom: $section-bottom-padding;
+
+  .heading {
+    margin-bottom: 1.5em;
+  }
 }
 
 .staff-content {
@@ -9,12 +13,35 @@
   align-items: center;
 }
 
+.sponsor-img {
+  width: 80%;
+  @media screen and (min-width: $screen-sm) {
+    width: 40%;
+  }
+}
+
+.partner-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.partner-img {
+  width:80%;
+
+  @media screen and (min-width: $screen-sm) {
+    width: 30%;
+    margin: 1em 5%;
+  }
+}
+
 .staff-codeminer {
   display: inline-block;
   width: 80%;
 
   @media screen and (min-width: $screen-sm) {
-    width: 60%;
+    width: 42%;
   }
 }
 
