@@ -13,13 +13,6 @@ people:
       name: Work & Co
       link: //work.co/
 
-  - name: Marina Limeira
-    github: marinalimeira
-    picture: //scontent.fgyn3-2.fna.fbcdn.net/v/t1.0-9/12376420_10205561752739537_4502124061929510295_n.jpg?oh=299f127d58c1d876adb5e41dca829ab1&oe=5A84B9A9
-    company:
-      name: Bionexo
-      link: //beta.bionexo.com/br/
-
   - name: Tiárli Oliveira
     github: tiarly
     picture: //avatars3.githubusercontent.com/u/2394744
@@ -55,3 +48,10 @@ people:
     company:
       name: Microsoft
       link: //microsoft.com
+
+  - name: Fuad Saud
+    github: fuadsaud
+    picture: //avatars0.githubusercontent.com/u/1993787?s=460&v=4
+    company:
+      name: Nubank
+      link: //nubank.com.br/

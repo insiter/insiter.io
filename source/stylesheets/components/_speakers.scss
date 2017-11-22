@@ -25,6 +25,12 @@
       border-radius: 50%;
     }
   }
+
+  .speaker-avatar.speaker-avatar-purple {
+    &:before {
+      border-color: #9c16a8;
+    }
+  }
 }
 
 .speaker-avatar {
@@ -42,12 +48,6 @@
     border: 0.25em solid $green;
     border-radius: 0.25em;
     z-index: -1;
-  }
-
-  &.speaker-avatar-purple {
-    &:before {
-      border-color: #9c16a8;
-    }
   }
 
   img {
