@@ -41,7 +41,7 @@ talks:
   - time: 15:30 - 16:15
     title: Be like water
     people: Fuad Saud
-    description: "Desenvolver serviços que são consumidos por aplicações móveis nativas é uma tarefa um pouco diferente de desenvolver para o browser. Aplicações móveis nativas envolvem ter a mesma funcionalidade espalhada em duas ou mais codebases,  com 2 ou mais times trabalhando em paralelo com práticas e release cycles diferentes. Lançar uma nov versão de um app não é tão simples como forçar um refresh na página do seu cliente: pacotes precisam ser aprovados pelas lojas e clientes precisam atualizar seus aplicativos periodicamente. Vou contar um pouco sobre como isso se tornou um problema pro Nubank e como contornamos essas adversidades."
+    description: "Desenvolver serviços que são consumidos por aplicações móveis nativas é uma tarefa um pouco diferente de desenvolver para o browser. Aplicações móveis nativas envolvem ter a mesma funcionalidade espalhada em duas ou mais codebases, com 2 ou mais times trabalhando em paralelo com práticas e release cycles diferentes. Lançar uma nova versão de um app não é tão simples como forçar um refresh na página do seu cliente: pacotes precisam ser aprovados pelas lojas e clientes precisam atualizar seus aplicativos periodicamente. Vou contar um pouco sobre como isso se tornou um problema pro Nubank e como contornamos essas adversidades."
 
   - time: 16:15 - 16:45
     title: Coffee Break
