@@ -28,8 +28,10 @@
     <%= partial 'partials/header' %>
     <%= yield %>
 
+    <%= partial 'partials/map' %>
     <%= partial 'partials/footer' %>
     <%= javascript_include_tag 'site' %>
     <%= partial 'partials/analytics' %>
+    <%= javascript_include_tag 'https://maps.googleapis.com/maps/api/js?key=AIzaSyARl8VHQAo2Ck_F5rP0NNkm4ChT2GEh3Eg&callback=initMap', async: true %>
   </body>
 </html>
