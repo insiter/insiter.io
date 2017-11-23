@@ -3,17 +3,67 @@
 import components from './components'
 
 window.initMap = function() {
-  var map = new google.maps.Map(document.getElementById("map"), {
-    center: { lat: -30.035292, lng: -51.226415 },
+  var style = [{
+      "elementType": "geometry",
+      "stylers": [{
+          "visibility": "simplified"
+      }, {
+          "hue": "#ff0000"
+      }]
+  }, {
+      "featureType": "road",
+      "elementType": "labels.icon",
+      "stylers": [{
+          "visibility": "off"
+      }]
+  }, {
+      "featureType": "transit.station",
+      "elementType": "labels.icon",
+      "stylers": [{
+          "visibility": "off"
+      }]
+  }, {
+      "featureType": "poi",
+      "stylers": [{
+          "visibility": "off"
+      }]
+  }, {
+      "featureType": "administrative",
+      "stylers": [{
+          "visibility": "simplified"
+      }]
+  }, {
+      "featureType": "water",
+      "stylers": [{
+          "visibility": "off"
+      }]
+  }];
+
+  var myLocation = {
+      lat: -30.035292,
+      lng: -51.226415
+  };
+
+  var map = new google.maps.Map(document.getElementById("local"), {
+    center: myLocation,
     zoom: 15,
-    scrollwheel: false
+    scrollwheel: false,
+    styles: style
   });
 
   var marker = new google.maps.Marker({
-    position: new google.maps.LatLng(-25.363882, 131.044922),
+    position: myLocation,
     map: map
   });
-  marker.setMap(map);
+
+  var contentString = '<p class="address">Rua Coronel Genuíno, 130<br>Centro Histórico - Porto Alegre - RS</p>';
+
+  var infoWindow = new google.maps.InfoWindow({
+    content:contentString
+  })
+  marker.addListener('click', function() {
+    infoWindow.open(map, marker)
+  })
 }
 
 document.addEventListener('DOMContentLoaded', () => {
