@@ -17,22 +17,6 @@
       <a class="staff-codeminer" href="http://www.codeminer42.com/" title="Realização Codeminer 42">
         <%= image_tag 'logo_codeminer42.svg', class: 'staff-codeminer-img', alt: 'Codeminer42 Logotipo' %>
       </a>
-      <% if data.staff.people? %>
-        <div class="staff-people">
-          <h3 class="staff-people-title heading">Organizadores</h3>
-
-          <ul class="staff-people-list">
-            <% data.staff.people.each do |person| %>
-              <li class="staff-people-list-item">
-              <div class="staff-people-avatar">
-                <%= image_tag person.image, class: 'staff-people-avatar-img', alt: person.name %>
-              </div>
-                <p class="staff-people-name"><%= person.name %></p>
-              </li>
-            <% end %>
-          </ul>
-        </div>
-      <% end %>
     </div>
 
   </div>
