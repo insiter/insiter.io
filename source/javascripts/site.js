@@ -61,9 +61,12 @@ window.initMap = function() {
   var infoWindow = new google.maps.InfoWindow({
     content:contentString
   })
+  
   marker.addListener('click', function() {
     infoWindow.open(map, marker)
   })
+  
+  infoWindow.open(map, marker)
 }
 
 document.addEventListener('DOMContentLoaded', () => {
