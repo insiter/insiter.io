@@ -44,7 +44,7 @@ window.initMap = function() {
       lng: -51.226415
   };
 
-  var map = new google.maps.Map(document.getElementById("local"), {
+  var map = new google.maps.Map(document.getElementById("local-map"), {
     center: myLocation,
     zoom: 15,
     scrollwheel: false,
@@ -61,11 +61,11 @@ window.initMap = function() {
   var infoWindow = new google.maps.InfoWindow({
     content:contentString
   })
-  
+
   marker.addListener('click', function() {
     infoWindow.open(map, marker)
   })
-  
+
   infoWindow.open(map, marker)
 }
 
