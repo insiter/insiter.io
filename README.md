@@ -1,4 +1,4 @@
-# INSITER.IO - Goiania 2018-03-10
+# INSITER.IO - Goiânia 2018-03-10
 
 [![Build Status](https://travis-ci.org/insiter/insiter.io.svg?branch=master)](https://travis-ci.org/insiter/insiter.io)
 
