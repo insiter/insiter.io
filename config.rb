@@ -7,7 +7,7 @@ activate :asset_hash
 
 activate :external_pipeline,
   name: :webpack,
-  command: build? ? './node_modules/webpack/bin/webpack.js -p' : './node_modules/webpack/bin/webpack.js --watch -d --color',
+  command: build? ? 'yarn build' : 'yarn dev',
   source: '.tmp/dist',
   latency: 1
 
