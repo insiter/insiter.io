@@ -8,4 +8,3 @@ build/
 package-lock.json
 docker-compose.override.yml
 yarn-error.log
-.tool-versions
