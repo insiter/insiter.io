@@ -14,16 +14,14 @@ module.exports = {
     rules: [
       {
         test: /\.js$/,
-        exclude: /node_modules|\.tmp|vendor/,
-        loader: 'babel-loader',
-        options: {
-          presets: ['es2015', 'stage-0'],
-        },
+        exclude: /(node_modules|bower_components|\.tmp|vendor)/,
+        use: {
+          loader: 'babel-loader',
+          options: {
+            presets: ['babel-preset-env']
+          }
+        }
       },
     ],
-  },
-  resolve: {
-    extensions: ['.js'],
-    modules: ['node_modules'],
-  },
+  }
 }
