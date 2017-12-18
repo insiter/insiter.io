@@ -19,6 +19,7 @@ install:
 script:
   - bundle exec middleman build
   - yarn check
+  - yarn eslint
   - yarn stylelint
 
 deploy:
