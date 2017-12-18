@@ -1,0 +1,66 @@
+.logo {
+  font-family: $font-primary;
+  font-size: 5rem;
+  font-weight: 700;
+  letter-spacing: -.03em;
+  line-height: 1.2;
+  margin: auto;
+  padding: .3em .42em 0 0;
+  position: relative;
+
+  @include large() {
+    font-size: 10rem;
+  }
+
+  &::before {
+    animation: wave 2s linear infinite;
+    background-color: $color-red;
+    border-radius: 50%;
+    content: '';
+    height: 1.4em;
+    position: absolute;
+    right: .37em;
+    top: .1em;
+    transform-origin: 52.5%;
+    width: 1.4em;
+    z-index: -1;
+  }
+
+  &::after {
+    background: url(/images/arrow.png) no-repeat center center;
+    background-size: contain;
+    content: '';
+    height: 1.4em;
+    position: absolute;
+    right: 0;
+    top: .33em;
+    width: 1.4em;
+    z-index: -1;
+  }
+
+  &__slogan {
+    display: block;
+    font-family: $font-secondary;
+    font-size: .2em;
+    font-style: italic;
+    font-weight: 400;
+    letter-spacing: 0;
+    margin: 0;
+    padding-right: 1.2em;
+    text-align: right;
+  }
+
+  span {
+    color: $color-red;
+  }
+}
+
+@keyframes wave {
+  to {
+    transform: rotate(0deg);
+  }
+
+  from {
+    transform: rotate(360deg);
+  }
+}

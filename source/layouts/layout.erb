@@ -19,11 +19,14 @@
     <!-- / FACEBOOK -->
 
     <%= favicon_tag 'favicon.png' %>
-    <%= stylesheet_link_tag '//fonts.googleapis.com/css?family=Open+Sans:400,700|Maven+Pro:400,700,900' %>
+
+    <%= stylesheet_link_tag '//fonts.googleapis.com/css?family=Libre+Baskerville:400,400i|Montserrat:400,700' %>
     <%= stylesheet_link_tag 'site' %>
   </head>
 
   <body>
+    <%= partial 'partials/landing' %>
+
     <%= yield %>
 
     <%= partial 'partials/analytics' %>

@@ -1,43 +1,11 @@
-// Color Variables
-$red-codeminer: #e22a19;
-$red-medium: #a21521;
-$red-dark: #7f0524;
-$blue: #7ec6ff;
-$black: #050505;
-$white: #ffffff;
-$green: #54ff85;
-$gray: #808080;
+// colors
+$color-white: #ffffff;
+$color-black: #191919;
+$color-light: #f4f4f4;
+$color-red  : #ee0034;
 
-$primary: $red-medium;
+// fonts
+$font-primary  : 'Montserrat', sans-serif;
+$font-secondary: 'Libre Baskerville', serif;
 
-// Body Variables
-$body-color: $black;
-$body-bg: $white;
-
-// Font Variables
-$family-primary: 'Open Sans',
-sans-serif;
-$family-secondary: 'Maven Pro',
-sans-serif;
 $font-size-base: 16px;
-$font-weight-base: 400;
-$line-height-base: 1.5;
-
-// Grid Variables
-$gap: 0;
-
-// Screen (Breakpoints)
-$screen-uw: 1921px;
-$screen-lg: 1278px;
-$screen-md: 1024px;
-$screen-sm: 768px;
-
-// Components
-$hover-opacity: .8;
-$section-bottom-padding: 60px; // Default bottom padding
-$transition-settings: 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955);
-
-// Schedule Colors
-$schedule-main-color: #FFF;
-$schedule-bg-color: $red-dark;
-$schedule-heading-color: $schedule-main-color;
