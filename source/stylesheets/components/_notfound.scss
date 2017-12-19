@@ -1,0 +1,29 @@
+.notfound {
+  background: url(/images/404-bg.png) repeat center center;
+  background-size: cover;
+  display: flex;
+  margin: auto;
+  min-height: 92vh;
+  width: 95%;
+
+  @include large() {
+    background-size: auto;
+  }
+
+  &__center {
+    margin: auto;
+    text-align: center;
+  }
+
+  &__code {
+    max-width: 70%;
+  }
+
+  &__title {
+    font-size: 1.5rem;
+
+    @include medium() {
+      font-size: 2rem;
+    }
+  }
+}
