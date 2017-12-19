@@ -1,0 +1,15 @@
+@mixin medium() {
+  $min: 425px;
+
+  @media (min-width: $min) {
+    @content;
+  }
+}
+
+@mixin large() {
+  $min: 768px;
+
+  @media (min-width: $min) {
+    @content;
+  }
+}

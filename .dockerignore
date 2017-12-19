@@ -3,6 +3,7 @@
 .DS_Store
 .git
 .sass-cache
+.tmp
 docker-compose.override.yml
 docker-compose.yml
 node_modules/

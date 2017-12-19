@@ -19,19 +19,17 @@
     <!-- / FACEBOOK -->
 
     <%= favicon_tag 'favicon.png' %>
-    <%= stylesheet_link_tag '//fonts.googleapis.com/css?family=Open+Sans:400,700|Maven+Pro:400,700,900' %>
+
+    <%= stylesheet_link_tag '//fonts.googleapis.com/css?family=Libre+Baskerville:400,400i|Montserrat:400,700' %>
     <%= stylesheet_link_tag 'site' %>
   </head>
 
   <body>
-    <%= partial 'partials/menu' %>
-    <%= partial 'partials/header' %>
+    <%= partial 'partials/landing' %>
+
     <%= yield %>
 
-    <%= partial 'partials/local' %>
-    <%= partial 'partials/footer' %>
-    <%= javascript_include_tag 'site' %>
     <%= partial 'partials/analytics' %>
-    <%= javascript_include_tag 'https://maps.googleapis.com/maps/api/js?key=AIzaSyARl8VHQAo2Ck_F5rP0NNkm4ChT2GEh3Eg&callback=initMap', async: true %>
+    <%= javascript_include_tag 'site' %>
   </body>
 </html>
