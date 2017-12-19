@@ -1,7 +1,7 @@
 @mixin medium() {
   $min: 425px;
 
-  @include mq($min-width: $min) {
+  @media (min-width: $min) {
     @content;
   }
 }
@@ -9,7 +9,7 @@
 @mixin large() {
   $min: 768px;
 
-  @include mq($min-width: $min) {
+  @media (min-width: $min) {
     @content;
   }
 }
