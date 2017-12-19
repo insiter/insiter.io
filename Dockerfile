@@ -6,7 +6,7 @@ ENV LC_ALL C.UTF-8
 WORKDIR /app
 COPY Gemfile Gemfile.lock package.json yarn.lock /app/
 
-RUN apk add --no-cache g++ make nodejs yarn \
+RUN apk add --no-cache g++ make nodejs yarn git openssh \
     && gem update --system \
     && bundle install \
     && yarn install \
