@@ -1,0 +1,95 @@
+.footer {
+  background: $color-black;
+  color: $color-white;
+  font-size: .9rem;
+
+  @include large(){
+    font-size: $font-size-base;
+  }
+
+  &__content {
+    border-bottom: $color-dark-gray solid .04rem;
+    padding: 2.3em 0;
+    margin: 0 auto;
+    width: 80%;
+
+    @include large(){
+      display: flex;
+      justify-content: space-between;
+      max-width: 68.75rem;
+    }
+  }
+
+  &__column {
+    flex: 1;
+    min-width: 10rem;
+
+    &--insiter {
+      flex: 3;
+    }
+
+    &--social {
+      max-width: 5rem;
+    }
+  }
+
+  &__section-title {
+    font-size: 1.125em;
+  }
+
+  &__logo {
+    color: $color-white;
+    font-family: $font-primary;
+    font-size: 3em;
+    font-weight: 700;
+    letter-spacing: -.03em;
+    margin-top: 0;
+    margin-bottom: .3em;
+
+    span {
+      color: $color-red;
+    }
+  }
+
+  &__usefull-links {
+    list-style: none;
+    padding: 0;
+
+    a {
+      color: $color-light-gray;
+      text-decoration: none;
+      transition: color .2s ease-out;
+
+      &:hover {
+        color: $color-white;
+        transition: color .2s ease-in;
+      }
+    }
+  }
+
+  &__social-media {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+
+    svg {
+      transition: fill .2s ease-out;
+
+      &:hover {
+        fill: #356bf8;
+        transition: fill .2s ease-in
+      }
+    }
+  }
+
+  &__powered {
+    color: $color-light-gray;
+    font-family: $font-secondary;
+    font-size: .9em;
+    font-style: italic;
+    margin: 0 auto;
+    padding: 1.85rem;
+    text-align: center;
+  }
+}
+
