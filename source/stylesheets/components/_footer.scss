@@ -76,7 +76,7 @@
       transition: fill .2s ease-out;
 
       &:hover {
-        fill: #356bf8;
+        fill: $color-blue;
         transition: fill .2s ease-in;
       }
     }
