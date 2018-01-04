@@ -72,25 +72,25 @@
     figure {
       margin: 0;
       position: relative;
+
+      &::before {
+        border: .0625rem solid $color-light;
+        content: '';
+        height: 100%;
+        position: absolute;
+        top: 0;
+        transition: border .4s ease;
+        width: 100%;
+      }
+
+      &:hover::before {
+        border-width: 1.56rem;
+      }
     }
 
     img {
       height: auto;
       max-width: 100%;
-      transition: padding .4s ease;
-    }
-
-    &__border {
-      border: .0625rem solid $color-light;
-      height: 100%;
-      position: absolute;
-      top: 0;
-      transition: border .4s ease;
-      width: 100%;
-
-      &:hover {
-        border-width: 1.56rem;
-      }
     }
   }
 
@@ -111,6 +111,7 @@
         left: 0;
         position: absolute;
         top: 50%;
+        transform: translate3d(0, 0, 0);
         transition: width .4s ease;
         width: 0;
       }
