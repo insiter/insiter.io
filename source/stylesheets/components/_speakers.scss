@@ -32,13 +32,16 @@
   }
 
   &__speaker {
-    display: flex;
-    max-height: 43.75rem;
+    margin-bottom: 3.875rem;
     max-width: 31.25rem;
-    width: 50%;
 
-    &:nth-child(even) {
-      margin-top: 25%;
+    @include large() {
+      max-height: 40.75rem;
+      width: 47%;
+
+      &:nth-child(even) {
+        margin-top: 25%;
+      }
     }
   }
 
@@ -46,33 +49,53 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-  }
 
-  &__media {
-    margin: 1.25rem 0;
-    text-decoration: none;
-    width: 3.25rem;
+    &__media {
+      margin: 1.25rem 0;
+      text-decoration: none;
+      width: 3.25rem;
 
-    svg {
-      fill: $color-black;
-      transition: fill .2s ease-in-out;
+      svg {
+        fill: $color-black;
+        transition: fill .2s ease-in-out;
 
-      &:hover {
-        fill: $color-red;
+        &:hover {
+          fill: $color-red;
+        }
       }
     }
   }
 
-  &__info {
-    &__photo {
+  &__photo {
+    display: flex;
+
+    figure {
+      margin: 0;
+      position: relative;
+    }
+
+    img {
       height: auto;
       max-width: 100%;
-      transition: transform .4s ease;
+      transition: padding .4s ease;
+    }
+
+    &__border {
+      border: .0625rem solid $color-light;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      transition: border .4s ease;
+      width: 100%;
 
       &:hover {
-        transform: scale(1.02);
+        border-width: 1.56rem;
       }
     }
+  }
+
+  &__description {
+    padding-left: 3.25rem;
 
     &__name {
       font-size: 1.5em;
