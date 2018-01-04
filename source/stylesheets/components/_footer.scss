@@ -62,7 +62,6 @@
 
       &:hover {
         color: $color-white;
-        transition: color .2s ease-in;
       }
     }
   }
@@ -73,11 +72,10 @@
     text-decoration: none;
 
     svg {
-      transition: fill .2s ease-out;
+      transition: fill .4s ease;
 
       &:hover {
         fill: $color-blue;
-        transition: fill .2s ease-in;
       }
     }
   }
