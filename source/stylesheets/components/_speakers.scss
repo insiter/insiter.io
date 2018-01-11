@@ -1,0 +1,138 @@
+.speakers {
+  font-size: 1rem;
+  margin: 0 auto;
+  max-width: 68.75rem;
+  width: 90%;
+
+  &__title {
+    font-size: 3.43em;
+    margin: 0;
+
+    span {
+      color: $color-red;
+      left: -.5rem;
+      position: relative;
+    }
+  }
+
+  &__separator {
+    background-color: $color-blue;
+    display: inline-block;
+    height: .18rem;
+    margin: 1.175rem 0 0;
+    vertical-align: top;
+    width: 7.625rem;
+  }
+
+  &__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10em;
+  }
+
+  &__speaker {
+    margin-bottom: 3.875rem;
+    max-width: 31.25rem;
+
+    @include large() {
+      max-height: 40.75rem;
+      width: 47%;
+
+      &:nth-child(even) {
+        margin-top: 25%;
+      }
+    }
+  }
+
+  &__social {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    &__media {
+      margin: 1.25rem 0;
+      text-decoration: none;
+      width: 3.25rem;
+
+      svg {
+        fill: $color-black;
+        transition: fill .2s ease-in-out;
+
+        &:hover {
+          fill: $color-red;
+        }
+      }
+    }
+  }
+
+  &__photo {
+    display: flex;
+
+    figure {
+      margin: 0;
+      position: relative;
+
+      &::before {
+        border: .0625rem solid $color-light;
+        content: '';
+        height: 100%;
+        position: absolute;
+        top: 0;
+        transition: border .4s ease;
+        width: 100%;
+      }
+
+      &:hover::before {
+        border-width: 1.56rem;
+      }
+    }
+
+    img {
+      height: auto;
+      max-width: 100%;
+    }
+  }
+
+  &__description {
+    padding-left: 3.25rem;
+
+    &__name {
+      font-size: 1.5em;
+      margin-bottom: 0;
+      margin-top: 1.625rem;
+      position: relative;
+      transition: padding .4s ease;
+
+      &::before {
+        background-color: #ee0034;
+        content: '';
+        height: .18rem;
+        left: 0;
+        position: absolute;
+        top: 50%;
+        transform: translate3d(0, 0, 0);
+        transition: width .4s ease;
+        width: 0;
+      }
+
+      &:hover {
+        padding-left: 2.75rem;
+
+        &::before {
+          width: 2.125rem;
+        }
+      }
+    }
+
+    &__role {
+      color: $color-gray;
+      font-family: $font-secondary;
+      font-style: italic;
+    }
+
+    &__subject {
+      font-size: .875rem;
+    }
+  }
+}
