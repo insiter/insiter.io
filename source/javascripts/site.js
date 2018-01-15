@@ -176,22 +176,22 @@ window.initMap = function () {
     }
   ]
 
-  const myLocation = {
-    lat: -16.7035345,
-    lng: -49.268107
+  const insiterAddress = {
+    lat: -16.6697035,
+    lng: -49.2358471
   }
 
   /* global google */
   const map = new google.maps.Map(document.getElementById('local'), {
-    center: myLocation,
-    zoom: 15,
+    center: insiterAddress,
+    zoom: 16,
     scrollwheel: false,
     styles: style
   })
 
   /* eslint-disable no-new */
   new google.maps.Marker({
-    position: myLocation,
+    position: insiterAddress,
     map
   })
 }
