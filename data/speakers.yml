@@ -1,57 +1,119 @@
 people:
   - name: Carolina Campos
-    github: carolpc
-    picture: https://avatars3.githubusercontent.com/u/7128885?v=4&s=460
+    picture: //evently.mikado-themes.com/wp-content/uploads/2017/06/design-team-img-2.jpg
+    resume:
+      Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos,
+      e vem sendo utilizado desde o século XVI
+    social:
+      twitter: carolpc
+      facebook: carolpc
+      linkedin: carolpc
+      github: carolpc
     company:
+      rule: Developer
       name: Codeminer42
-      link: //codeminer42.com/
+      link: //codeminer42.com
 
   - name: Jean Carlo Emer
-    github: jcemer
-    picture: //avatars1.githubusercontent.com/u/353504
+    picture: //evently.mikado-themes.com/wp-content/uploads/2017/06/design-team-img-2.jpg
+    resume:
+      Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos,
+      e vem sendo utilizado desde o século XVI
+    social:
+      twitter: jcemer
+      facebook: jcemer
+      linkedin: jcemer
+      github: jcemer
     company:
+      rule: Software engineer
       name: Work & Co
       link: //work.co/
 
   - name: Tiárli Oliveira
-    github: tiarly
-    picture: //avatars3.githubusercontent.com/u/2394744
+    picture: //evently.mikado-themes.com/wp-content/uploads/2017/06/design-team-img-2.jpg
+    resume:
+      Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos,
+      e vem sendo utilizado desde o século XVI
+    social:
+      twitter: tiarly
+      facebook: tiarly
+      linkedin: tiarly
+      github: tiarly
     company:
       name: Codeminer42
-      link: //codeminer42.com/
+      link: //codeminer42.com
 
   - name: Ícaro Heimig
-    github: icaromh
-    picture: //avatars1.githubusercontent.com/u/3057676
+    picture: //evently.mikado-themes.com/wp-content/uploads/2017/06/design-team-img-2.jpg
+    resume:
+      Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos,
+      e vem sendo utilizado desde o século XVI
+    social:
+      twitter: icaromh
+      facebook: icaromh
+      linkedin: icaromh
+      github: icaromh
     company:
+      rule: Rails Developer
       name: Globo.com
-      link: //globo.com/
+      link: //globo.com
 
   - name: Débora Duarte
-    github: deboraduarte
-    picture: /images/debora.jpg
+    picture: //evently.mikado-themes.com/wp-content/uploads/2017/06/design-team-img-2.jpg
+    resume:
+      Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos,
+      e vem sendo utilizado desde o século XVI
+    social:
+      twitter: deboraduarte
+      facebook: deboraduarte
+      linkedin: deboraduarte
+      github: deboraduarte
     company:
+      rule: Design UX
       name: Agência Força
-      link: //www.facebook.com/agenciaforca/
+      link: //www.facebook.com/agenciaforca
 
   - name: Matias Leidemer
-    github: matiasleidemer
-    picture: //avatars3.githubusercontent.com/u/10559?v=4&s=460
+    picture: //evently.mikado-themes.com/wp-content/uploads/2017/06/design-team-img-2.jpg
+    resume:
+      Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos,
+      e vem sendo utilizado desde o século XVI
+    social:
+      twitter: matiasleidemer
+      facebook: matiasleidemer
+      linkedin: matiasleidemer
+      github: matiasleidemer
     company:
+      rule: CEO & Developer
       name: Sticker Mule
-      link: //stickermule.com/
+      link: //stickermule.com
 
   - name: Cynthia Zanoni
-    github: cyz
-    picture: //msummit.com.br/img/speaker/cynthia.jpg
-    color: purple
+    picture: //evently.mikado-themes.com/wp-content/uploads/2017/06/design-team-img-2.jpg
+    resume:
+      Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos,
+      e vem sendo utilizado desde o século XVI
+    social:
+      twitter: cyz
+      facebook: cyz
+      linkedin: cyz
+      github: cyz
     company:
+      rule: CTO
       name: Microsoft
       link: //microsoft.com
 
   - name: Fuad Saud
-    github: fuadsaud
-    picture: //avatars0.githubusercontent.com/u/1993787?s=460&v=4
+    picture: //evently.mikado-themes.com/wp-content/uploads/2017/06/design-team-img-2.jpg
+    resume:
+      Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos,
+      e vem sendo utilizado desde o século XVI
+    social:
+      twitter: fuadsaud
+      facebook: fuadsaud
+      linkedin: fuadsaud
+      github: fuadsaud
     company:
+      rule: Front-end Developer
       name: Nubank
-      link: //nubank.com.br/
+      link: //nubank.com.br

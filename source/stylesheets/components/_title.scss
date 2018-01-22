@@ -1,0 +1,22 @@
+.title {
+  font-size: 3.43em;
+  margin: 0;
+  padding-bottom: 1rem;
+  position: relative;
+
+  &::before {
+    content: '';
+    background-color: $color-blue;
+    height: .18rem;
+    width: 8rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+
+  &::after {
+    content: '.';
+    color: $color-red;
+    padding-left: .5rem;
+  }
+}
