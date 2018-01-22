@@ -2,10 +2,11 @@
 @import "queries";
 @import "general";
 
-@import "components/map";
-@import "components/landing";
-@import "components/speakers";
-@import "components/logo";
-@import "components/notfound";
+@import "pages/landing";
+@import "pages/notfound";
+
 @import "components/footer";
+@import "components/logo";
+@import "components/map";
+@import "components/speakers";
 @import "components/title";
