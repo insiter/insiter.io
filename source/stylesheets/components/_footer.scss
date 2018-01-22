@@ -50,8 +50,10 @@
     margin-bottom: .3em;
     margin-top: 0;
 
-    span {
+    &::after {
       color: $color-red;
+      content: '.';
+      padding-left: .2em;
     }
   }
 
