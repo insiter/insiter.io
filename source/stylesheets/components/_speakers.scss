@@ -31,19 +31,19 @@
     justify-content: center;
 
     &__media {
-      margin-top: 2.5rem;
+      height: 1.5rem;
       margin-right: 1.75rem;
+      margin-top: 2.5rem;
       text-decoration: none;
       width: 1.5rem;
-      height: 1.5rem;
-
-      &:hover svg {
-        fill: $color-red;
-      }
 
       svg {
         fill: $color-black;
         transition: fill .2s ease-in-out;
+      }
+
+      &:hover svg {
+        fill: $color-red;
       }
     }
   }
@@ -78,14 +78,6 @@
 
   &__description {
     margin-left: 3.25rem;
-
-    &:hover &__name {
-      padding-left: 2.75rem;
-
-      &::before {
-        width: 2.125rem;
-      }
-    }
 
     &__name {
       font-size: 1.5em;
@@ -124,6 +116,14 @@
 
     &__subject {
       font-size: .875rem;
+    }
+
+    &:hover &__name {
+      padding-left: 2.75rem;
+
+      &::before {
+        width: 2.125rem;
+      }
     }
   }
 }

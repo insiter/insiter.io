@@ -1,13 +1,13 @@
 .map {
   background-color: #bebebe;
-  height: 300px;
+  height: 18.75rem;
 
   @include medium() {
-    height: 400px;
+    height: 25rem;
   }
 
   @include large() {
-    height: 600px;
+    height: 37.5rem;
   }
 
   &__container {
