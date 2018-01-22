@@ -1,22 +1,22 @@
 .title {
   font-size: 3.43em;
   margin: 0;
-  padding-bottom: 1rem;
+  padding-bottom: .4em;
   position: relative;
 
   &::before {
     background-color: $color-blue;
     bottom: 0;
     content: '';
-    height: .18rem;
+    height: .05em;
     left: 0;
     position: absolute;
-    width: 8rem;
+    width: 3em;
   }
 
   &::after {
     color: $color-red;
     content: '.';
-    padding-left: .5rem;
+    padding-left: .2em;
   }
 }
