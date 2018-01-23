@@ -28,3 +28,9 @@ body {
   text-indent: 200%;
   white-space: nowrap;
 }
+
+.wrapper {
+  margin: 0 auto;
+  max-width: $wrapper-width;
+  width: 90%;
+}
