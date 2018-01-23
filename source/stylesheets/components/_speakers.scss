@@ -53,7 +53,7 @@
       position: relative;
 
       &::before {
-        border: .0625rem solid $color-light;
+        border: .0625rem solid $color-white;
         content: '';
         height: 100%;
         position: absolute;
@@ -112,6 +112,7 @@
     }
 
     &__subject {
+      color: $color-gray;
       font-size: .875rem;
     }
 
