@@ -82,10 +82,9 @@
   }
 
   &__subject {
-    color: $color-gray;
     font-size: .875rem;
     margin-top: 0;
-    max-width: 40rem;
+    max-width: 38rem;
 
     @include medium() {
       font-size: 1rem;

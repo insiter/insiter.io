@@ -52,6 +52,13 @@
       margin: 0;
       position: relative;
 
+      img {
+        display: block;
+        filter: grayscale(90%);
+        height: auto;
+        max-width: 100%;
+      }
+
       &::before {
         border: .0625rem solid $color-white;
         content: '';
@@ -60,16 +67,14 @@
         top: 0;
         transition: border .4s ease;
         width: 100%;
+        z-index: 1;
       }
 
-      &:hover::before {
-        border-width: 1.56rem;
+      &:hover {
+        &::before {
+          border-width: 1.56rem;
+        }
       }
-    }
-
-    img {
-      height: auto;
-      max-width: 100%;
     }
   }
 
@@ -112,7 +117,6 @@
     }
 
     &__subject {
-      color: $color-gray;
       font-size: .875rem;
     }
 

@@ -1,5 +1,5 @@
 .button {
-  background: $color-blue;
+  background-color: $color-blue;
   color: $color-white;
   cursor: pointer;
   display: inline-block;
@@ -8,4 +8,9 @@
   padding: 1.5em 2em;
   text-decoration: none;
   text-transform: uppercase;
+  transition: background-color .2s;
+
+  &:hover {
+    background-color: darken($color-blue, 10);
+  }
 }
