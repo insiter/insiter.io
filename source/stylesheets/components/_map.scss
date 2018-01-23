@@ -2,11 +2,11 @@
   background-color: #bebebe;
   height: 18.75rem;
 
-  @include medium() {
+  @include small() {
     height: 25rem;
   }
 
-  @include large() {
+  @include medium() {
     height: 37.5rem;
   }
 
