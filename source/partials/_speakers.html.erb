@@ -1,124 +1,59 @@
-<section class="speakers">
-  <h3 class="speakers__title">Speakers <span>.</span></h3>
-  <div class="speakers__separator"></div>
+<section class="speakers wrapper">
+  <h3 class="title">Speakers</h3>
 
   <div class="speakers__container">
 
-    <div class="speakers__speaker">
-      <div class="speakers__photo">
-        <div class="speakers__social">
-          <a href="#" title="Facebook" class="speakers__social__media">
-            <%= partial 'partials/svg/logo-facebook-black' %>
-          </a>
-          <a href="#" title="Twitter" class="speakers__social__media">
-           <%= partial 'partials/svg/logo-twitter-black' %>
-          </a>
-          <a href="#" title="Linkedin" class="speakers__social__media">
-            <%= partial 'partials/svg/logo-linkedin-black' %>
-          </a>
-          <a href="#" title="Instagram" class="speakers__social__media">
-            <%= partial 'partials/svg/logo-instagram-black' %>
-          </a>
+    <% data.speakers.people.each do |speaker| %>
+      <div class="speakers__speaker">
+        <div class="speakers__photo">
+          <div class="speakers__social">
+            <% if speaker.social.facebook %>
+              <a href="//facebook.com/<%= speaker.social.facebook %>" rel="external" title="Facebook" class="speakers__social__media">
+                <%= partial 'partials/svg/speaker/facebook' %>
+              </a>
+            <% end %>
+
+            <% if speaker.social.twitter %>
+              <a href="//twitter.com/<%= speaker.social.twitter %>" rel="external" title="Twitter" class="speakers__social__media">
+                <%= partial 'partials/svg/speaker/twitter' %>
+              </a>
+            <% end %>
+
+            <% if speaker.social.linkedin %>
+              <a href="//linkedin.com/in/<%= speaker.social.linkedin %>" rel="external" title="Linkedin" class="speakers__social__media">
+                <%= partial 'partials/svg/speaker/linkedin' %>
+              </a>
+            <% end %>
+
+            <% if speaker.social.github %>
+              <a href="//github.com/<%= speaker.social.github %>" rel="external" title="GitHub" class="speakers__social__media">
+                <%= partial 'partials/svg/speaker/github' %>
+              </a>
+            <% end %>
+          </div>
+
+          <figure>
+            <img src="<%= speaker.picture %>" alt="<%= speaker.name %>">
+          </figure>
         </div>
 
-        <figure>
-          <img src="http://evently.mikado-themes.com/wp-content/uploads/2017/06/design-team-img-2.jpg" alt="Ada Patterson">
-        </figure>
-      </div>
-
-      <div class="speakers__description">
-        <h4 class="speakers__description__name">Palestrante Foo</h4>
-        <span class="speakers__description__role">Developer at Codeminer 42</span>
-        <p class="speakers__description__subject">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius voluptas laudantium aspernatur accusantium omnis accusamus sapiente enim ratione nam ad quibusdam, vero itaque quae natus! Quos illum quas eos voluptatibus?</p>
-      </div>
-    </div>
-
-     <div class="speakers__speaker">
-      <div class="speakers__photo">
-        <div class="speakers__social">
-          <a href="#" title="Facebook" class="speakers__social__media">
-            <%= partial 'partials/svg/logo-facebook-black' %>
-          </a>
-          <a href="#" title="Twitter" class="speakers__social__media">
-           <%= partial 'partials/svg/logo-twitter-black' %>
-          </a>
-          <a href="#" title="Linkedin" class="speakers__social__media">
-            <%= partial 'partials/svg/logo-linkedin-black' %>
-          </a>
-          <a href="#" title="Instagram" class="speakers__social__media">
-            <%= partial 'partials/svg/logo-instagram-black' %>
-          </a>
+        <div class="speakers__description">
+          <h4 class="speakers__description__name">
+            <%= speaker.name %>
+          </h4>
+          <span class="speakers__description__role">
+            <%= speaker.company.rule %>
+            at
+            <a href="<%= speaker.company.link %>" rel="external">
+              <%= speaker.company.name %>
+            </a>
+          </span>
+          <p class="speakers__description__subject">
+            <%= speaker.resume %>
+          </p>
         </div>
-
-        <figure>
-          <img src="http://evently.mikado-themes.com/wp-content/uploads/2017/06/design-team-img-2.jpg" alt="Ada Patterson">
-        </figure>
       </div>
-
-      <div class="speakers__description">
-        <h4 class="speakers__description__name">Palestrante Foo</h4>
-        <span class="speakers__description__role">Developer at Codeminer 42</span>
-        <p class="speakers__description__subject">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius voluptas laudantium aspernatur accusantium omnis accusamus sapiente enim ratione nam ad quibusdam, vero itaque quae natus! Quos illum quas eos voluptatibus?</p>
-      </div>
-    </div>
-
-    <div class="speakers__speaker">
-      <div class="speakers__photo">
-        <div class="speakers__social">
-          <a href="#" title="Facebook" class="speakers__social__media">
-            <%= partial 'partials/svg/logo-facebook-black' %>
-          </a>
-          <a href="#" title="Twitter" class="speakers__social__media">
-           <%= partial 'partials/svg/logo-twitter-black' %>
-          </a>
-          <a href="#" title="Linkedin" class="speakers__social__media">
-            <%= partial 'partials/svg/logo-linkedin-black' %>
-          </a>
-          <a href="#" title="Instagram" class="speakers__social__media">
-            <%= partial 'partials/svg/logo-instagram-black' %>
-          </a>
-        </div>
-
-        <figure>
-          <img src="http://evently.mikado-themes.com/wp-content/uploads/2017/06/design-team-img-2.jpg" alt="Ada Patterson">
-        </figure>
-      </div>
-
-      <div class="speakers__description">
-        <h4 class="speakers__description__name">Palestrante Foo</h4>
-        <span class="speakers__description__role">Developer at Codeminer 42</span>
-        <p class="speakers__description__subject">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius voluptas laudantium aspernatur accusantium omnis accusamus sapiente enim ratione nam ad quibusdam, vero itaque quae natus! Quos illum quas eos voluptatibus?</p>
-      </div>
-    </div>
-
-     <div class="speakers__speaker">
-      <div class="speakers__photo">
-        <div class="speakers__social">
-          <a href="#" title="Facebook" class="speakers__social__media">
-            <%= partial 'partials/svg/logo-facebook-black' %>
-          </a>
-          <a href="#" title="Twitter" class="speakers__social__media">
-           <%= partial 'partials/svg/logo-twitter-black' %>
-          </a>
-          <a href="#" title="Linkedin" class="speakers__social__media">
-            <%= partial 'partials/svg/logo-linkedin-black' %>
-          </a>
-          <a href="#" title="Instagram" class="speakers__social__media">
-            <%= partial 'partials/svg/logo-instagram-black' %>
-          </a>
-        </div>
-
-        <figure>
-          <img src="http://evently.mikado-themes.com/wp-content/uploads/2017/06/design-team-img-2.jpg" alt="Ada Patterson">
-        </figure>
-      </div>
-
-      <div class="speakers__description">
-        <h4 class="speakers__description__name">Palestrante Foo</h4>
-        <span class="speakers__description__role">Developer at Codeminer 42</span>
-        <p class="speakers__description__subject">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius voluptas laudantium aspernatur accusantium omnis accusamus sapiente enim ratione nam ad quibusdam, vero itaque quae natus! Quos illum quas eos voluptatibus?</p>
-      </div>
-    </div>
+    <% end %>
 
   </div>
 </section>

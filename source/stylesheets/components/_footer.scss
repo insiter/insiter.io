@@ -9,14 +9,11 @@
 
   &__content {
     border-bottom: $color-dark-gray solid .04rem;
-    margin: 0 auto;
     padding: 2.3em 0;
-    width: 80%;
 
     @include large() {
       display: flex;
       justify-content: space-between;
-      max-width: 68.75rem;
     }
   }
 
@@ -50,8 +47,10 @@
     margin-bottom: .3em;
     margin-top: 0;
 
-    span {
+    &::after {
       color: $color-red;
+      content: '.';
+      padding-left: .2em;
     }
   }
 

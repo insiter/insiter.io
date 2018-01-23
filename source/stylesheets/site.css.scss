@@ -2,9 +2,13 @@
 @import "queries";
 @import "general";
 
-@import "components/map";
-@import "components/landing";
-@import "components/speakers";
-@import "components/logo";
-@import "components/notfound";
+@import "components/title";
+@import "components/button";
+
 @import "components/footer";
+@import "components/hero";
+@import "components/map";
+@import "components/speakers";
+
+@import "pages/landing";
+@import "pages/notfound";

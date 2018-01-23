@@ -1,9 +1,16 @@
-#local {
-  background-color: rgb(190, 190, 190);
-  height: 50vh;
-  width: 100%;
+.map {
+  background-color: #e5e3df;
+  height: 18.75rem;
 
-  .address {
-    font-size: 1.2em;
+  @include small() {
+    height: 25rem;
+  }
+
+  @include medium() {
+    height: 37.5rem;
+  }
+
+  &__container {
+    height: 100%;
   }
 }

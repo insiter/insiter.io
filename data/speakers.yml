@@ -1,57 +1,42 @@
 people:
-  - name: Carolina Campos
-    github: carolpc
-    picture: https://avatars3.githubusercontent.com/u/7128885?v=4&s=460
+  - name: Patricia Bastos
+    picture: //avatars0.githubusercontent.com/u/5859987
+    resume:
+      Web and cat lover ❤ 🐈,. Coach in the Rails Girls SP 2017.💪🏼 Volunteer teaching.
+    social:
+      twitter: patricialuzbast
+      # facebook: paty.bastos.5
+      linkedin: patricia-bastos-530ab16a
+      github: patybastos
     company:
+      rule: Back-end Developer
       name: Codeminer42
-      link: //codeminer42.com/
+      link: //codeminer42.com
 
-  - name: Jean Carlo Emer
-    github: jcemer
-    picture: //avatars1.githubusercontent.com/u/353504
+  - name: Fabio Akita
+    picture: //media.licdn.com/media/AAEAAQAAAAAAAAMVAAAAJDJjYmEwOTk4LTE4MTItNGQwMC04NDFiLWU2ZTMzMmJjNzY4ZQ.jpg
+    resume:
+      Brazilian, New Tech Activist. Founder and organizer of THE CONF. Codeminer42 offshore software boutique co-founder. Dabbling about Cryptocurrencies!
+    social:
+      twitter: AkitaOnRails
+      # facebook: akitaonrails
+      linkedin: akitaonrails
+      github: akitaonrails
     company:
-      name: Work & Co
-      link: //work.co/
-
-  - name: Tiárli Oliveira
-    github: tiarly
-    picture: //avatars3.githubusercontent.com/u/2394744
-    company:
+      rule: CO-Founder & Back-end Developer
       name: Codeminer42
-      link: //codeminer42.com/
+      link: //codeminer42.com
 
-  - name: Ícaro Heimig
-    github: icaromh
-    picture: //avatars1.githubusercontent.com/u/3057676
+  - name: Marcelo Quinta
+    picture: //scontent.fgyn3-1.fna.fbcdn.net/v/t1.0-9/15109516_1286983074699781_4687556743131007350_n.jpg?oh=c21c4b9b1e10d2544b49fe9a4741d1cf&oe=5B241DB0
+    resume:
+      Professor at UFG, GDG Goiânia, Google Developer Expert / Intel Innovator in Android. Mobility, UX, IoT, Software Engineering. Learn, create, teach, repeat.
+    social:
+      twitter: mrquinta
+      # facebook: marceloquinta
+      linkedin: marcelo-quinta-6444bb22
+      github: marceloquinta
     company:
-      name: Globo.com
-      link: //globo.com/
-
-  - name: Débora Duarte
-    github: deboraduarte
-    picture: /images/debora.jpg
-    company:
-      name: Agência Força
-      link: //www.facebook.com/agenciaforca/
-
-  - name: Matias Leidemer
-    github: matiasleidemer
-    picture: //avatars3.githubusercontent.com/u/10559?v=4&s=460
-    company:
-      name: Sticker Mule
-      link: //stickermule.com/
-
-  - name: Cynthia Zanoni
-    github: cyz
-    picture: //msummit.com.br/img/speaker/cynthia.jpg
-    color: purple
-    company:
-      name: Microsoft
-      link: //microsoft.com
-
-  - name: Fuad Saud
-    github: fuadsaud
-    picture: //avatars0.githubusercontent.com/u/1993787?s=460&v=4
-    company:
-      name: Nubank
-      link: //nubank.com.br/
+      rule: Developer & Mentor
+      name: Google Inc.
+      link: //google.com

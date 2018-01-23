@@ -1,0 +1,167 @@
+.hero {
+  background: url(/images/particles-bg.png) no-repeat center center;
+  background-size: cover;
+  min-height: 94vh;
+  overflow: hidden;
+  position: relative;
+
+  &__logo {
+    font-family: $font-primary;
+    font-size: 2rem;
+    letter-spacing: -.03em;
+    margin: 2rem 0 0 5%;
+    position: absolute;
+
+    @include medium() {
+      color: $color-white;
+      margin-left: 3rem;
+    }
+  }
+
+  &__geometrical-forms {
+    &::before,
+    &::after {
+      content: '';
+      position: absolute;
+      z-index: -2;
+    }
+
+    &::before {
+      animation: wave 2s linear infinite;
+      background-color: $color-light;
+      border-radius: 50%;
+      bottom: 8vh;
+      height: 30vw;
+      left: -8vw;
+      transform-origin: 52%;
+      width: 30vw;
+    }
+
+    @include large() {
+      &::after {
+        border-color: #f4f4f4 transparent transparent transparent;
+        border-style: solid;
+        border-width: 90vh 50vh 0 50vh;
+        height: 50vh;
+        right: 0;
+        top: -13vh;
+        transform: rotate(10deg);
+        width: 50vh;
+      }
+    }
+  }
+
+  .wrapper {
+    padding: 10rem 0;
+
+    @include medium() {
+      padding-top: 12rem;
+    }
+
+    @include large() {
+      padding-top: 17.5rem;
+    }
+  }
+
+  &__slogan {
+    letter-spacing: -.05em;
+    line-height: 1.2;
+    margin: 0 auto;
+
+    @include medium() {
+      font-size: 4.375rem;
+    }
+
+    @include large() {
+      font-size: 6.25rem;
+    }
+
+    &::before {
+      display: none;
+    }
+  }
+
+  &__subject {
+    font-size: .875rem;
+    margin-top: 0;
+    max-width: 38rem;
+
+    @include medium() {
+      font-size: 1rem;
+    }
+
+    @include large() {
+      font-size: 1.125rem;
+    }
+  }
+
+  &::before,
+  &::after {
+    background-repeat: no-repeat;
+    background-size: contain;
+    content: '';
+    position: absolute;
+    top: 0;
+    z-index: -1;
+  }
+
+  &__ticket {
+    margin-top: 1rem;
+  }
+
+  &__info {
+    bottom: 2rem;
+    font-size: 1.625rem;
+    font-weight: 700;
+    margin: 0;
+    position: absolute;
+    right: 5%;
+    text-align: right;
+
+    strong {
+      display: block;
+      font-size: .78em;
+    }
+
+    @include medium() {
+      font-size: 2rem;
+    }
+
+    @include large() {
+      font-size: 2.5rem;
+    }
+  }
+
+  @include medium() {
+    background: none;
+    min-height: 100vh;
+
+    &::before {
+      background-image: url(/images/hero-particle-bg.png);
+      background-position: top left;
+      height: 20rem;
+      left: 0;
+      width: 20rem;
+    }
+  }
+
+  @include large() {
+    &::after {
+      background-image: url(/images/hero-particle-bg-2.png);
+      background-position: top right;
+      height: 16rem;
+      right: 7rem;
+      width: 27rem;
+    }
+  }
+}
+
+@keyframes wave {
+  to {
+    transform: rotate(0deg);
+  }
+
+  from {
+    transform: rotate(360deg);
+  }
+}

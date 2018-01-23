@@ -1,34 +1,11 @@
 .speakers {
   font-size: 1rem;
-  margin: 0 auto;
-  max-width: 68.75rem;
-  width: 90%;
-
-  &__title {
-    font-size: 3.43em;
-    margin: 0;
-
-    span {
-      color: $color-red;
-      left: -.5rem;
-      position: relative;
-    }
-  }
-
-  &__separator {
-    background-color: $color-blue;
-    display: inline-block;
-    height: .18rem;
-    margin: 1.175rem 0 0;
-    vertical-align: top;
-    width: 7.625rem;
-  }
 
   &__container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-top: 10em;
+    margin: 5rem 0 10rem;
   }
 
   &__speaker {
@@ -51,17 +28,19 @@
     justify-content: center;
 
     &__media {
-      margin: 1.25rem 0;
+      height: 1.5rem;
+      margin-right: 1.75rem;
+      margin-top: 2.5rem;
       text-decoration: none;
-      width: 3.25rem;
+      width: 1.5rem;
 
       svg {
         fill: $color-black;
         transition: fill .2s ease-in-out;
+      }
 
-        &:hover {
-          fill: $color-red;
-        }
+      &:hover svg {
+        fill: $color-red;
       }
     }
   }
@@ -73,29 +52,34 @@
       margin: 0;
       position: relative;
 
+      img {
+        display: block;
+        filter: grayscale(90%);
+        height: auto;
+        max-width: 100%;
+      }
+
       &::before {
-        border: .0625rem solid $color-light;
+        border: .0625rem solid $color-white;
         content: '';
         height: 100%;
         position: absolute;
         top: 0;
         transition: border .4s ease;
         width: 100%;
+        z-index: 1;
       }
 
-      &:hover::before {
-        border-width: 1.56rem;
+      &:hover {
+        &::before {
+          border-width: 1.56rem;
+        }
       }
-    }
-
-    img {
-      height: auto;
-      max-width: 100%;
     }
   }
 
   &__description {
-    padding-left: 3.25rem;
+    margin-left: 3.25rem;
 
     &__name {
       font-size: 1.5em;
@@ -105,7 +89,7 @@
       transition: padding .4s ease;
 
       &::before {
-        background-color: #ee0034;
+        background-color: $color-red;
         content: '';
         height: .18rem;
         left: 0;
@@ -115,24 +99,33 @@
         transition: width .4s ease;
         width: 0;
       }
-
-      &:hover {
-        padding-left: 2.75rem;
-
-        &::before {
-          width: 2.125rem;
-        }
-      }
     }
 
     &__role {
       color: $color-gray;
       font-family: $font-secondary;
       font-style: italic;
+
+      a {
+        color: $color-gray;
+        transition: color .2s ease-in-out;
+
+        &:hover {
+          color: $color-blue;
+        }
+      }
     }
 
     &__subject {
       font-size: .875rem;
+    }
+
+    &:hover &__name {
+      padding-left: 2.75rem;
+
+      &::before {
+        width: 2.125rem;
+      }
     }
   }
 }

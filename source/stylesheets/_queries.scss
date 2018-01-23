@@ -1,4 +1,4 @@
-@mixin medium() {
+@mixin small() {
   $min: 425px;
 
   @media (min-width: $min) {
@@ -6,8 +6,16 @@
   }
 }
 
-@mixin large() {
+@mixin medium() {
   $min: 768px;
+
+  @media (min-width: $min) {
+    @content;
+  }
+}
+
+@mixin large() {
+  $min: 1024px;
 
   @media (min-width: $min) {
     @content;
