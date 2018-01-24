@@ -41,3 +41,17 @@ people:
       rule: Developer & Mentor
       name: Google Inc.
       link: //google.com
+
+  - name: Flavio Cevado
+    picture: //avatars0.githubusercontent.com/u/9992984
+    resume:
+      Engenheiro de Software apaixonado por Elixir.
+    social:
+      twitter: fcevado
+      # facebook: marceloquinta
+      linkedin: flávio-moreira-vieira-217a54a9
+      github: fcevado
+    company:
+      rule: Elixir Software Engineer
+      name: Telnyx
+      link: //telnyx.com
