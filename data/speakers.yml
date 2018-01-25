@@ -31,14 +31,14 @@ people:
   - name: Marcelo Quinta
     picture: //scontent.fgyn3-1.fna.fbcdn.net/v/t1.0-9/15109516_1286983074699781_4687556743131007350_n.jpg?oh=c21c4b9b1e10d2544b49fe9a4741d1cf&oe=5B241DB0
     resume:
-      Professor at UFG, GDG Goiânia, Google Developer Expert / Intel Innovator in Android. Mobility, UX, IoT, Software Engineering. Learn, create, teach, repeat.
+      Professor na UFG, GDG Goiânia, Google Developer Expert, Intel Innovator em Android.
     social:
       twitter: mrquinta
       # facebook: marceloquinta
       linkedin: marcelo-quinta-6444bb22
       github: marceloquinta
     company:
-      rule: Developer & Mentor
+      rule: Mentor
       name: Google Inc.
       link: //google.com
 
