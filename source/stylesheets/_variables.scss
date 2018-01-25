@@ -1,11 +1,16 @@
 // colors
-$color-white: #ffffff;
-$color-black: #191919;
-$color-light: #f4f4f4;
-$color-red  : #ee0034;
+$color-white:      #ffffff;
+$color-black:      #191919;
+$color-gray:       #868686;
+$color-light:      #f4f4f4;
+$color-light-gray: #a2a2a2;
+$color-dark-gray:  #3d3d3d;
+$color-blue:       #356bf8;
+$color-red:        #ee0034;
 
 // fonts
-$font-primary  : 'Montserrat', sans-serif;
+$font-primary:   'Montserrat', sans-serif;
 $font-secondary: 'Libre Baskerville', serif;
 
 $font-size-base: 16px;
+$wrapper-width:  68.75rem;

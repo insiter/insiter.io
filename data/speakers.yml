@@ -1,57 +1,85 @@
 people:
-  - name: Carolina Campos
-    github: carolpc
-    picture: https://avatars3.githubusercontent.com/u/7128885?v=4&s=460
+  - name: Patricia Bastos
+    picture: //avatars0.githubusercontent.com/u/5859987
+    resume:
+      Desenvolvedora de Software há 6 anos, formada em Ciência da Computação pela PUC Minas - Poços de Caldas e pós-graduada em Engenharia de Software pela Unicamp.
+      Professora voluntária. Trabalha atualmente como desenvolvedora backend na Codeminer42.
+    social:
+      twitter: patricialuzbast
+      # facebook: paty.bastos.5
+      linkedin: patricia-bastos-530ab16a
+      github: patybastos
     company:
+      rule: Back-end Developer
       name: Codeminer42
-      link: //codeminer42.com/
+      link: //codeminer42.com
 
-  - name: Jean Carlo Emer
-    github: jcemer
-    picture: //avatars1.githubusercontent.com/u/353504
+  - name: Fabio Akita
+    picture: //media.licdn.com/media/AAEAAQAAAAAAAAMVAAAAJDJjYmEwOTk4LTE4MTItNGQwMC04NDFiLWU2ZTMzMmJjNzY4ZQ.jpg
+    resume:
+      Brazilian, New Tech Activist. Founder and organizer of THE CONF. Codeminer42 offshore software boutique co-founder. Dabbling about Cryptocurrencies!
+    social:
+      twitter: AkitaOnRails
+      # facebook: akitaonrails
+      linkedin: akitaonrails
+      github: akitaonrails
     company:
-      name: Work & Co
-      link: //work.co/
-
-  - name: Tiárli Oliveira
-    github: tiarly
-    picture: //avatars3.githubusercontent.com/u/2394744
-    company:
+      rule: CO-Founder & Back-end Developer
       name: Codeminer42
-      link: //codeminer42.com/
+      link: //codeminer42.com
 
-  - name: Ícaro Heimig
-    github: icaromh
-    picture: //avatars1.githubusercontent.com/u/3057676
+  - name: Marcelo Quinta
+    picture: //scontent.fgyn3-1.fna.fbcdn.net/v/t1.0-9/15109516_1286983074699781_4687556743131007350_n.jpg?oh=c21c4b9b1e10d2544b49fe9a4741d1cf&oe=5B241DB0
+    resume:
+      Professor at UFG, GDG Goiânia, Google Developer Expert / Intel Innovator in Android. Mobility, UX, IoT, Software Engineering. Learn, create, teach, repeat.
+    social:
+      twitter: mrquinta
+      # facebook: marceloquinta
+      linkedin: marcelo-quinta-6444bb22
+      github: marceloquinta
     company:
-      name: Globo.com
-      link: //globo.com/
+      rule: Developer & Mentor
+      name: Google Inc.
+      link: //google.com
 
-  - name: Débora Duarte
-    github: deboraduarte
-    picture: /images/debora.jpg
+  - name: Isabella Silveira
+    picture: //pbs.twimg.com/profile_images/928704363819880448/fENvyAKS.jpg
+    resume:
+      Open source cheerleader, machine learning enthusiast, dog person, maker of codes.
+    social:
+      twitter: silveira_bells
+      # facebook:
+      linkedin: isabellasilveira
+      github: bella-silveira
     company:
-      name: Agência Força
-      link: //www.facebook.com/agenciaforca/
+      rule: Developer & Mentor
+      name: Work & CO
+      link: //work.co
 
-  - name: Matias Leidemer
-    github: matiasleidemer
-    picture: //avatars3.githubusercontent.com/u/10559?v=4&s=460
+  - name: Flavio Cevado
+    picture: //avatars0.githubusercontent.com/u/9992984
+    resume:
+      Engenheiro de Software apaixonado por Elixir.
+    social:
+      twitter: fcevado
+      # facebook: fcevado
+      linkedin: flávio-moreira-vieira-217a54a9
+      github: fcevado
     company:
-      name: Sticker Mule
-      link: //stickermule.com/
+      rule: Elixir Software Engineer
+      name: Telnyx
+      link: //telnyx.com
 
-  - name: Cynthia Zanoni
-    github: cyz
-    picture: //msummit.com.br/img/speaker/cynthia.jpg
-    color: purple
+  - name: Nícolas Lazarte
+    picture: //avatars0.githubusercontent.com/u/486274
+    resume:
+      Atua na área de tecnologia há mais de 8 anos. Atualmente CTO da Netshow.me. Viciado em cerveja, coca-cola e frango frito. Defensor assíduo do trabalho remoto.
+    social:
+      # twitter:
+      facebook: nicolaskaqui
+      linkedin: nicolaslazartekaqui
+      github: nicolaslazartekaqui
     company:
-      name: Microsoft
-      link: //microsoft.com
-
-  - name: Fuad Saud
-    github: fuadsaud
-    picture: //avatars0.githubusercontent.com/u/1993787?s=460&v=4
-    company:
-      name: Nubank
-      link: //nubank.com.br/
+      rule: CTO
+      name: Netshow.me
+      link: //netshow.me
