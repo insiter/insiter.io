@@ -42,16 +42,44 @@ people:
       name: Google Inc.
       link: //google.com
 
+  - name: Isabella Silveira
+    picture: //pbs.twimg.com/profile_images/928704363819880448/fENvyAKS.jpg
+    resume:
+      Open source cheerleader, machine learning enthusiast, dog person, maker of codes.
+    social:
+      twitter: silveira_bells
+      # facebook:
+      linkedin: isabellasilveira
+      github: bella-silveira
+    company:
+      rule: Developer & Mentor
+      name: Work & CO
+      link: //work.co
+
   - name: Flavio Cevado
     picture: //avatars0.githubusercontent.com/u/9992984
     resume:
       Engenheiro de Software apaixonado por Elixir.
     social:
       twitter: fcevado
-      # facebook: marceloquinta
+      # facebook: fcevado
       linkedin: flávio-moreira-vieira-217a54a9
       github: fcevado
     company:
       rule: Elixir Software Engineer
       name: Telnyx
       link: //telnyx.com
+
+  - name: Nícolas Lazarte
+    picture: //avatars0.githubusercontent.com/u/486274
+    resume:
+
+    social:
+      # twitter:
+      facebook: nicolaskaqui
+      linkedin: nicolaslazartekaqui
+      github: nicolaslazartekaqui
+    company:
+      rule: CTO
+      name: Netshow.me
+      link: //netshow.me
