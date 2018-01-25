@@ -1,5 +1,6 @@
 .title {
-  font-size: 3.43em;
+  font-size: 2.43em;
+  letter-spacing: -.02em;
   margin: 0;
   padding-bottom: .4em;
   position: relative;
@@ -18,5 +19,9 @@
     color: $color-red;
     content: '.';
     padding-left: .2em;
+  }
+
+  @include medium() {
+    font-size: 3.43em;
   }
 }

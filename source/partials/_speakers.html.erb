@@ -1,10 +1,10 @@
 <section class="speakers wrapper">
-  <h3 class="title">Speakers</h3>
+  <h3 class="title">Palestrantes</h3>
 
   <div class="speakers__container">
 
     <% data.speakers.people.each do |speaker| %>
-      <div class="speakers__speaker">
+      <article class="speakers__speaker">
         <div class="speakers__photo">
           <div class="speakers__social">
             <% if speaker.social.facebook %>
@@ -44,7 +44,7 @@
           <span class="speakers__description__role">
             <%= speaker.company.rule %>
             at
-            <a href="<%= speaker.company.link %>" rel="external">
+            <a href="<%= speaker.company.link %>" rel="external" title="<%= speaker.company.name %>">
               <%= speaker.company.name %>
             </a>
           </span>
@@ -52,7 +52,7 @@
             <%= speaker.resume %>
           </p>
         </div>
-      </div>
+      </article>
     <% end %>
 
   </div>

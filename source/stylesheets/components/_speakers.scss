@@ -29,8 +29,7 @@
 
     &__media {
       height: 1.5rem;
-      margin-right: 1.75rem;
-      margin-top: 2.5rem;
+      margin: 1.25rem 1.75rem 1.25rem 0;
       text-decoration: none;
       width: 1.5rem;
 
@@ -69,9 +68,11 @@
         z-index: 1;
       }
 
-      &:hover {
-        &::before {
-          border-width: 1.56rem;
+      @include medium() {
+        &:hover {
+          &::before {
+            border-width: 1.56rem;
+          }
         }
       }
     }
@@ -82,21 +83,21 @@
 
     &__name {
       font-size: 1.5em;
+      letter-spacing: -.02em;
       margin-bottom: 0;
       margin-top: 1.625rem;
-      position: relative;
-      transition: padding .4s ease;
 
       &::before {
         background-color: $color-red;
         content: '';
+        display: inline-block;
         height: .18rem;
-        left: 0;
-        position: absolute;
-        top: 50%;
-        transform: translate3d(0, 0, 0);
-        transition: width .4s ease;
-        width: 0;
+        vertical-align: middle;
+        width: 1.875rem;
+
+        @include medium() {
+          width: 2.125rem;
+        }
       }
     }
 
@@ -106,25 +107,18 @@
       font-style: italic;
 
       a {
-        color: $color-gray;
-        transition: color .2s ease-in-out;
+        color: $color-blue;
+        transition: color .2s;
 
         &:hover {
-          color: $color-blue;
+          color: darken($color-blue, 10);
         }
       }
     }
 
     &__subject {
       font-size: .875rem;
-    }
-
-    &:hover &__name {
-      padding-left: 2.75rem;
-
-      &::before {
-        width: 2.125rem;
-      }
+      line-height: 1.75;
     }
   }
 }
