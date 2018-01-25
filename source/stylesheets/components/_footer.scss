@@ -1,15 +1,24 @@
 .footer {
   background: $color-black;
   color: $color-white;
-  font-size: .9rem;
-
-  @include large() {
-    font-size: $font-size-base;
-  }
+  font-size: .875rem;
 
   &__content {
-    border-bottom: $color-dark-gray solid .04rem;
-    padding: 2.3em 0;
+    border-bottom: .0625rem solid $color-dark-gray;
+    padding: 2em 0;
+
+    a {
+      color: $color-light-gray;
+      transition: color .2s;
+
+      &:hover {
+        color: $color-white;
+      }
+    }
+
+    address {
+      font-style: normal;
+    }
 
     @include large() {
       display: flex;
@@ -21,7 +30,7 @@
     flex: 1;
     min-width: 10rem;
 
-    &--insiter {
+    &--about {
       flex: 3;
 
       p {
@@ -35,7 +44,8 @@
   }
 
   &__section-title {
-    font-size: 1.125em;
+    font-size: 1rem;
+    margin: 1.625em 0;
   }
 
   &__logo {
@@ -56,41 +66,39 @@
 
   &__useful-links {
     list-style: none;
+    margin: 0;
     padding: 0;
-
-    a {
-      color: $color-light-gray;
-      text-decoration: none;
-      transition: color .2s ease-out;
-
-      &:hover {
-        color: $color-white;
-      }
-    }
   }
 
   &__social-media {
     display: flex;
     justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    padding: 0;
     text-decoration: none;
 
     svg {
-      transition: fill .4s ease;
+      transition: fill .2s;
 
       &:hover {
-        fill: $color-blue;
+        fill: $color-white;
       }
     }
   }
 
   &__powered {
-    color: $color-light-gray;
-    font-family: $font-secondary;
-    font-size: .9em;
-    font-style: italic;
+    display: block;
     margin: 0 auto;
-    padding: 1.85rem;
+    max-width: 14.0625rem;
+    padding: 2rem;
     text-align: center;
+    text-decoration: none;
+
+    img {
+      display: block;
+      width: 100%;
+    }
   }
 }
 
