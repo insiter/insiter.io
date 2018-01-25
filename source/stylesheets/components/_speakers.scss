@@ -12,7 +12,7 @@
     margin-bottom: 3.875rem;
     max-width: 31.25rem;
 
-    @include large() {
+    @include medium() {
       max-height: 40.75rem;
       width: 47%;
 
@@ -68,11 +68,13 @@
         z-index: 1;
       }
 
-      @include medium() {
-        &:hover {
-          &::before {
-            border-width: 1.56rem;
-          }
+      &:hover::before {
+        @include medium() {
+          border-width: 1rem;
+        }
+
+        @include large() {
+          border-width: 1.56rem;
         }
       }
     }
