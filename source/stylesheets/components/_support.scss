@@ -1,0 +1,13 @@
+.support {
+  background-color: $color-light;
+  padding: 5rem 0 8rem;
+
+  &__container {
+    margin-top: 5rem;
+
+    img {
+      display: block;
+      max-width: 12.5rem;
+    }
+  }
+}

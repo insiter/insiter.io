@@ -1,0 +1,11 @@
+<section class="support">
+  <div class="wrapper">
+    <h3 class="title">Parceiros</h3>
+
+    <div class="support__container">
+      <% data.support.companies.each do |company| %>
+        <%= image_tag company.logo, alt: company.name, title: company.name %>
+      <% end %>
+    </div>
+  </div>
+</section>
