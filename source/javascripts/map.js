@@ -1,14 +1,14 @@
 export default () => {
   const mapContainer = document.querySelector('[data-google-maps]')
-
+  const { lat, lng } = mapContainer.dataset
   const center = {
-    lat: -16.6697035,
-    lng: -49.2358471
+    lat: Number(lat),
+    lng: Number(lng)
   }
 
   /* global google */
   const map = new google.maps.Map(mapContainer, {
-    zoom: 16,
+    zoom: 15,
     scrollwheel: false,
     styles: require('./map-style.json'),
     center
