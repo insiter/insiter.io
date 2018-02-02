@@ -85,3 +85,15 @@ people:
       rule: CTO
       name: Netshow.me
       link: //netshow.me
+
+  - name: Juliane Lima
+    picture: //avatars1.githubusercontent.com/u/12798219?s=400&v=4
+    resume:
+      É desenvolvedora apaixonada por Ruby, café e vinho. Atualmente trabalhando na Ignição Digital no projeto Klickpages,
+      que tem foco em criação facilitada de páginas de capturas de leads, chamado Klickpages.
+    social:
+      github: jujulisan
+    company:
+      rule: Developer
+      name: Ignição Digital
+      link: //ignicaodigital.com.br
