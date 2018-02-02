@@ -15,7 +15,7 @@ people:
       link: //codeminer42.com
 
   - name: Fabio Akita
-    picture: //media.licdn.com/media/AAEAAQAAAAAAAAMVAAAAJDJjYmEwOTk4LTE4MTItNGQwMC04NDFiLWU2ZTMzMmJjNzY4ZQ.jpg
+    picture: https://media.licdn.com/media/AAEAAQAAAAAAAAMVAAAAJDJjYmEwOTk4LTE4MTItNGQwMC04NDFiLWU2ZTMzMmJjNzY4ZQ.jpg
     resume:
       Brazilian, New Tech Activist. Founder and organizer of THE CONF. Codeminer42 offshore software boutique co-founder. Dabbling about Cryptocurrencies!
     social:
@@ -43,7 +43,7 @@ people:
       link: //google.com
 
   - name: Isabella Silveira
-    picture: //pbs.twimg.com/media/DONrzZ7X4AEBXBu.jpg
+    picture: https://pbs.twimg.com/media/DONrzZ7X4AEBXBu.jpg
     resume:
       Open source cheerleader, machine learning enthusiast, dog person, maker of codes.
     social:
