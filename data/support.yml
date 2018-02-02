@@ -1,6 +1,8 @@
 companies:
   - name: Senac
+    link: //www.go.senac.br/portal
     logo: //senacrs.com.br/imagens/senac_logo.png
 
   - name: Umbler
+    link: //www.umbler.com
     logo: //p4.zdassets.com/hc/settings_assets/565154/200043639/tobLxisiHYtsAiPF0EHNeg-umbler-logo-light-bg.png

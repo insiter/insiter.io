@@ -3,7 +3,17 @@
   padding: 5rem 0 8rem;
 
   &__container {
-    margin-top: 5rem;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    li {
+      padding-top: 5rem;
+    }
 
     img {
       display: block;

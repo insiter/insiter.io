@@ -2,10 +2,14 @@
   <div class="wrapper">
     <h3 class="title">Apoio</h3>
 
-    <div class="support__container">
+    <ul class="support__container">
       <% data.support.companies.each do |company| %>
-        <%= image_tag company.logo, alt: company.name, title: company.name %>
+        <li>
+          <a href="<%= company.link %>" title="<%= company.name %>" rel="external">
+            <%= image_tag company.logo, alt: company.name, title: company.name %>
+          </a>
+        </li>
       <% end %>
-    </div>
+    </ul>
   </div>
 </section>
