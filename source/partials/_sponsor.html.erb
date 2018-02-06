@@ -1,0 +1,15 @@
+<section class="support sponsor">
+  <div class="wrapper">
+    <h3 class="title">Patrocínio</h3>
+
+    <ul class="support__container">
+      <% data.sponsor.companies.each do |company| %>
+        <li>
+          <a href="<%= company.link %>" title="<%= company.name %>" rel="external">
+            <%= image_tag company.logo, alt: company.name, title: company.name %>
+          </a>
+        </li>
+      <% end %>
+    </ul>
+  </div>
+</section>
