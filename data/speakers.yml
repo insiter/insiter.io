@@ -1,6 +1,6 @@
 people:
   - name: Patricia Bastos
-    picture: //avatars0.githubusercontent.com/u/5859987
+    picture: /images/speakers/patybastos.jpg
     resume:
       Desenvolvedora de Software há 6 anos, formada em Ciência da Computação pela PUC Minas - Poços de Caldas e pós-graduada em Engenharia de Software pela Unicamp.
       Professora voluntária. Trabalha atualmente como desenvolvedora backend na Codeminer42.
@@ -15,7 +15,7 @@ people:
       link: //codeminer42.com
 
   - name: Fabio Akita
-    picture: //avatars2.githubusercontent.com/u/2840
+    picture: /images/speakers/akitaonrails.jpg
     resume:
       Brazilian, New Tech Activist. Founder and organizer of THE CONF. Codeminer42 offshore software boutique co-founder. Dabbling about Cryptocurrencies!
     social:
@@ -29,7 +29,7 @@ people:
       link: //codeminer42.com
 
   - name: Marcelo Quinta
-    picture: //scontent.fgyn3-1.fna.fbcdn.net/v/t1.0-9/15109516_1286983074699781_4687556743131007350_n.jpg?oh=c21c4b9b1e10d2544b49fe9a4741d1cf&oe=5B241DB0
+    picture: /images/speakers/marceloquinta.jpg
     resume:
       Professor na UFG, GDG Goiânia, Google Developer Expert, Intel Innovator em Android.
     social:
@@ -43,7 +43,7 @@ people:
       link: //google.com
 
   - name: Isabella Silveira
-    picture: //avatars2.githubusercontent.com/u/4542747
+    picture: /images/speakers/isabellasilveira.jpg
     resume:
       Open source cheerleader, machine learning enthusiast, dog person, maker of codes.
     social:
@@ -57,7 +57,7 @@ people:
       link: //work.co
 
   - name: Flavio Cevado
-    picture: //avatars0.githubusercontent.com/u/9992984
+    picture: /images/speakers/fcevado.jpg
     resume:
       Escovador de bits ha mais de 10 anos, Engenheiro de Software por definição em contrato.
       Odiava desenvolvimento web mas o amor por Ruby on Rails retirou esse ódio.
@@ -73,7 +73,7 @@ people:
       link: //telnyx.com
 
   - name: Nícolas Lazarte
-    picture: //avatars0.githubusercontent.com/u/486274
+    picture: /images/speakers/nicolaslazartekaqui.jpg
     resume:
       Atua na área de tecnologia há mais de 8 anos. Atualmente CTO da Netshow.me. Viciado em cerveja, coca-cola e frango frito. Defensor assíduo do trabalho remoto.
     social:
@@ -87,7 +87,7 @@ people:
       link: //netshow.me
 
   - name: Juliane Lima
-    picture: //avatars1.githubusercontent.com/u/12798219?s=400&v=4
+    picture: /images/speakers/jujulisan.jpg
     resume:
       É desenvolvedora apaixonada por Ruby, café e vinho. Atualmente trabalhando no projeto Klickpages, projeto esse
       que tem foco em criação facilitada de páginas de capturas de leads.
@@ -97,6 +97,6 @@ people:
       linkedin: juliane-lima-57174521
       github: jujulisan
     company:
-      rule: Developer
+      rule: Back-end Developer
       name: Klickpages
       link: //klickpages.com.br
