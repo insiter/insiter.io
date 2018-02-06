@@ -92,6 +92,9 @@ people:
       É desenvolvedora apaixonada por Ruby, café e vinho. Atualmente trabalhando no projeto Klickpages, projeto esse
       que tem foco em criação facilitada de páginas de capturas de leads.
     social:
+      # twitter:
+      facebook: jujulisan
+      linkedin: juliane-lima-57174521
       github: jujulisan
     company:
       rule: Developer
