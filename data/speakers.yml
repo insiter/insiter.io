@@ -14,17 +14,16 @@ people:
       name: Codeminer42
       link: //codeminer42.com
 
-  - name: Fabio Akita
-    picture: /images/speakers/akitaonrails.jpg
+  - name: Gabriel Sobrinho
+    picture: /images/speakers/gabrielsobrinho.jpg
     resume:
-      Brazilian, New Tech Activist. Founder and organizer of THE CONF. Codeminer42 offshore software boutique co-founder. Dabbling about Cryptocurrencies!
+      Sobrinho é engenheiro de software com uma experiência de 10 anos de carreira, atualmente trabalha na Codeminer42.
     social:
-      twitter: AkitaOnRails
-      # facebook: akitaonrails
-      linkedin: akitaonrails
-      github: akitaonrails
+      twitter: sobrinho
+      linkedin: gabrielsobrinho
+      github: sobrinho
     company:
-      rule: CO-Founder & Back-end Developer
+      rule: Software Engineer
       name: Codeminer42
       link: //codeminer42.com
 
