@@ -1,0 +1,17 @@
+<table class="tt_timetable">
+  <thead>
+    <tr></tr>
+    <tr class='event tt_tooltip tt_single_event'>Programação</tr>
+
+  </thead>
+  <tbody>
+    <% data.schedule.talks.each do |speaker| %>
+    <tr class="row_1 row_gray">
+      <td>
+        <%= speaker.time %>
+      </td>
+      <td><div class="tt_tooltip_text event tt_tooltip tt_single_event" style="width: 241px; height: 38px; top: 135px; left: 396px;"><i><%= speaker.title %></i></div><div class="tt_tooltip_text event tt_tooltip tt_single_event" style="width: 241px; height: 38px; top: 135px; left: 396px;"><b><%= speaker.people %></b></div>
+      </td>
+    </tr>
+    <% end %>
+</table>
