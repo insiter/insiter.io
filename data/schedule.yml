@@ -1,113 +1,81 @@
 talks:
-  - time: 08:00 - 09:00
+  - time: '08:00'
     title: Credenciamento
-    description: >
+    description:
       Documento de identificação com foto, QR Code ou outra forma de comprovante
       da compra do ingresso no site.
 
-  - time: 09:00 - 09:15
+  - time: '09:00'
     title: Abertura
     description: Abertura oficial do evento.
 
-  - time: 09:15 - 10:00
-    title: Importação e distribuição de tweets para produtos Globo.com
-    people: Ícaro Heimig
-    description: >
-      Dentro da Globo.com o Twitter é utilizado como forma de publicar conteúdo
-      dinâmico de coberturas em tempo real. Existiam diversas soluções internas
-      para importar e distribuir os tweets para os produtos, cada uma com suas
-      peculiaridades. Na palestra, mostro como desenvolvemos um serviço que
-      distribui os tweets de forma agnóstica ao cliente, unificando as soluções.
+  - time: '09:15'
+    title: Indo além do Rails way
+    people: Patricia Bastos
+    description:
 
-  - time: 10:00 - 10:30
+  - time: '10:00'
     title: Coffee Break
 
-  - time: 10:30 - 11:15
-    title: Working with Serverless in 2017
-    people: Carolina Campos
-    description: >
-      A proposta desta palestra é discutir as vantagens e desvantagens que o meu
-      time se deparou ao adotar a arquitetura de Serverless para desenvolvimento
-      da nossa API. Sobre serverless, discutiremos o que é, onde é usado,
-      restrições, performance e outros fatores que envolvem a adoção deste.
-      O objetivo é demonstrar um panorama dos benefícios e obstáculos que
-      encontramos ao escolher uma arquitetura ainda imatura para 2017.
+  - time: '10:30'
+    title: "Falhe com êxito: as melhores práticas para ferrar sua aplicação no mobile"
+    people: Marcelo Quinta
+    description:
+      Geralmente falam em palestras somente os conselhos para seu aplicativo dar certo.
+      Nesta falaremos somente de conselhos errados e as piores práticas.
+      Seguindo esta receita você vai ter certeza que sua aplicação vai rodar muito mal em dispositivos móveis.
+      Se você quiser seguir estes passos, vem com a gente!
 
-  - time: 11:15 - 12:00
-    title: React do básico ao servidor
-    people: Jean Carlo Emer
-    description: >
-      Uma coleção de conceitos e práticas para escrita de código de Front-end
-      utilizando React. Tudo o que você precisa saber para colocar React num
-      projeto hoje mesmo sem riscos!
+  - time: '11:15'
+    title: Entendendo Criptomoedas
+    people: Fabio Akita
+    description:
 
-  - time: 12:00 - 14:00
+  - time: '12:00'
     title: Almoço
 
-  - time: 14:00 - 14:45
-    title: Tem um tipo no meu Javascript
-    people: Matias Leidemer
-    description: >
-      Com o advento das SPAs (single page apps), o uso do Javascript não se
-      limita apenas a validação de forms e chamadas ajax. Codificar regras de
-      negócio complexas já faz parte do dia a dia de grande parte dos
-      desenvolvedores JS. Mas, a medida que as linhas de código aumentam, como
-      garantir que tudo está funcionando perfeitamente? Nesta talk falarei sobre
-      o Flow e como ele pode ajudar na diminuição de erros de runtime e na
-      definição de tipos específicos de negócio.
+  - time: '14:00'
+    title: Entendendo as tecnologias e desafios por trás de uma estrutura completa para streaming de vídeo na internet
+    people: Nicolas Lazarte
+    description:
+      O crescimento da cultura do “ao vivo” na internet tem transformado o
+      streaming de vídeo em uma realidade presente cada vez mais no dia a dia das pessoas.
 
-  - time: 14:45 - 15:30
-    title: Blockchains & Smart contracts 101
-    people: Tiárli Oliveira
-    description: >
-      O termo Blockchain está ganhando cada vez mais momento no cenário global
-      e está cada vez mais presente nas notícias, de modo que começa a chamar a
-      atenção de empresas líderes de mercado. Nesta palestra, irei explicar os
-      principais conceitos que você precisará saber sobre essa tecnologia, para
-      que possamos então, começar a entender melhor como aplicar este
-      conhecimento usando Smart Contracts, para resolver problemas reais, não
-      somente algo que terá uma relação com criptomoedas.
+  - time: '14:45'
+    title: Descomplicando API com Rails 5
+    people: Juliane Lima
+    description:
 
-  - time: 15:30 - 16:15
-    title: Be like water
-    people: Fuad Saud
-    description: >
-      Desenvolver serviços que são consumidos por aplicações móveis nativas é
-      uma tarefa um pouco diferente de desenvolver para o browser. Aplicações
-      móveis nativas envolvem ter a mesma funcionalidade espalhada em duas ou
-      mais codebases, com 2 ou mais times trabalhando em paralelo com práticas e
-      release cycles diferentes. Lançar uma nova versão de um app não é tão
-      simples como forçar um refresh na página do seu cliente: pacotes precisam
-      ser aprovados pelas lojas e clientes precisam atualizar seus aplicativos
-      periodicamente. Vou contar um pouco sobre como isso se tornou um problema
-      pro Nubank e como contornamos essas adversidades.
+  - time: '15:30'
+    title: "A web para todos: melhorando a performance ao considerar condições adversas"
+    people: Isabella Silveira
+    description:
+      O Brasil tem uma população de mais de 207 milhões de pessoas e só 37,9% tem acesso a celulares com rede LTE,
+      a maioria ainda usa 3G e até GSM. Dados móveis são caros, assim como a maior parte dos smartphones mais modernos,
+      o que torna toda a experiência digital inviável. Mas calma! Há uma luz no fim do mundo.
+      Ao otimizar a performance dos nossos produtos digitais,
+      podemos atender a esses usuários e acabar alcançando uma experiência melhor para todos.
+      Nessa talk, eu falarei sobre a minha experiência com otimização de performance,
+      melhores práticas que você poderá usar em seus próprios projetos
+      e alguns desafios que cidadãos de países subdesenvolvidos e emergentes ainda encontram.
 
-  - time: 16:15 - 16:45
+  - time: '16:15'
     title: Coffee Break
 
-  - time: 16:45 - 17:30
-    title: Desenvolvimento Multiplataforma
-    people: Débora Duarte
-    description: >
-      A realidade de múltiplos devices para desenvolver uma aplicação pode ser
-      assustadora e complexa. Existem plataformas e bibliotecas de
-      desenvolvimento que permitem desenvolver uma aplicação para diferentes
-      dispositivos, utilizando uma única linguagem. Chamamos isso de
-      desenvolvimento multiplataforma. Mas o que esperar? Quais são as vantagens
-      de se trabalhar dessa forma?
+  - time: '16:45'
+    title: Contribuindo com Open Source
+    people: Gabriel Sobrinho
+    description:
 
-  - time: 17:30 - 18:15
-    title: Web Performance – this is fine!
-    people: Cynthia Zanoni
-    description: >
-      O ano é 2017 e a web é uma das maiores revoluções do mundo. Em meio a
-      tantas ferramentas, gurus e linhas de código, ainda nos deparamos com
-      fantasmas dos tempos primórdios do desenvolvimento de aplicações web, que
-      estão apenas esperando para acabar com seu sono. Numa conversa divertida,
-      vou compartilhar algumas experiências que tive em minha jornada e também
-      mostrar como você pode aproveitar as principais ferramentas e técnicas
-      para obter um bom desempenho.
+  - time: '17:30'
+    title: Porque você deveria conhecer Elixir?
+    people: Flavio Cevado
+    description:
+      Uma apresentação introdutória sobre Elixir e seu ambiente de desenvolvimento.
+      Com foco em apresentar as características da linguagem o ambiente de desenvolvimento, o foco em escalabilidade e concorrência.
+      Como o Elixir e a máquina virtual resolve o problema de concorrência
+      e uma demonstração prática dos poderes de introspecção da maquina virtual que viabiliza toda essas possibilidades.
 
-  - time: "18:15"
+  - time: '18:15'
     title: Encerramento
-    description: Anúncios e agradecimentos de encerramento do evento.
+    description: Anúncios, sorteio e agradecimentos de encerramento do evento.

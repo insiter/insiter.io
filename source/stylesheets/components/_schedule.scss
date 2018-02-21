@@ -1,0 +1,45 @@
+.schedule {
+  margin-bottom: 10rem;
+
+  &__table {
+    border-collapse: collapse;
+    margin-top: 5rem;
+
+    @include small() {
+      font-size: 1.125rem;
+    }
+
+    td {
+      border: .125rem solid lighten($color-light-gray, 20);
+      padding: 1.4rem;
+
+      @include small() {
+        padding: 2rem;
+      }
+
+      &:first-of-type {
+        background-color: lighten($color-light-gray, 30);
+        text-align: center;
+
+        @include small() {
+          min-width: 6rem;
+        }
+      }
+
+      strong {
+        display: block;
+        font-weight: normal;
+      }
+
+      p {
+        margin: 0;
+      }
+    }
+  }
+
+  &__talk {
+    color: $color-gray;
+    font-size: .875rem;
+    line-height: 1.75;
+  }
+}
