@@ -4,6 +4,7 @@
   &__table {
     border-collapse: collapse;
     margin-top: 5rem;
+    width: 100%;
 
     @include small() {
       font-size: 1.125rem;
