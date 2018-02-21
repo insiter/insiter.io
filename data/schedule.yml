@@ -1,58 +1,55 @@
 talks:
-  - time: 08:00 - 09:00
+  - time: '08:00'
     title: Credenciamento
-    description: >
+    description:
       Documento de identificação com foto, QR Code ou outra forma de comprovante
       da compra do ingresso no site.
 
-  - time: 09:00 - 09:15
+  - time: '09:00'
     title: Abertura
     description: Abertura oficial do evento.
 
-  - time: 09:15 - 10:00
+  - time: '09:15'
     title: Indo além do Rails way
     people: Patricia Bastos
-    description: >
-      No description
+    description:
 
-  - time: 10:00 - 10:30
+  - time: '10:00'
     title: Coffee Break
 
-  - time: 10:30 - 11:15
+  - time: '10:30'
     title: "Falhe com êxito: as melhores práticas para ferrar sua aplicação no mobile"
     people: Marcelo Quinta
-    description: >
+    description:
       Geralmente falam em palestras somente os conselhos para seu aplicativo dar certo.
       Nesta falaremos somente de conselhos errados e as piores práticas.
       Seguindo esta receita você vai ter certeza que sua aplicação vai rodar muito mal em dispositivos móveis.
       Se você quiser seguir estes passos, vem com a gente!
 
-  - time: 11:15 - 12:00
+  - time: '11:15'
     title: Entendendo Criptomoedas
     people: Fabio Akita
-    description: >
-      No description
+    description:
 
-  - time: 12:00 - 14:00
+  - time: '12:00'
     title: Almoço
 
-  - time: 14:00 - 14:45
+  - time: '14:00'
     title: Entendendo as tecnologias e desafios por trás de uma estrutura completa para streaming de vídeo na internet
     people: Nicolas Lazarte
-    description: >
+    description:
       O crescimento da cultura do “ao vivo” na internet tem transformado o
       streaming de vídeo em uma realidade presente cada vez mais no dia a dia das pessoas.
 
-  - time: 14:45 - 15:30
+  - time: '14:45'
     title: Descomplicando API com Rails 5
     people: Juliane Lima
-    description: >
-      No description
+    description:
 
-  - time: 15:30 - 16:15
+  - time: '15:30'
     title: "A web para todos: melhorando a performance ao considerar condições adversas"
     people: Isabella Silveira
-    description: >
+    description:
       O Brasil tem uma população de mais de 207 milhões de pessoas e só 37,9% tem acesso a celulares com rede LTE,
       a maioria ainda usa 3G e até GSM. Dados móveis são caros, assim como a maior parte dos smartphones mais modernos,
       o que torna toda a experiência digital inviável. Mas calma! Há uma luz no fim do mundo.
@@ -62,24 +59,23 @@ talks:
       melhores práticas que você poderá usar em seus próprios projetos
       e alguns desafios que cidadãos de países subdesenvolvidos e emergentes ainda encontram.
 
-  - time: 16:15 - 16:45
+  - time: '16:15'
     title: Coffee Break
 
-  - time: 16:45 - 17:30
+  - time: '16:45'
     title: Contribuindo com Open Source
     people: Gabriel Sobrinho
-    description: >
-      No description
+    description:
 
-  - time: 17:30 - 18:15
+  - time: '17:30'
     title: Porque você deveria conhecer Elixir?
     people: Flavio Cevado
-    description: >
-       Uma apresentação introdutória sobre Elixir e seu ambiente de desenvolvimento.
-       Com foco em apresentar as características da linguagem o ambiente de desenvolvimento, o foco em escalabilidade e concorrência.
-       Como o Elixir e a máquina virtual resolve o problema de concorrência
-       e uma demonstração prática dos poderes de introspecção da maquina virtual que viabiliza toda essas possibilidades.
+    description:
+      Uma apresentação introdutória sobre Elixir e seu ambiente de desenvolvimento.
+      Com foco em apresentar as características da linguagem o ambiente de desenvolvimento, o foco em escalabilidade e concorrência.
+      Como o Elixir e a máquina virtual resolve o problema de concorrência
+      e uma demonstração prática dos poderes de introspecção da maquina virtual que viabiliza toda essas possibilidades.
 
-  - time: "18:15"
+  - time: '18:15'
     title: Encerramento
     description: Anúncios, sorteio e agradecimentos de encerramento do evento.
