@@ -1,0 +1,47 @@
+<section class="pricing wrapper">
+  <h3 class="title">Preço</h3>
+
+  <div class="pricing__container">
+
+    <% data.pricing.tables.each do |table| %>
+      <div class="pricing__table">
+        <div class="pricing__table__inner <%= (is_available table.date) ? '': 'unavailable' %>">
+          <div class="pricing__photo">
+            <%= image_tag table.picture, alt: table.title %>
+          </div>
+
+          <h4 class="pricing__title">
+            <%= table.title %>
+          </h4>
+
+          <div class="pricing__content">
+            <%= table.message %>
+          </div>
+
+          <div class="pricing__price">
+            <div class="pricing__price__button">
+              <a
+                href="<%= data.site.tickets_url %>"
+                target="_blank"
+                class="pricing__price__button__link <%= (is_available table.date) ? '': 'disabled__link' %>">
+                <span class="pricing__price__button__link__text">
+                  <%= (is_available table.date) ? 'comprar': ''%>
+                </span>
+              </a>
+            </div>
+
+            <div class="pricing__price__value">
+              <span class="pricing__price__value__currency">
+                <%= table.currency %>
+              </span>
+              <span class="pricing__price__value__amount">
+                <%= table.price %>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    <% end %>
+
+</div>
+</section>
