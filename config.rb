@@ -19,6 +19,14 @@ helpers do
   def image_url(path)
     data.site.url + image_path(path)
   end
+
+  def is_available(date)
+    if Date.parse(date.start) <= Date.today and Date.parse(date.due) > Date.today
+      return true
+    else
+      return false
+    end
+  end
 end
 
 configure :build do

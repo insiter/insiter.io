@@ -1,0 +1,18 @@
+tables:
+  - title: Antecipado
+    message: Ingresso de valor promocional até o dia 25 de feveireiro.
+    picture: /images/pricing/money.svg
+    currency: R$
+    price: '50'
+    date:
+        start: '2018-01-01'
+        due: '2018-02-25'
+
+  - title: Convencional
+    message: A partir de 26 de feveireiro até o dia do evento.
+    picture: /images/pricing/money.svg
+    currency: R$
+    price: '70'
+    date:
+        start: '2018-02-26'
+        due: '2018-03-09'
