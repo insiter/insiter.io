@@ -21,8 +21,6 @@
       background-color: #fff;
       box-shadow: 0 .25rem .8125rem .375rem rgba(0, 0, 0, .05);
       padding: 4.25rem 2.813rem 2.125rem;
-      -webkit-transition: box-shadow .2s ease;
-      -moz-transition: box-shadow .2s ease;
       transition: box-shadow .2s ease;
       vertical-align: middle;
 
@@ -75,6 +73,7 @@
     font-size: .875rem;
     line-height: 1.75;
     margin: 1.313 0 0;
+    max-height: 3rem;
     position: relative;
     vertical-align: middle;
     width: 100%;
@@ -110,8 +109,6 @@
         padding: 1rem 1.75rem;
         text-decoration: none;
         text-transform: uppercase;
-        -webkit-transition: all .1s cubic-bezier(0, .63, .31, 1.01);
-        -moz-transition: all .1s cubic-bezier(0, .63, .31, 1.01);
         transition: all .1s cubic-bezier(0, .63, .31, 1.01);
         vertical-align: middle;
         width: auto;
@@ -125,8 +122,6 @@
           display: inline-block;
           padding: 0;
           position: relative;
-          -webkit-transition: padding .6s cubic-bezier(.8, .03, 0, .95);
-          -moz-transition: padding .6s cubic-bezier(.8, .03, 0, .95);
           transition: padding .6s;
           vertical-align: middle;
 
@@ -137,13 +132,8 @@
             left: 0;
             position: absolute;
             top: calc(50% - .125rem);
-            -webkit-transform: scaleX(0);
-            -moz-transform: scaleX(0);
             transform: scaleX(0);
-            -webkit-transform-origin: 0 50%;
             transform-origin: 0 50%;
-            -webkit-transition: all .25s cubic-bezier(1, -.01, 0, .88);
-            -moz-transition: all .25s cubic-bezier(1, -.01, 0, .88);
             transition: all .25s cubic-bezier(1, -.01, 0, .88);
             width: 2.125rem;
             will-change: transform;
@@ -154,11 +144,7 @@
           padding: 0 0 0 2.75rem;
 
           &::before {
-            -webkit-transform: scaleX(1);
-            -moz-transform: scaleX(1);
             transform: scaleX(1);
-            -webkit-transition: all .25s cubic-bezier(1, -.01, 0, .88) .1s;
-            -moz-transition: all .25s cubic-bezier(1, -.01, 0, .88) .1s;
             transition: all .25s cubic-bezier(1, -.01, 0, .88) .1s;
           }
         }
@@ -207,7 +193,7 @@
 }
 
 .unavailable {
-  background-color: #efefef;
+  opacity: .3;
 
   &:hover {
     box-shadow: 0 .25rem .8125rem .375rem rgba(0, 0, 0, .05);
