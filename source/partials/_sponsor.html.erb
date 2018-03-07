@@ -5,7 +5,7 @@
     <ul class="support__container">
       <% data.sponsor.companies.each do |company| %>
         <li>
-          <a href="<%= company.link %>" title="<%= company.name %>" rel="external">
+          <a href="<%= company.link %>" title="<%= company.name %>" rel="external" target="_blank">
             <%= image_tag company.logo, alt: company.name, title: company.name %>
           </a>
         </li>

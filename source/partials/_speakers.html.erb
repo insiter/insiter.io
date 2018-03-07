@@ -8,25 +8,25 @@
         <div class="speakers__photo">
           <div class="speakers__social">
             <% if speaker.social.facebook %>
-              <a href="//facebook.com/<%= speaker.social.facebook %>" rel="external" title="Facebook" class="speakers__social__media">
+              <a href="//facebook.com/<%= speaker.social.facebook %>" rel="external" target="_blank" title="Facebook" class="speakers__social__media">
                 <%= partial 'partials/svg/speaker/facebook' %>
               </a>
             <% end %>
 
             <% if speaker.social.twitter %>
-              <a href="//twitter.com/<%= speaker.social.twitter %>" rel="external" title="Twitter" class="speakers__social__media">
+              <a href="//twitter.com/<%= speaker.social.twitter %>" rel="external" target="_blank" title="Twitter" class="speakers__social__media">
                 <%= partial 'partials/svg/speaker/twitter' %>
               </a>
             <% end %>
 
             <% if speaker.social.linkedin %>
-              <a href="//linkedin.com/in/<%= speaker.social.linkedin %>" rel="external" title="Linkedin" class="speakers__social__media">
+              <a href="//linkedin.com/in/<%= speaker.social.linkedin %>" rel="external" target="_blank" title="Linkedin" class="speakers__social__media">
                 <%= partial 'partials/svg/speaker/linkedin' %>
               </a>
             <% end %>
 
             <% if speaker.social.github %>
-              <a href="//github.com/<%= speaker.social.github %>" rel="external" title="GitHub" class="speakers__social__media">
+              <a href="//github.com/<%= speaker.social.github %>" rel="external" target="_blank" title="GitHub" class="speakers__social__media">
                 <%= partial 'partials/svg/speaker/github' %>
               </a>
             <% end %>
@@ -44,7 +44,7 @@
           <span class="speakers__description__role">
             <%= speaker.company.rule %>
             na
-            <a href="<%= speaker.company.link %>" rel="external" title="<%= speaker.company.name %>">
+            <a href="<%= speaker.company.link %>" rel="external" target="_blank" title="<%= speaker.company.name %>">
               <%= speaker.company.name %>
             </a>
           </span>
