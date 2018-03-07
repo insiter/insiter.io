@@ -1,0 +1,209 @@
+.pricing {
+  &__container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5rem 0 10rem;
+  }
+
+  &__table,
+  &__table__inner {
+    box-sizing: border-box;
+    position: relative;
+  }
+
+  &__table {
+    float: left;
+    margin: 0 0 2rem;
+    max-width: 31.25rem;
+    padding: 0 1rem;
+
+    &__inner {
+      background-color: #fff;
+      box-shadow: 0 .25rem .8125rem .375rem rgba(0, 0, 0, .05);
+      padding: 4.25rem 2.813rem 2.125rem;
+      transition: box-shadow .2s ease;
+      vertical-align: middle;
+
+      @include medium() {
+        padding: 4.25rem 2.188rem 2.124rem;
+      }
+
+      &:hover {
+        box-shadow: 0 .5rem 1.125rem .375rem rgba(0, 0, 0, .08);
+      }
+    }
+
+    @include small() {
+      width: 100%;
+    }
+
+    @include medium() {
+      width: 33.33333%;
+    }
+
+    @include large() {
+      width: 33.33333%;
+    }
+  }
+
+  &__photo {
+    display: inline-block;
+    margin: 0 0 2.875rem;
+    position: relative;
+    vertical-align: middle;
+    width: 100%;
+
+    img {
+      display: block;
+      height: auto;
+      max-width: 100%;
+      width: 8rem;
+    }
+  }
+
+  &__title {
+    color: #1c1c1c;
+    margin: 0;
+  }
+
+  &__content {
+    color: #868686;
+    color: $color-gray;
+    display: inline-block;
+    font-size: .875rem;
+    line-height: 1.75;
+    margin: 1.313 0 0;
+    max-height: 3rem;
+    position: relative;
+    vertical-align: middle;
+    width: 100%;
+  }
+
+  &__price {
+    display: table;
+    margin: 2.313rem 0 0;
+    position: relative;
+    vertical-align: middle;
+    width: 100%;
+
+    &__button {
+      display: inline-block;
+      position: relative;
+      vertical-align: middle;
+      width: 100%;
+
+      &__link {
+        background-color: transparent;
+        border: 0;
+        box-sizing: border-box;
+        color: #191919;
+        cursor: pointer;
+        font-family: inherit;
+        font-size: .75rem;
+        font-weight: 700;
+        letter-spacing: .1em;
+        line-height: 1.5rem;
+        margin: 0;
+        outline: 0;
+        padding: 0 !important;
+        padding: 1rem 1.75rem;
+        text-decoration: none;
+        text-transform: uppercase;
+        transition: all .1s cubic-bezier(0, .63, .31, 1.01);
+        vertical-align: middle;
+        width: auto;
+
+        &:hover {
+          border-color: transparent !important;
+        }
+
+        &__text {
+          color: #191919;
+          display: inline-block;
+          padding: 0;
+          position: relative;
+          transition: padding .6s;
+          vertical-align: middle;
+
+          &::before {
+            background-color: #ee0034;
+            content: '';
+            height: .1875rem;
+            left: 0;
+            position: absolute;
+            top: calc(50% - .125rem);
+            transform: scaleX(0);
+            transform-origin: 0 50%;
+            transition: all .25s cubic-bezier(1, -.01, 0, .88);
+            width: 2.125rem;
+            will-change: transform;
+          }
+        }
+
+        &:hover > &__text {
+          padding: 0 0 0 2.75rem;
+
+          &::before {
+            transform: scaleX(1);
+            transition: all .25s cubic-bezier(1, -.01, 0, .88) .1s;
+          }
+        }
+      }
+    }
+
+    &__value {
+      font-weight: 700;
+      letter-spacing: -.05em;
+      line-height: 1;
+      text-align: right;
+
+      span {
+        display: inline-block;
+        position: relative;
+        vertical-align: middle;
+      }
+
+      &__currency {
+        color: #444;
+        font-size: 1.563rem;
+        margin-right: .3125rem;
+
+        @include medium() {
+          font-size: 1.313rem;
+        }
+      }
+
+      &__amount {
+        color: #1c1c1c;
+        font-size: 3.125rem;
+
+        @include medium() {
+          font-size: 2.5rem;
+        }
+      }
+    }
+
+    div {
+      display: table-cell;
+      position: relative;
+      vertical-align: middle;
+      width: 50%;
+    }
+  }
+}
+
+.unavailable {
+  opacity: .3;
+
+  &:hover {
+    box-shadow: 0 .25rem .8125rem .375rem rgba(0, 0, 0, .05);
+  }
+}
+
+.disabled {
+  &__link {
+    cursor: default;
+    pointer-events: none;
+    text-decoration-color: #efefef;
+  }
+}
