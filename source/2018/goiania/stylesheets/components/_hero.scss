@@ -1,5 +1,5 @@
 .hero {
-  background: url(/images/particles-bg.png) no-repeat center center;
+  background: url(/2018/goiania/images/particles-bg.png) no-repeat center center;
   background-size: cover;
   min-height: 94vh;
   overflow: hidden;
@@ -137,7 +137,7 @@
     min-height: 100vh;
 
     &::before {
-      background-image: url(/images/hero-particle-bg.png);
+      background-image: url(/2018/goiania/images/hero-particle-bg.png);
       background-position: top left;
       height: 20rem;
       left: 0;
@@ -147,7 +147,7 @@
 
   @include large() {
     &::after {
-      background-image: url(/images/hero-particle-bg-2.png);
+      background-image: url(/2018/goiania/images/hero-particle-bg-2.png);
       background-position: top right;
       height: 16rem;
       right: 7rem;

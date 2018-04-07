@@ -1,0 +1,34 @@
+<!doctype html>
+<html itemscope itemtype="http://schema.org/Event">
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="<%= data.goiania.first_edition.site.title %>">
+    <meta name="description" content="<%= data.goiania.first_edition.site.description %>">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title itemprop="name"><%= data.goiania.first_edition.site.title %></title>
+
+    <!-- FACEBOOK -->
+    <meta property="fb:app_id" content="<%= data.goiania.first_edition.site.facebook_id %>">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="<%= data.goiania.first_edition.site.url %>">
+    <meta property="og:title" content="<%= data.goiania.first_edition.site.title %>">
+    <meta property="og:description" content="<%= data.goiania.first_edition.site.description %>">
+    <meta property="og:image" content="<%= image_url('/2018/goiania/images/social/facebook-share.png') %>">
+    <!-- / FACEBOOK -->
+
+    <%= favicon_tag '/2018/goiania/images/favicon.png' %>
+
+    <%= stylesheet_link_tag '//fonts.googleapis.com/css?family=Libre+Baskerville:400,400i|Montserrat:400,700' %>
+    <%= stylesheet_link_tag '/2018/goiania/stylesheets/site' %>
+  </head>
+
+  <body>
+    <%= yield %>
+
+    <%= partial '/2018/goiania/partials/analytics' %>
+    <%= javascript_include_tag '/2018/goiania/javascripts/bundle' %>
+    <%= javascript_include_tag '//maps.googleapis.com/maps/api/js?key=AIzaSyARl8VHQAo2Ck_F5rP0NNkm4ChT2GEh3Eg&callback=mapsApiReady' %>
+  </body>
+</html>
