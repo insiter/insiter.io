@@ -1,0 +1,49 @@
+.hero {
+  min-height: 100vh;
+
+  &__content {
+    color: $color-black;
+    padding-top: 8rem;
+    text-align: center;
+
+    @include medium() {
+      padding-top: 12rem;
+    }
+  }
+
+  &__info {
+    font-family: $font-secondary;
+    font-size: 20px;
+    font-weight: 600;
+
+    @include medium() {
+      font-size: 35px;
+    }
+
+    &--small {
+      font-size: 20px;
+      font-weight: 400;
+    }
+  }
+
+  &__slogan {
+    font-size: 50px;
+    margin: 1rem 0;
+
+    @include medium() {
+      font-size: 70px;
+    }
+  }
+
+  &__ticket {
+    background-color: $color-red;
+    border-radius: .3rem;
+    color: $color-white;
+    font-family: $font-secondary;
+    font-weight: 600;
+    padding: 1rem;
+    position: relative;
+    text-decoration: none;
+    top: 1rem;
+  }
+}

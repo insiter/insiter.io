@@ -1,5 +1,14 @@
 .map {
+  background-color: #e5e3df;
   height: 18.75rem;
+
+  @include small() {
+    height: 25rem;
+  }
+
+  @include medium() {
+    height: 37.5rem;
+  }
 
   &__container {
     height: 100%;

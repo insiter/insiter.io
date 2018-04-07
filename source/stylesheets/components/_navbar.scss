@@ -1,0 +1,68 @@
+.navbar {
+  box-shadow: 1px 1px 1px $color-black;
+  display: flex;
+  position: fixed;
+  width: 100%;
+
+  @include medium() {
+    height: 3.5rem;
+  }
+
+  .wrapper {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+    @include medium() {
+      justify-content: space-between;
+    }
+  }
+
+  &__logo {
+    color: $color-red;
+    font-size: 40px;
+    font-weight: 600;
+
+    @include medium() {
+      font-size: 30px;
+    }
+  }
+
+  &__list {
+    display: none;
+    list-style: none;
+    justify-content: space-between;
+    padding: 0;
+
+    @include medium() {
+      display: flex;
+    }
+
+    li {
+      cursor: pointer;
+      margin-left: 1rem;
+      position: relative;
+
+      a {
+        text-decoration: none;
+        color: $color-black;
+      }
+
+      &:after {
+        background-color: $color-red;
+        bottom: -.2rem;
+        content: '';
+        height: .2rem;
+        left: 0;
+        position: absolute;
+        transition: width .2s ease-in-out;
+        transition-delay: .1s;
+        width: 0;
+      }
+
+      &:hover::after {
+        width: 100%;
+      }
+    }
+  }
+}

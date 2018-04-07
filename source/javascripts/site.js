@@ -1,1 +1,1 @@
-window.mapsApiReady = require('./map').default
+// window.mapsApiReady = require('./map').default

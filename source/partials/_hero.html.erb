@@ -1,21 +1,16 @@
 <header class="hero">
-  <h1 class="hero__logo">Insiter</h1>
 
-  <div class="hero__geometrical-forms"></div>
+  <div class="hero__content wrapper">
+    <div class="hero__info"><%= data.site.date %></div>
 
-  <div class="wrapper">
-    <h2 class="hero__slogan title">You Inside the web</h2>
+    <h1 class="hero__slogan">You Inside the web!</h1>
 
-    <p class="hero__subject">
-      Um evento criado para aproximar e inteirar a comunidade do que há de mais novo no mercado de trabalho.
+    <p class="hero__info hero__info--small">
+      <strong>Teresina - Piauí</strong>
     </p>
 
-    <a href="<%= data.site.tickets_url %>" rel="external" target="_blank" class="hero__ticket button">
+    <!-- <a href="<%= data.site.tickets_url %>" class="hero__ticket" rel="external" target="_blank">
       Garantir meu ingresso
-    </a>
-
-    <p class="hero__info">
-      <%= data.site.date %> <strong>Teresina - Piauí</strong>
-    </p>
+    </a> -->
   </div>
 </header>
