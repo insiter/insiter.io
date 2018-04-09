@@ -14,7 +14,6 @@ activate :external_pipeline,
 page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false
-page '/2018/goiania', layout: '/2018/goiania/_layouts/layout'
 
 helpers do
   def image_url(path)

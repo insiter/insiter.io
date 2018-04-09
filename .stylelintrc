@@ -1,9 +1,9 @@
 {
   "extends": "stylelint-config-standard",
   "ignoreFiles": [
-    "./source/2018/goiania/stylesheets/_variables.scss",
-    "./source/2018/goiania/stylesheets/_queries.scss",
-    "./source/2018/goiania/stylesheets/site.css.scss",
+    "./source/2018/gyn/stylesheets/_variables.scss",
+    "./source/2018/gyn/stylesheets/_queries.scss",
+    "./source/2018/gyn/stylesheets/site.css.scss",
     "./source/stylesheets/_variables.scss",
     "./source/stylesheets/_queries.scss",
     "./source/stylesheets/site.css.scss"
