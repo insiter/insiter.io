@@ -5,7 +5,7 @@
   width: 100%;
 
   @include medium() {
-    height: 3.5rem;
+    height: 4.5rem;
   }
 
   &::after {
@@ -26,9 +26,15 @@
     color: $color-red;
     font-size: 2.5rem;
     font-weight: 600;
+    height: 3.5rem;
+    margin-top: .5rem;
 
     @include medium() {
       font-size: 1.875rem;
+    }
+
+    img {
+      height: 100%;
     }
   }
 
