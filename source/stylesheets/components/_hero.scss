@@ -1,12 +1,24 @@
 .hero {
+  background:
+    linear-gradient(
+      to bottom,
+      rgba(68, 67, 73, .85) 0%,
+      rgba(70, 66, 73, .85) 60%
+    ),
+    url(/images/zigzag-circle-bg.jpg) no-repeat center center;
+  background-size: cover;
   min-height: 100vh;
 
   &__content {
-    color: $color-black;
+    color: $color-white;
     padding-top: 8rem;
     text-align: center;
 
     @include medium() {
+      padding-top: 10rem;
+    }
+
+    @include large() {
       padding-top: 12rem;
     }
   }

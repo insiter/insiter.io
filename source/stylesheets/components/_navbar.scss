@@ -1,10 +1,15 @@
 .navbar {
+  background-color: $color-white;
   display: flex;
   position: fixed;
   width: 100%;
 
   @include medium() {
     height: 3.5rem;
+  }
+
+  &::after {
+    @include section-separator(after, $color-white);
   }
 
   .wrapper {
