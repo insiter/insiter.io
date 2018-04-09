@@ -1,0 +1,67 @@
+.navbar {
+  display: flex;
+  position: fixed;
+  width: 100%;
+
+  @include medium() {
+    height: 3.5rem;
+  }
+
+  .wrapper {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+    @include medium() {
+      justify-content: space-between;
+    }
+  }
+
+  &__logo {
+    color: $color-red;
+    font-size: 2.5rem;
+    font-weight: 600;
+
+    @include medium() {
+      font-size: 1.875rem;
+    }
+  }
+
+  &__list {
+    display: none;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+
+    @include medium() {
+      display: flex;
+    }
+
+    li {
+      cursor: pointer;
+      margin-left: 1rem;
+      position: relative;
+
+      a {
+        color: $color-black;
+        text-decoration: none;
+      }
+
+      &::after {
+        background-color: $color-red;
+        bottom: -.2rem;
+        content: '';
+        height: .2rem;
+        left: 0;
+        position: absolute;
+        transition: width .2s ease-in-out;
+        transition-delay: .1s;
+        width: 0;
+      }
+
+      &:hover::after {
+        width: 100%;
+      }
+    }
+  }
+}
