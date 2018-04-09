@@ -6,6 +6,7 @@
     "./source/2018/gyn/stylesheets/site.css.scss",
     "./source/stylesheets/_variables.scss",
     "./source/stylesheets/_queries.scss",
+    "./source/stylesheets/_mixins.scss",
     "./source/stylesheets/site.css.scss"
   ],
   "plugins": [

@@ -1,10 +1,15 @@
 .navbar {
+  background-color: $color-white;
   display: flex;
   position: fixed;
   width: 100%;
 
   @include medium() {
-    height: 3.5rem;
+    height: 4.5rem;
+  }
+
+  &::after {
+    @include section-separator(after, $color-white);
   }
 
   .wrapper {
@@ -21,9 +26,15 @@
     color: $color-red;
     font-size: 2.5rem;
     font-weight: 600;
+    height: 3.5rem;
+    margin-top: .5rem;
 
     @include medium() {
       font-size: 1.875rem;
+    }
+
+    img {
+      height: 100%;
     }
   }
 

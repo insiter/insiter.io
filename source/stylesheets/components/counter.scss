@@ -1,0 +1,50 @@
+.counter {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  @include medium() {
+    flex-direction: row;
+    margin: 0 15%;
+  }
+
+  @include large() {
+    flex-direction: row;
+    margin: 0 25%;
+  }
+
+  &__item {
+    border: .3rem solid $color-white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: .3rem 0;
+    padding: 0 .3rem;
+    width: 10rem;
+
+    @include medium() {
+      flex-basis: 0;
+      flex-grow: 1;
+      height: 8rem;
+      margin: 0 1rem;
+    }
+  }
+
+  &__label {
+    text-align: left;
+  }
+
+  &__value {
+    color: $color-red;
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 2.5rem;
+    text-align: right;
+
+    @include medium() {
+      font-size: 4rem;
+      line-height: 3rem;
+    }
+  }
+}

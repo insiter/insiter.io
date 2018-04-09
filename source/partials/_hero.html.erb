@@ -3,10 +3,12 @@
   <div class="hero__content wrapper">
     <div class="hero__info"><%= data.site.date %></div>
 
-    <h1 class="hero__slogan">You Inside the web!</h1>
+    <h1 class="hero__slogan"><%= data.site.description %></h1>
 
     <p class="hero__info hero__info--small">
-      <strong>Teresina - Piauí</strong>
+      <strong><%= data.site.location %></strong>
     </p>
+
+    <%= partial 'partials/counter' %>
   </div>
 </header>
