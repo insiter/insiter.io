@@ -22,11 +22,12 @@
       width: 5rem;
     }
 
-    &::before, &::after {
-      position: absolute;
+    &::before,
+    &::after {
       content: '';
-      width: 100%;
       height: 100%;
+      position: absolute;
+      width: 100%;
 
       @include medium() {
         width: 10rem;
@@ -50,8 +51,8 @@
     margin-top: 1rem;
   }
 
-  &__editions, &__social {
-
+  &__editions,
+  &__social {
     &--title {
       font-weight: 600;
     }
@@ -89,8 +90,8 @@
       display: flex;
 
       li:nth-child(2) {
-        padding-right: .6rem;
         padding-left: .6rem;
+        padding-right: .6rem;
       }
 
       svg {

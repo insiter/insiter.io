@@ -2,11 +2,6 @@
   margin-bottom: 3rem;
   position: relative;
 
-  &__location-info {
-    position: absolute;
-    top: 50%;
-  }
-
   &__container {
     background-color: #e5e3df;
     height: 18.75rem;
@@ -22,7 +17,7 @@
 
   &__info {
     background-color: $color-white;
-    box-shadow: 0 0 1.25rem rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 1.25rem rgba(0, 0, 0, .3);
     display: none;
     font-family: $font-secondary;
     font-weight: 600;
