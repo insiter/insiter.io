@@ -1,0 +1,105 @@
+.footer {
+  background: linear-gradient(to right, $color-black 60%, $color-gray 60%);
+  color: $color-white;
+
+  .wrapper {
+    display: flex;
+    flex-basis: 0;
+    height: 9rem;
+    justify-content: space-between;
+  }
+
+  &__separator {
+    height: 100%;
+    position: relative;
+    width: 1.25rem;
+
+    @include medium() {
+      width: 2rem;
+    }
+
+    @include large() {
+      width: 5rem;
+    }
+
+    &::before, &::after {
+      position: absolute;
+      content: '';
+      width: 100%;
+      height: 100%;
+
+      @include medium() {
+        width: 10rem;
+      }
+    }
+
+    &::before {
+      background-color: $color-black;
+      clip-path: polygon(100% 0, 0 0, 0 100%);
+    }
+
+    &::after {
+      background-color: $color-gray;
+      clip-path: polygon(100% 0, 0 100%, 100% 100%);
+    }
+  }
+
+  &__logo {
+    font-size: 1.6875rem;
+    font-weight: 600;
+    margin-top: 1rem;
+  }
+
+  &__editions, &__social {
+
+    &--title {
+      font-weight: 600;
+    }
+
+    &--list {
+      list-style: none;
+      padding-left: 0;
+    }
+  }
+
+  &__editions {
+    background-color: $color-gray;
+    flex-grow: 1;
+    text-align: right;
+
+    &--list a {
+      color: $color-dark-gray;
+      transition: .2s color ease-in-out;
+
+      &:hover {
+        color: $color-blue;
+      }
+    }
+  }
+
+  &__social {
+    align-items: center;
+    background-color: $color-black;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+    justify-content: center;
+
+    &--list {
+      display: flex;
+
+      li:nth-child(2) {
+        padding-right: .6rem;
+        padding-left: .6rem;
+      }
+
+      svg {
+        transition: .2s fill ease-in-out;
+
+        &:hover {
+          fill: $color-red;
+        }
+      }
+    }
+  }
+}
