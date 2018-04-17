@@ -19,6 +19,13 @@ helpers do
   def image_url(path)
     data.site.url + image_path(path)
   end
+
+  def svg(name)
+    root = Middleman::Application.root
+    file_path = "#{root}/source/images/svg/#{name}.svg"
+    return File.read(file_path) if File.exists?(file_path)
+    '(not found)'
+  end
 end
 
 configure :build do

@@ -1,0 +1,32 @@
+.section {
+  margin-top: 3rem;
+
+  &__title {
+    position: relative;
+    text-align: center;
+
+    @include medium() {
+      font-size: 1.2rem;
+    }
+
+    @include large() {
+      font-size: 1.5rem;
+    }
+
+    &::after {
+      background-color: $color-blue;
+      content: '';
+      height: .2rem;
+      left: 0;
+      position: absolute;
+      top: 50%;
+      width: 100%;
+      z-index: -1;
+    }
+
+    span {
+      background-color: $color-white;
+      padding: 0 1rem;
+    }
+  }
+}

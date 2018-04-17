@@ -1,8 +1,19 @@
-<section class="map">
-  <div
-    class="map__container"
-    data-google-maps
-    data-lat="-5.092011"
-    data-lng="-42.803760"
-  ></div>
-</section>
+<div class="wrapper">
+  <section class="section map">
+    <div class="section__title">
+      <h1><span>Localização</span></h1>
+    </div>
+    <div class="map__info">
+      <p>
+        <%= data.site.venue_address %></br>
+        <%= data.site.venue %> - <%= data.site.location %>
+      </p>
+    </div>
+    <div
+      class="map__container"
+      data-google-maps
+      data-lat="-5.085822"
+      data-lng="-42.818611">
+    </div>
+  </section>
+</div>

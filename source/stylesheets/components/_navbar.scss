@@ -3,6 +3,7 @@
   display: flex;
   position: fixed;
   width: 100%;
+  z-index: 1;
 
   @include medium() {
     height: 4.5rem;

@@ -1,16 +1,34 @@
 .map {
-  background-color: #e5e3df;
-  height: 18.75rem;
-
-  @include small() {
-    height: 25rem;
-  }
-
-  @include medium() {
-    height: 37.5rem;
-  }
+  margin-bottom: 3rem;
+  position: relative;
 
   &__container {
-    height: 100%;
+    background-color: #e5e3df;
+    height: 18.75rem;
+
+    @include small() {
+      height: 25rem;
+    }
+
+    @include medium() {
+      height: 37.5rem;
+    }
+  }
+
+  &__info {
+    background-color: $color-white;
+    box-shadow: 0 0 1.25rem rgba(0, 0, 0, .3);
+    display: none;
+    font-family: $font-secondary;
+    font-weight: 600;
+    left: 3rem;
+    padding: 0 1rem;
+    position: absolute;
+    top: 80%;
+    z-index: 1;
+
+    @include medium() {
+      display: block;
+    }
   }
 }

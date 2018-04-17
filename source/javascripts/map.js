@@ -11,6 +11,7 @@ export default () => {
     zoom: 15,
     scrollwheel: false,
     styles: require('./map-style.json'),
+    gestureHandling: 'cooperative',
     center
   })
 

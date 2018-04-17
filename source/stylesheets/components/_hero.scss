@@ -11,30 +11,30 @@
 
   &__content {
     color: $color-white;
-    padding-top: 8rem;
+    padding-top: 20vh;
     text-align: center;
 
     @include medium() {
-      padding-top: 10rem;
-    }
-
-    @include large() {
-      padding-top: 12rem;
+      padding-top: 25vh;
     }
   }
 
   &__info {
     font-family: $font-secondary;
-    font-size: 1.25rem;
+    font-size: 1.45rem;
     font-weight: 600;
-
-    @include medium() {
-      font-size: 2.1875rem;
-    }
 
     &--small {
       font-size: 1.25rem;
       font-weight: 400;
+    }
+
+    @include medium() {
+      font-size: 2.1875rem;
+
+      &--small {
+        font-size: 1.45rem;
+      }
     }
   }
 

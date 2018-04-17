@@ -11,22 +11,24 @@
     "elementType": "labels.text.stroke",
     "stylers": [
       {
-        "color": "#242f3e"}]
-    }
-    ,
+        "color": "#242f3e"
+      }
+    ]
+  },
   {
     "elementType": "labels.text.fill",
     "stylers": [
       {
-        "color": "#746855"}]
-    }
-    ,
+        "color": "#746855"
+      }
+    ]
+  },
   {
     "featureType": "administrative.locality",
     "elementType": "labels.text.fill",
     "stylers": [
       {
-        "color": "#d59563"
+        "color": "#ed0033"
       }
     ]
   },
@@ -35,7 +37,7 @@
     "elementType": "labels.text.fill",
     "stylers": [
       {
-        "color": "#d59563"
+        "color": "#ffafaf"
       }
     ]
   },
@@ -125,7 +127,7 @@
     "elementType": "labels.text.fill",
     "stylers": [
       {
-        "color": "#d59563"
+        "color": "#ffafaf"
       }
     ]
   },
