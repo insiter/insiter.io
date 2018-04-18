@@ -1,5 +1,5 @@
 .footer {
-  background: linear-gradient(to right, $color-black 60%, $color-gray 60%);
+  background: linear-gradient(to right, $color-dark 60%, $color-gray 60%);
   color: $color-white;
 
   .wrapper {
@@ -35,7 +35,7 @@
     }
 
     &::before {
-      background-color: $color-black;
+      background-color: $color-dark;
       clip-path: polygon(100% 0, 0 0, 0 100%);
     }
 
@@ -73,14 +73,14 @@
       transition: .2s color ease-in-out;
 
       &:hover {
-        color: $color-blue;
+        color: $color-black;
       }
     }
   }
 
   &__social {
     align-items: center;
-    background-color: $color-black;
+    background-color: $color-dark;
     display: flex;
     flex-direction: column;
     flex-grow: 2;
