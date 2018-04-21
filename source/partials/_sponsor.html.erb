@@ -1,0 +1,16 @@
+<section id="sponsor" class="section company">
+  <div class="wrapper">
+    <div class="section__title section__title--dark">
+      <h1><span>Patrocínio</span></h1>
+    </div>
+    <div class="company__list">
+      <% data.sponsor.companies.each do |company| %>
+      <div class="company__item">
+        <a href="<%= company.link %>" target="_blank">
+          <%= image_tag company.logo, :alt => company.name %>
+        </a>
+      </div>
+      <% end %>
+    </div>
+  </div>
+</section>

@@ -1,5 +1,19 @@
 .section {
-  margin-top: 3rem;
+  padding-top: 4rem;
+
+  &__separator {
+    &::after {
+      background-color: $color-gray;
+      bottom: -1rem;
+      box-shadow: -.4375rem .4375rem 0 0 $color-dark;
+      content: '';
+      height: 2rem;
+      left: 50%;
+      position: absolute;
+      transform: rotate(45deg);
+      width: 2rem;
+    }
+  }
 
   &__title {
     position: relative;
@@ -21,12 +35,24 @@
       position: absolute;
       top: 50%;
       width: 100%;
-      z-index: -1;
+    }
+
+    &--light span {
+      background-color: $color-white;
+    }
+
+    &--dark span {
+      background-color: $color-light;
     }
 
     span {
-      background-color: $color-white;
-      padding: 0 1rem;
+      padding: 0 2rem;
+      position: relative;
+      z-index: 1;
     }
+  }
+
+  &--padding-bottom {
+    padding-bottom: 3rem;
   }
 }

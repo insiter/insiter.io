@@ -1,0 +1,35 @@
+.company {
+  background-color: $color-light;
+
+  &__list {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0;
+
+    @include medium() {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+    }
+  }
+
+  &__item {
+    margin-bottom: 2rem;
+    max-width: 15rem;
+
+    @include medium() {
+      margin-bottom: 2rem;
+      margin-right: 3rem;
+      max-width: 18rem;
+    }
+
+    @include large() {
+      max-width: 20rem;
+    }
+
+    img {
+      width: 100%;
+    }
+  }
+}
