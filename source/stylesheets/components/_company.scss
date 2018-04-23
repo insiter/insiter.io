@@ -10,7 +10,7 @@
     @include medium() {
       flex-direction: row;
       flex-wrap: wrap;
-      justify-content: flex-start;
+      justify-content: center;
     }
   }
 
@@ -26,6 +26,10 @@
 
     @include large() {
       max-width: 20rem;
+    }
+
+    &--no-margin {
+      margin: 0;
     }
 
     img {

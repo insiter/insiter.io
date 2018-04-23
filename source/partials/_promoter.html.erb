@@ -5,7 +5,7 @@
     </div>
     <div class="company__list">
       <% data.promoter.companies.each do |company| %>
-      <div class="company__item">
+      <div class="company__item company__item--no-margin">
         <a href="<%= company.link %>" target="_blank">
           <%= image_tag company.logo, :alt => company.name %>
         </a>
