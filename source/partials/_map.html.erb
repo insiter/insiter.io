@@ -1,13 +1,7 @@
-<div class="wrapper">
-  <section class="section map">
-    <div class="section__title">
+<section id="location" class="section section__separator map">
+  <div class="wrapper">
+    <div class="section__title section__title--light">
       <h1><span>Localização</span></h1>
-    </div>
-    <div class="map__info">
-      <p>
-        <%= data.site.venue_address %></br>
-        <%= data.site.venue %> - <%= data.site.location %>
-      </p>
     </div>
     <div
       class="map__container"
@@ -15,5 +9,11 @@
       data-lat="-5.085822"
       data-lng="-42.818611">
     </div>
-  </section>
-</div>
+    <div class="map__info">
+      <p>
+        <%= data.site.venue_address %></br>
+        <%= data.site.venue %> - <%= data.site.location %>
+      </p>
+    </div>
+  </div>
+</section>

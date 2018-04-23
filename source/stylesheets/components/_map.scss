@@ -1,6 +1,10 @@
 .map {
-  margin-bottom: 3rem;
+  padding-bottom: 6.5rem;
   position: relative;
+
+  .wrapper {
+    position: relative;
+  }
 
   &__container {
     background-color: #e5e3df;
@@ -24,7 +28,7 @@
     left: 3rem;
     padding: 0 1rem;
     position: absolute;
-    top: 80%;
+    top: 82%;
     z-index: 1;
 
     @include medium() {

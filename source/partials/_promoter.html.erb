@@ -1,0 +1,16 @@
+<section id="promoter" class="section section--padding-bottom company">
+  <div class="wrapper">
+    <div class="section__title section__title--dark">
+      <h1><span>Realização</span></h1>
+    </div>
+    <div class="company__list">
+      <% data.promoter.companies.each do |company| %>
+      <div class="company__item company__item--no-margin">
+        <a href="<%= company.link %>" target="_blank">
+          <%= image_tag company.logo, :alt => company.name %>
+        </a>
+      </div>
+      <% end %>
+    </div>
+  </div>
+</section>
