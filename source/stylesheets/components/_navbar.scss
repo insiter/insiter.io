@@ -65,8 +65,8 @@
     visibility: hidden;
 
     @include medium() {
-      margin-left: 1rem;
       margin-bottom: 0;
+      margin-left: 1rem;
       text-align: left;
       visibility: visible;
     }
@@ -94,7 +94,7 @@
   }
 
   .menu-input {
-    height: 17px;
+    height: 1.0625rem;
     left: 0;
     margin-left: 1rem;
     margin-top: 1.5rem;
@@ -108,10 +108,10 @@
     }
 
     & + .menu-icon {
-      justify-content: space-between;
       display: flex;
       flex-direction: column;
-      height: 17px;
+      height: 1.0625rem;
+      justify-content: space-between;
       margin-left: 1rem;
       margin-top: 1.5rem;
       position: absolute;
@@ -123,7 +123,6 @@
       span {
         background-color: $color-dark;
         height: .2rem;
-        width: 1.5rem;
         position: relative;
         transform-origin: center;
         transition:
@@ -131,6 +130,7 @@
           opacity .1s ease-in .2s,
           top .3s ease-in-out .3s,
           bottom .3s ease-in-out .3s;
+        width: 1.5rem;
       }
 
       span:first-child {
