@@ -8,6 +8,7 @@
     url(/images/zigzag-circle-bg.jpg) no-repeat center center;
   background-size: cover;
   min-height: 100vh;
+  padding-bottom: .3rem;
 
   &__content {
     color: $color-white;
@@ -57,5 +58,13 @@
     position: relative;
     text-decoration: none;
     top: 1rem;
+  }
+
+  .call-to-action {
+    margin: 1.5rem auto;
+
+    @include medium() {
+      margin: 3rem auto;
+    }
   }
 }
