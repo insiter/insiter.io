@@ -1,6 +1,6 @@
 people:
   - name: Patricia Bastos
-    picture: /images/speakers/patybastos.jpg
+    picture: /2018/gyn/images/speakers/patybastos-2ed028e3.jpg
     resume:
       Desenvolvedora de Software há 6 anos, formada em Ciência da Computação pela PUC Minas - Poços de Caldas e pós-graduada em Engenharia de Software pela Unicamp.
       Professora voluntária. Trabalha atualmente como desenvolvedora backend na Codeminer42.
@@ -15,7 +15,7 @@ people:
       link: //codeminer42.com
 
   - name: Gabriel Sobrinho
-    picture: /images/speakers/gabrielsobrinho.jpg
+    picture: /2018/gyn/images/speakers/gabrielsobrinho-ad47f06b.jpg
     resume:
       Sobrinho é engenheiro de software com uma experiência de 10 anos de carreira, atualmente trabalha na Codeminer42.
     social:
@@ -28,7 +28,7 @@ people:
       link: //codeminer42.com
 
   - name: Fabio Akita
-    picture: /images/speakers/akitaonrails.jpg
+    picture: /2018/gyn/images/speakers/akitaonrails-f9c5b395.jpg
     resume:
       Brazilian, New Tech Activist. Founder and organizer of THE CONF. Codeminer42 offshore software boutique co-founder. Dabbling about Cryptocurrencies!
     social:
@@ -42,7 +42,7 @@ people:
       link: //codeminer42.com
 
   - name: Marcelo Quinta
-    picture: /images/speakers/marceloquinta.jpg
+    picture: /2018/gyn/images/speakers/marceloquinta-2e00d407.jpg
     resume:
       Professor na UFG, GDG Goiânia, Google Developer Expert, Intel Innovator em Android.
     social:
@@ -56,7 +56,7 @@ people:
       link: //google.com
 
   - name: Isabella Silveira
-    picture: /images/speakers/isabellasilveira.jpg
+    picture: /2018/gyn/images/speakers/isabellasilveira-ba35d6cf.jpg
     resume:
       Engenheira de software construindo grandes produtos digitais na Work&Co.
       Já atuou na área da pesquisa científica, back-end e front-end para web e mobile, e projetos para clientes internacionais como a Universidade de Stanford, Banco Votorantim e o Grupo Estadão.
@@ -72,7 +72,7 @@ people:
       link: //work.co
 
   - name: Flavio Cevado
-    picture: /images/speakers/fcevado.jpg
+    picture: /2018/gyn/images/speakers/fcevado-74ab34c9.jpg
     resume:
       Escovador de bits ha mais de 10 anos, Engenheiro de Software por definição em contrato.
       Odiava desenvolvimento web mas o amor por Ruby on Rails retirou esse ódio.
@@ -88,7 +88,7 @@ people:
       link: //telnyx.com
 
   - name: Nícolas Lazarte
-    picture: /images/speakers/nicolaslazartekaqui.jpg
+    picture: /2018/gyn/images/speakers/nicolaslazartekaqui-f455a123.jpg
     resume:
       Atua na área de tecnologia há mais de 8 anos. Atualmente CTO da Netshow.me. Viciado em cerveja, coca-cola e frango frito. Defensor assíduo do trabalho remoto.
     social:
@@ -102,7 +102,7 @@ people:
       link: //netshow.me
 
   - name: Juliane Lima
-    picture: /images/speakers/jujulisan.jpg
+    picture: /2018/gyn/images/speakers/jujulisan-b1b16aa5.jpg
     resume:
       É desenvolvedora apaixonada por Ruby, café e vinho. Atualmente trabalhando no projeto Klickpages, projeto esse
       que tem foco em criação facilitada de páginas de capturas de leads.
