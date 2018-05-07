@@ -1,117 +1,15 @@
 people:
-  - name: Patricia Bastos
-    picture: /2018/gyn/images/speakers/patybastos-2ed028e3.jpg
+  - name: Gustavo Carvalho
+    picture: /images/speakers/gtsalles.jpg
     resume:
-      Desenvolvedora de Software há 6 anos, formada em Ciência da Computação pela PUC Minas - Poços de Caldas e pós-graduada em Engenharia de Software pela Unicamp.
-      Professora voluntária. Trabalha atualmente como desenvolvedora backend na Codeminer42.
+      Desenvolvedor de software especializado em backend. Apaixonado por
+      desafios e entusiasta de sistemas open source. Nas horas vagas discute
+      sobre futebol no twitter e organiza eventos da linguagem Python em Teresina.
     social:
-      twitter: patricialuzbast
-      # facebook: paty.bastos.5
-      linkedin: patricia-bastos-530ab16a
-      github: patybastos
+      twitter: gt_salles
+      linkedin: gtsalles
+      github: gtsalles
     company:
       rule: Back-end Developer
-      name: Codeminer42
-      link: //codeminer42.com
-
-  - name: Gabriel Sobrinho
-    picture: /2018/gyn/images/speakers/gabrielsobrinho-ad47f06b.jpg
-    resume:
-      Sobrinho é engenheiro de software com uma experiência de 10 anos de carreira, atualmente trabalha na Codeminer42.
-    social:
-      twitter: sobrinho
-      linkedin: gabrielsobrinho
-      github: sobrinho
-    company:
-      rule: Software Engineer
-      name: Codeminer42
-      link: //codeminer42.com
-
-  - name: Fabio Akita
-    picture: /2018/gyn/images/speakers/akitaonrails-f9c5b395.jpg
-    resume:
-      Brazilian, New Tech Activist. Founder and organizer of THE CONF. Codeminer42 offshore software boutique co-founder. Dabbling about Cryptocurrencies!
-    social:
-      twitter: AkitaOnRails
-      # facebook: akitaonrails
-      linkedin: akitaonrails
-      github: akitaonrails
-    company:
-      rule: CO-Founder & Back-end Developer
-      name: Codeminer42
-      link: //codeminer42.com
-
-  - name: Marcelo Quinta
-    picture: /2018/gyn/images/speakers/marceloquinta-2e00d407.jpg
-    resume:
-      Professor na UFG, GDG Goiânia, Google Developer Expert, Intel Innovator em Android.
-    social:
-      twitter: mrquinta
-      # facebook: marceloquinta
-      linkedin: marcelo-quinta-6444bb22
-      github: marceloquinta
-    company:
-      rule: Mentor
-      name: Google Inc.
-      link: //google.com
-
-  - name: Isabella Silveira
-    picture: /2018/gyn/images/speakers/isabellasilveira-ba35d6cf.jpg
-    resume:
-      Engenheira de software construindo grandes produtos digitais na Work&Co.
-      Já atuou na área da pesquisa científica, back-end e front-end para web e mobile, e projetos para clientes internacionais como a Universidade de Stanford, Banco Votorantim e o Grupo Estadão.
-      Não nega uma cerveja e uma boa conversa, no seu tempo livre ela gosta de praticar slalom nos patins e brincar com seus cachorros.
-    social:
-      twitter: silveira_bells
-      # facebook:
-      linkedin: isabellasilveira
-      github: bella-silveira
-    company:
-      rule: Developer
-      name: Work & CO
-      link: //work.co
-
-  - name: Flavio Cevado
-    picture: /2018/gyn/images/speakers/fcevado-74ab34c9.jpg
-    resume:
-      Escovador de bits ha mais de 10 anos, Engenheiro de Software por definição em contrato.
-      Odiava desenvolvimento web mas o amor por Ruby on Rails retirou esse ódio.
-      Em plena paixão por Elixir fazem 2 anos. Adora cagar regra e livros de sci-fi.
-    social:
-      twitter: fcevado
-      # facebook: fcevado
-      linkedin: flávio-moreira-vieira-217a54a9
-      github: fcevado
-    company:
-      rule: Elixir Software Engineer
-      name: Telnyx
-      link: //telnyx.com
-
-  - name: Nícolas Lazarte
-    picture: /2018/gyn/images/speakers/nicolaslazartekaqui-f455a123.jpg
-    resume:
-      Atua na área de tecnologia há mais de 8 anos. Atualmente CTO da Netshow.me. Viciado em cerveja, coca-cola e frango frito. Defensor assíduo do trabalho remoto.
-    social:
-      # twitter:
-      facebook: nicolaskaqui
-      linkedin: nicolaslazartekaqui
-      github: nicolaslazartekaqui
-    company:
-      rule: CTO
-      name: Netshow.me
-      link: //netshow.me
-
-  - name: Juliane Lima
-    picture: /2018/gyn/images/speakers/jujulisan-b1b16aa5.jpg
-    resume:
-      É desenvolvedora apaixonada por Ruby, café e vinho. Atualmente trabalhando no projeto Klickpages, projeto esse
-      que tem foco em criação facilitada de páginas de capturas de leads.
-    social:
-      # twitter:
-      facebook: jujulisan
-      linkedin: juliane-lima-57174521
-      github: jujulisan
-    company:
-      rule: Back-end Developer
-      name: Klickpages
-      link: //klickpages.com.br
+      name: Nuveo
+      link: //nuveo.ai

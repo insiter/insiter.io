@@ -23,19 +23,21 @@
   &__social {
     align-items: center;
     display: flex;
-    height: 100%;
     justify-content: center;
-    left: 0;
-    position: absolute;
-    top: 0;
-    visibility: visible;
-    width: 100%;
+    margin-top: .5rem;
+
+    @include large() {
+      height: 100%;
+      left: 0;
+      margin-top: 0;
+      position: absolute;
+      top: 0;
+      width: 100%;
+    }
 
     .icons {
       display: flex;
       justify-content: space-around;
-      transition: visibility .1s ease-in-out;
-      visibility: hidden;
       width: 8rem;
 
       a {
@@ -45,13 +47,21 @@
       svg {
         cursor: pointer;
         fill: $color-dark;
-        padding: .5rem;
-        transition:
-          padding .3s ease-in-out,
-          fill .2s ease-in-out;
+      }
 
-        &:hover {
-          fill: $color-red;
+      @include large() {
+        transition: visibility .1s ease-in-out;
+        visibility: hidden;
+
+        svg {
+          padding: .5rem;
+          transition:
+            padding .3s ease-in-out,
+            fill .2s ease-in-out;
+
+          &:hover {
+            fill: $color-red;
+          }
         }
       }
     }
@@ -66,40 +76,46 @@
     margin: 1rem auto;
     overflow: hidden;
     position: relative;
-    transition: background-color .2s ease-in-out .3s;
     width: 20rem;
 
     img {
-      position: relative;
-      transform: scale(1);
-      transition:
-        z-index 0s ease-in-out .5s,
-        transform .3s ease-in-out;
       width: 100%;
-      z-index: 0;
     }
 
-    &:hover {
-      background-color: rgba(230, 230, 230, .85);
-      transition: background-color .2s ease-in-out .1s;
+    @include large() {
+      transition: background-color .2s ease-in-out .3s;
 
       img {
-        transform: scale(1.1);
+        position: relative;
+        transform: scale(1);
         transition:
-          z-index 0s ease-in-out,
+          z-index 0s ease-in-out .5s,
           transform .3s ease-in-out;
-        z-index: -1;
+        z-index: 0;
       }
 
-      .icons {
-        transition: visibility .2s ease-in-out .3s;
-        visibility: visible;
+      &:hover {
+        background-color: rgba(230, 230, 230, .85);
+        transition: background-color .2s ease-in-out .1s;
 
-        svg {
-          padding: 0;
+        img {
+          transform: scale(1.1);
           transition:
-            padding .5s ease-in-out .1s,
-            fill .2s ease-in-out;
+            z-index 0s ease-in-out,
+            transform .3s ease-in-out;
+          z-index: -1;
+        }
+
+        .icons {
+          transition: visibility .2s ease-in-out .3s;
+          visibility: visible;
+
+          svg {
+            padding: 0;
+            transition:
+              padding .5s ease-in-out .1s,
+              fill .2s ease-in-out;
+          }
         }
       }
     }

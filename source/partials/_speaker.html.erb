@@ -23,7 +23,7 @@
                 <%= svg 'github' %>
               </a>
               <a
-                href="https://linkedin.com/<%= speaker.social.linkedin %>"
+                href="https://linkedin.com/in/<%= speaker.social.linkedin %>"
                 target="_blank"
                 rel="noreferrer noopener">
                 <%= svg 'linkedin' %>
@@ -41,6 +41,28 @@
               rel="noopener noreferrer">
               <%= speaker.company.name %>
             </a>
+          </div>
+          <div class="speaker__social">
+            <div class="icons">
+              <a
+                href="https://twitter.com/<%= speaker.social.twitter %>"
+                target="_blank"
+                rel="noreferrer noopener">
+                <%= svg 'twitter' %>
+              </a>
+              <a
+                href="https://github.com/<%= speaker.social.github %>"
+                target="_blank"
+                rel="noreferrer noopener">
+                <%= svg 'github' %>
+              </a>
+              <a
+                href="https://linkedin.com/in/<%= speaker.social.linkedin %>"
+                target="_blank"
+                rel="noreferrer noopener">
+                <%= svg 'linkedin' %>
+              </a>
+            </div>
           </div>
         </legend>
       </div>
