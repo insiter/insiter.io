@@ -16,9 +16,13 @@
   .wrapper {
     align-items: center;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-height: 4.5rem;
+    transition: max-height .3s ease-in-out;
 
     @include medium() {
+      flex-direction: row;
       justify-content: space-between;
     }
   }
@@ -40,39 +44,138 @@
   }
 
   &__list {
-    display: none;
+    flex-direction: column;
     justify-content: space-between;
     list-style: none;
     padding: 0;
 
     @include medium() {
       display: flex;
+      flex-direction: row;
+    }
+  }
+
+  &__item {
+    cursor: pointer;
+    position: relative;
+    text-align: center;
+    transition:
+      margin-bottom .2s ease-in .1s,
+      visibility 0s linear .2s;
+    visibility: hidden;
+
+    @include medium() {
+      margin-bottom: 0;
+      margin-left: 1rem;
+      text-align: left;
+      visibility: visible;
     }
 
-    li {
-      cursor: pointer;
+    a {
+      color: $color-dark;
+      text-decoration: none;
+    }
+
+    &::after {
+      background-color: $color-red;
+      bottom: -.2rem;
+      content: '';
+      height: .2rem;
+      left: 0;
+      position: absolute;
+      transition: width .2s ease-in;
+      transition-delay: .1s;
+      width: 0;
+    }
+
+    &:hover::after {
+      width: 100%;
+    }
+  }
+
+  .menu-input {
+    height: 1.0625rem;
+    left: 0;
+    margin-left: 1rem;
+    margin-top: 1.5rem;
+    opacity: 0;
+    position: absolute;
+    width: 1.5rem;
+    z-index: 5;
+
+    @include medium() {
+      display: none;
+    }
+
+    & + .menu-icon {
+      display: flex;
+      flex-direction: column;
+      height: 1.0625rem;
+      justify-content: space-between;
       margin-left: 1rem;
-      position: relative;
+      margin-top: 1.5rem;
+      position: absolute;
 
-      a {
-        color: $color-dark;
-        text-decoration: none;
+      @include medium() {
+        display: none;
       }
 
-      &::after {
-        background-color: $color-red;
-        bottom: -.2rem;
-        content: '';
+      span {
+        background-color: $color-dark;
         height: .2rem;
-        left: 0;
-        position: absolute;
-        transition: width .2s ease-in-out;
-        transition-delay: .1s;
-        width: 0;
+        position: relative;
+        transform-origin: center;
+        transition:
+          transform .3s ease-in,
+          opacity .1s ease-in .2s,
+          top .3s ease-in-out .3s,
+          bottom .3s ease-in-out .3s;
+        width: 1.5rem;
       }
 
-      &:hover::after {
-        width: 100%;
+      span:first-child {
+        top: 0;
+      }
+
+      span:last-child {
+        bottom: 0;
+      }
+    }
+
+    &:checked {
+      & + .menu-icon {
+        span {
+          transition:
+            top .3s ease-in-out,
+            bottom .3s ease-in-out,
+            opacity .1s ease-in .2s,
+            transform .3s ease-in .3s;
+        }
+
+        span:first-child {
+          top: .4rem;
+          transform: rotate(45deg);
+          transform-origin: 50% 50%;
+        }
+
+        span:last-child {
+          bottom: .5rem;
+          transform: rotate(-45deg);
+          transform-origin: 50% 50%;
+        }
+
+        span:nth-child(2) {
+          opacity: 0;
+        }
+      }
+
+      & ~ .wrapper {
+        max-height: 100vh;
+
+        .navbar__item {
+          margin-bottom: 1rem;
+          visibility: visible;
+        }
       }
     }
   }
