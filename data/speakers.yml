@@ -13,3 +13,18 @@ people:
       rule: Back-end Developer
       name: Nuveo
       link: //nuveo.ai
+
+  - name: Paulo Chaves
+    picture: /images/speakers/opaulochaves.jpg
+    resume:
+      Problem Solver. Atua no mundo do desenvolvimento web há 9 anos. Atualmente
+      é Blockchain Engineer e trabalha no projeto Lucidity, uma solução construída
+      na Ethereum Blockchain para análise de marketing digital.
+    social:
+      twitter: opaulochaves
+      linkedin: opaulochaves
+      github: opaulochaves
+    company:
+      rule: Blockchain Engineer
+      name: Codeminer42
+      link: //codeminer42.com
