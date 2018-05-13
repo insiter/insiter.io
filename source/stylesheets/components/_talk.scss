@@ -1,0 +1,103 @@
+.talk {
+  $root: &;
+
+  &__list {
+    background-color: $color-white;
+    border-radius: .3rem;
+    box-shadow: 0 .5rem 1.25rem rgba(0, 0, 0, .05);
+    padding: .8rem 1rem;
+
+    @include medium() {
+      padding: 2rem 3rem;
+    }
+  }
+
+  &__item {
+    align-items: center;
+    border-bottom: .0625rem solid $color-light-gray;
+    display: flex;
+    flex-basis: 0;
+    justify-content: space-around;
+    padding: 1rem .5rem;
+
+    &--no-description {
+      background-color: $color-dark-gray;
+      color: $color-white;
+      font-weight: 600;
+    }
+  }
+
+  &__expand-icon {
+    align-self: flex-start;
+    display: flex;
+    margin-top: .3rem;
+    transform: rotateZ(90deg);
+    transform-origin: center;
+    transition: transform .5s ease-in-out;
+  }
+
+  &__item.active {
+    #{$root}__summary {
+      max-height: 50rem;
+      opacity: 1;
+      transition:
+        max-height .3s ease-in-out,
+        opacity .3s ease-in-out .2s;
+      visibility: visible;
+    }
+
+    #{$root}__expand-icon {
+      transform: rotateZ(270deg);
+    }
+  }
+
+  &__item:not(.talk__item--no-description) {
+    background-color: $color-white;
+    cursor: pointer;
+    transition: background-color .3s ease-in-out .1s;
+
+    &:hover {
+      background-color: $color-light-gray;
+    }
+  }
+
+  &__time {
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+    width: 4rem;
+
+    @include medium() {
+      width: 6rem;
+    }
+  }
+
+  &__description {
+    flex-grow: 5;
+    padding: 0 .8rem;
+    width: 10rem;
+  }
+
+  &__speaker {
+    color: $color-red;
+    font-size: .8rem;
+    margin: .5rem 0 0;
+  }
+
+  &__title {
+    font-weight: 600;
+  }
+
+  &__summary {
+    font-family: $font-secondary;
+    font-size: .8rem;
+    margin-top: .5rem;
+    max-height: 0;
+    opacity: 0;
+    transition:
+      opacity .3s ease-in-out,
+      max-height .3s ease-in-out .2s,
+      visibility 0s ease-in-out .3s;
+    visibility: hidden;
+  }
+}

@@ -1,0 +1,26 @@
+<section id="schedule" class="section section--padding-bottom section--dark talk">
+  <div class="wrapper">
+    <div class="section__title section__title--dark">
+      <h1><span>Programação</span></h1>
+    </div>
+    <div class="talk__list" data-schedule-list>
+      <% data.schedule.talks.each do |talk| %>
+      <div
+        class="talk__item <%= talk.description ? '' : 'talk__item--no-description' %>"
+        <%= talk.description ? 'data-schedule-item' : '' %>>
+        <div class="talk__time"><%= talk.time %></div>
+        <div class="talk__description">
+          <div class="talk__title"><%= talk.title %></div>
+          <% if talk.description %>
+            <p class="talk__speaker"><%= talk.speaker %></p>
+            <div class="talk__summary"><%= talk.description %></div>
+          <% end %>
+        </div>
+        <% if talk.description %>
+          <div class="talk__expand-icon"><%= svg 'arrow-down' %></div>
+        <% end %>
+      </div>
+      <% end %>
+    </div>
+  </div>
+</section>

@@ -55,4 +55,8 @@
   &--padding-bottom {
     padding-bottom: 3rem;
   }
+
+  &--dark {
+    background-color: $color-light;
+  }
 }
