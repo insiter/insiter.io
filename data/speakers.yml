@@ -28,3 +28,18 @@ people:
       rule: Blockchain Engineer
       name: Codeminer42
       link: //codeminer42.com
+
+  - name: Fábio Akita
+    picture: /images/speakers/akitaonrails.jpg
+    resume:
+      Brazilian, New Tech Activist. Founder and organizer of THE CONF.
+      Codeminer42 offshore software boutique co-founder. Dabbling about
+      Cryptocurrencies!
+    social:
+      twitter: akitaonrails
+      linkedin: akitaonrails
+      github: akitaonrails
+    company:
+      rule: Co-Founder & Back-end Developer
+      name: Codeminer42
+      link: //codeminer42.com
