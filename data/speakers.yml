@@ -43,3 +43,51 @@ people:
       rule: Co-Founder & Back-end Developer
       name: Codeminer42
       link: //codeminer42.com
+
+  - name: Cairo Noleto
+    picture: /images/speakers/caironoleto.jpg
+    resume:
+    social:
+      twitter: caironoleto
+      linkedin: caironoleto
+      github: caironoleto
+    company:
+      rule: Head of Technology
+      name: AppProva
+      link: //appprova.com.br
+
+  - name: Feliciano Santana
+    picture: /images/speakers/felicianosantana.jpg
+    resume:
+    social:
+      twitter: thenameisflic
+      linkedin: thenameisflic
+      github: thenameisflic
+    company:
+      rule: Indie Game Developer
+      name: Bloom
+      link: //bloomestudio.com/
+
+  - name: Cleiton Francisco
+    picture: /images/speakers/cleitonfrancisco.jpg
+    resume:
+    social:
+      twitter: cleitonfco
+      linkedin: cleitonfco
+      github: cleitonfco
+    company:
+      rule: System Analyst & IT Team Leader
+      name: Jus Navigandi
+      link: //jus.com.br
+
+  - name: Thiago Alves
+    picture: /images/speakers/thiagoalves.jpg
+    resume:
+    social:
+      twitter: devthiago
+      linkedin: thiagoalvesluiz
+      github: devthiago
+    company:
+      rule: Front-end Developer
+      name: Codeminer42
+      link: //codeminer42.com
