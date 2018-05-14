@@ -2,8 +2,38 @@ talks:
   - time: '08:00'
     title: Credenciamento
 
+  - time: '09:00'
+    title: Abertura
+
   - time: '09:15'
-    title: Fundamentos da Ethereum Blockchain
+    title: '- Mais informações em breve -'
+    speaker: Thiago Alves
+    description: A definir
+
+  - time: '10:00'
+    title: Coffee Break
+
+  - time: '10:30'
+    title: Desmistificando Blockchains para Desenvolvedores
+    speaker: Fabio Akita
+    description:
+      O mundo de criptomoedas esta crescendo exponencialmente no mundo todo, em
+      particular na Ásia. Tecnologias estão se formando não só para sustentar as
+      transações de pagamentos em moedas digitais como novas formas de organização,
+      governança estão se formando. Os programadores precisam começar a separar
+      o que é fake news, e quebrar de uma vez os mitos que servem de desculpa
+      para não entrar de uma vez nesse mundo.
+
+  - time: '11:15'
+    title: '- Mais informações em breve -'
+    speaker: Cairo Noleto
+    description: A definir
+
+  - time: '12:00'
+    title: Almoço
+
+  - time: '14:00'
+    title: Introdução ao Desenvolvimento de Dapps para a Ethereum Blockchain
     speaker: Paulo Chaves
     description:
       Ethereum é um plataforma descentralizada que executa contratos inteligentes.
@@ -14,67 +44,23 @@ talks:
       como rodar a blockchain em ambiente de desenvolvimento, como realizar deploy
       de smart contracts na rede, e como a sua aplicação se comunica com a Ethereum.
 
-  - time: '10:00'
-    title: Coffee Break
-
-  - time: '10:30'
-    title: "Falhe com êxito: as melhores práticas para ferrar sua aplicação no mobile"
-    speaker: Marcelo Quinta
-    description:
-      Geralmente falam em palestras somente os conselhos para seu aplicativo dar certo.
-      Nesta falaremos somente de conselhos errados e as piores práticas.
-      Seguindo esta receita você vai ter certeza que sua aplicação vai rodar muito mal em dispositivos móveis.
-      Se você quiser seguir estes passos, vem com a gente!
-
-  - time: '11:15'
-    title: Desmistificando Blockchains
-    speaker: Fabio Akita
-    description: Waiting description
-
-  - time: '12:00'
-    title: Almoço
-
-  - time: '14:00'
-    title: Entendendo as tecnologias e desafios por trás de uma estrutura completa para streaming de vídeo na internet
-    speaker: Nicolas Lazarte
-    description:
-      O crescimento da cultura do “ao vivo” na internet tem transformado o
-      streaming de vídeo em uma realidade presente cada vez mais no dia a dia das pessoas.
-
   - time: '14:45'
-    title: Descomplicando API com Rails 5
-    speaker: Juliane Lima
-    description: Waiting description
+    title: '- Mais informações em breve -'
+    speaker: Cleiton Francisco
+    description: A definir
 
   - time: '15:30'
-    title: "A web para todos: melhorando a performance ao considerar condições adversas"
-    speaker: Isabella Silveira
-    description:
-      O Brasil tem uma população de mais de 207 milhões de pessoas e só 37,9% tem acesso a celulares com rede LTE,
-      a maioria ainda usa 3G e até GSM. Dados móveis são caros, assim como a maior parte dos smartphones mais modernos,
-      o que torna toda a experiência digital inviável. Mas calma! Há uma luz no fim do mundo.
-      Ao otimizar a performance dos nossos produtos digitais,
-      podemos atender a esses usuários e acabar alcançando uma experiência melhor para todos.
-      Nessa talk, eu falarei sobre a minha experiência com otimização de performance,
-      melhores práticas que você poderá usar em seus próprios projetos
-      e alguns desafios que cidadãos de países subdesenvolvidos e emergentes ainda encontram.
+    title: '- Mais informações em breve -'
+    speaker: Gustavo Carvalho
+    description: A definir
 
   - time: '16:15'
     title: Coffee Break
 
   - time: '16:45'
-    title: Introdução a testes automatizados
-    speaker: Gabriel Sobrinho
-    description: Waiting description
+    title: '- Mais informações em breve -'
+    speaker: Feliciano Santana
+    description: A definir
 
   - time: '17:30'
-    title: Porque você deveria conhecer Elixir?
-    speaker: Flavio Cevado
-    description:
-      Uma apresentação introdutória sobre Elixir e seu ambiente de desenvolvimento.
-      Com foco em apresentar as características da linguagem o ambiente de desenvolvimento, o foco em escalabilidade e concorrência.
-      Como o Elixir e a máquina virtual resolve o problema de concorrência
-      e uma demonstração prática dos poderes de introspecção da maquina virtual que viabiliza toda essas possibilidades.
-
-  - time: '18:15'
     title: Encerramento
