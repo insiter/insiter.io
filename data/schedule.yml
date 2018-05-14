@@ -6,9 +6,15 @@ talks:
     title: Abertura
 
   - time: '09:15'
-    title: '- Mais informações em breve -'
+    title: Reacting to Reactions on React
     speaker: Thiago Alves
-    description: A definir
+    description:
+      As melhores práticas para trabalhar com React estão aí mas elas não são
+      utilizadas. Existem inúmeros posts explicando os principais problemas
+      encontrados em aplicações criadas com React. Também existem mais alguns
+      posts dando dicas de como melhorar nosso código. Vamos juntar esses pontos,
+      fazer aquela apresentação de casos marota e colocar as coisas no lugar.
+      React não é tão complicado assim.
 
   - time: '10:00'
     title: Coffee Break
@@ -17,7 +23,7 @@ talks:
     title: Desmistificando Blockchains para Desenvolvedores
     speaker: Fabio Akita
     description:
-      O mundo de criptomoedas esta crescendo exponencialmente no mundo todo, em
+      O mundo de criptomoedas está crescendo exponencialmente no mundo todo, em
       particular na Ásia. Tecnologias estão se formando não só para sustentar as
       transações de pagamentos em moedas digitais como novas formas de organização,
       governança estão se formando. Os programadores precisam começar a separar
