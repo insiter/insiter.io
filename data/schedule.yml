@@ -56,9 +56,14 @@ talks:
     description: A definir
 
   - time: '15:30'
-    title: '- Mais informações em breve -'
+    title: Serverless - hype ou revolução?
     speaker: Gustavo Carvalho
-    description: A definir
+    description:
+      Se você ainda não ouviu falar de serverless, provavelmente ouvirá num
+      futuro próximo. O conceito por trás da nova buzzword vem crescendo recentemente
+      e promete mudar a maneira como fazemos algumas coisas no desenvolvimento de software.
+      Nesta palestra pretendo explanar conceitos, apresentar alternativas e,
+      principalmente, mostrar como utilizamos essa arquitetura na Nuveo.
 
   - time: '16:15'
     title: Coffee Break
