@@ -56,7 +56,7 @@ talks:
     description: A definir
 
   - time: '15:30'
-    title: Serverless - hype ou revolução?
+    title: 'Serverless - hype ou revolução?'
     speaker: Gustavo Carvalho
     description:
       Se você ainda não ouviu falar de serverless, provavelmente ouvirá num
