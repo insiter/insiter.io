@@ -69,9 +69,16 @@ talks:
     title: Coffee Break
 
   - time: '16:45'
-    title: '- Mais informações em breve -'
+    title: Criando e monetizando jogos por diversão e lucro
     speaker: Feliciano Santana
-    description: A definir
+    description:
+      Criar o seu primeiro jogo pode ser difícil, mas é um desafio extremamente
+      recompensador que além de lhe tornar um programador melhor,  pode lhe prover
+      uma nova fonte de renda. Nessa palestra você será introduzido aos aspectos
+      essenciais por trás do processo de criação (tecnologia, arte e game design)
+      e monetização (marketing, modelos de negócios) de uma grande variedade de
+      jogos de sucesso como Cuphead, League of Legends, Candy Crush e Clash of
+      Clans para que você também possa começar a criar os seus próprios jogos.
 
   - time: '17:30'
     title: Encerramento
