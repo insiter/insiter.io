@@ -1,16 +1,4 @@
 companies:
-  - name: Senac
-    link: //www.go.senac.br/portal
-    logo: /images/supporters/senac.png
-
-  - name: Umbler
-    link: //www.umbler.com
-    logo: /images/supporters/umbler.png
-
-  - name: Netshow.me
-    link: //netshow.me
-    logo: /images/supporters/netshowme.png
-
-  - name: Casa do Código
-    link: //www.casadocodigo.com.br
-    logo: /images/supporters/casadocodigo.png
+  - name: Bloom
+    link: //bloomestudio.com
+    logo: /images/supporters/bloom.png

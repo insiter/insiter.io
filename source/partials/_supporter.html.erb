@@ -1,0 +1,16 @@
+<section id="supporter" class="section section--dark company">
+  <div class="wrapper">
+    <div class="section__title section__title--dark">
+      <h1><span>Apoio</span></h1>
+    </div>
+    <div class="company__list">
+      <% data.support.companies.each do |company| %>
+      <div class="company__item">
+        <a href="<%= company.link %>" target="_blank">
+          <%= image_tag company.logo, :alt => company.name %>
+        </a>
+      </div>
+      <% end %>
+    </div>
+  </div>
+</section>
