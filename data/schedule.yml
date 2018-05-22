@@ -46,7 +46,7 @@ talks:
       Esta palesta abordará os fundamentos da Ethereum Blockchain, as diferenças
       em relação à Bitcoin; o ciclo de vida de uma transação na rede, como são executadas
       e confirmadas na rede. O que são contratos inteligentes. Será apresentado
-      também algumas ferramentas utilizadas para desenvolver apps na Ethereum,
+      também algumas ferramentas utilizadas para desenvolver Dapps na Ethereum,
       como rodar a blockchain em ambiente de desenvolvimento, como realizar deploy
       de smart contracts na rede, e como a sua aplicação se comunica com a Ethereum.
 
