@@ -53,9 +53,15 @@ talks:
       de smart contracts na rede, e como a sua aplicação se comunica com a Ethereum.
 
   - time: '14:45'
-    title: '- Mais informações em breve -'
+    title: Introdução à Análise de Dados com Elastic Stack
     speaker: Cleiton Francisco
-    description: A definir
+    description:
+      'Há algum tempo atrás, os dados eram apenas uma camada da aplicação, hoje
+      eles são essencialmente vitais na tomada de decisões das empresas. Por esse
+      motivo, a Análise de Dados é um componente relevante em diversos cenários
+      modernos: Machine Learning, Data Science, IoT, etc. Esta palestra apresentará
+      como você pode começar a produzir, extrair e transformar dados da sua
+      aplicação e como consumi-los de forma organizada, usando Elastic Stack.'
 
   - time: '15:30'
     title: 'Serverless - hype ou revolução?'
