@@ -6,9 +6,13 @@
     <div class="company__list">
       <% data.support.companies.each do |company| %>
       <div class="company__item">
-        <a href="<%= company.link %>" target="_blank">
+        <% if company.link %>
+          <a href="<%= company.link %>" target="_blank">
+            <%= image_tag company.logo, :alt => company.name %>
+          </a>
+        <% else %>
           <%= image_tag company.logo, :alt => company.name %>
-        </a>
+        <% end %>
       </div>
       <% end %>
     </div>
