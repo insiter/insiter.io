@@ -17,9 +17,6 @@ talks:
       React não é tão complicado assim.
 
   - time: '10:00'
-    title: Coffee Break
-
-  - time: '10:30'
     title: Desmistificando Blockchains para Desenvolvedores
     speaker: Fabio Akita
     description:
@@ -30,14 +27,14 @@ talks:
       o que é fake news, e quebrar de uma vez os mitos que servem de desculpa
       para não entrar de uma vez nesse mundo.
 
-  - time: '11:15'
+  - time: '10:45'
     title: Elixir na Educação
     speaker: Cairo Noleto
     description:
       Mostrar o nosso case de como estamos usando Elixir, abrangendo desde as
       formas de organização dos projetos até o deploy das aplicações.
 
-  - time: '12:00'
+  - time: '11:30'
     title: Almoço
 
   - time: '14:00'
