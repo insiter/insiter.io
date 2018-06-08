@@ -6,15 +6,15 @@ talks:
     title: Abertura
 
   - time: '09:15'
-    title: Reacting to Reactions on React
-    speaker: Thiago Alves
+    title: State Management in React Applications
+    speaker: Marcle Rodrigues
     description:
-      As melhores práticas para trabalhar com React estão aí mas elas não são
-      utilizadas. Existem inúmeros posts explicando os principais problemas
-      encontrados em aplicações criadas com React. Também existem mais alguns
-      posts dando dicas de como melhorar nosso código. Vamos juntar esses pontos,
-      fazer aquela apresentação de casos marota e colocar as coisas no lugar.
-      React não é tão complicado assim.
+      ReactJS se tornou um dos frameworks mais utilizados e adorados por muitos
+      ao redor do mundo, para quem já teve a oportunidade de experimentar um pouco
+      com React sabe que as vezes gerenciar o estado da sua aplicação pode não ser
+      das tarefas mais fáceis, nessa palestra vamos explorar um pouco desse mundo
+      e ver como podemos gerenciar o estado da nossa aplicação de maneira escalável
+      passando pelo Local State, um pouco de Redux até chegar na nova Context API.
 
   - time: '10:00'
     title: Desmistificando Blockchains para Desenvolvedores

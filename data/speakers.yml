@@ -80,14 +80,14 @@ people:
       name: Jus Navigandi
       link: //jus.com.br
 
-  - name: Thiago Alves
-    picture: /images/speakers/thiagoalves.jpg
+  - name: Marcle Rodrigues
+    picture: /images/speakers/marcle.jpg
     resume:
     social:
-      twitter: devthiago
-      linkedin: thiagoalvesluiz
-      github: devthiago
+      twitter: marclerodrigues
+      linkedin: marclerodrigues
+      github: marclerodrigues
     company:
-      rule: Front-end Developer
+      rule: Back-end Developer
       name: Codeminer42
       link: //codeminer42.com
